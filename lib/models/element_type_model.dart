@@ -10,7 +10,7 @@ class ElementTypeModel {
 
       case 'cryo':
         {
-          elementAsset = 'cryo';
+          elementAsset = 'Cryo';
         }
         break;
 

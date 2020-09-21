@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
-import 'package:GenshinImpactCompanionApp/models/character_model.dart';
+import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
 import 'package:GenshinImpactCompanionApp/widgets/character_card.dart';
 
 class CharacterListScreen extends StatefulWidget {
@@ -11,7 +11,7 @@ class CharacterListScreen extends StatefulWidget {
 }
 
 class _CharacterListScreenState extends State<CharacterListScreen> {
-  CharacterModel _characterModel;
+  CharacterList _characterList;
 
   @override
   void initState() {
@@ -24,8 +24,10 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
         await rootBundle.loadString('assets/text/genshin_impact_data.json');
     var decodedJson = jsonDecode(jsonString);
 
-    _characterModel = CharacterModel.fromJson(decodedJson);
-    // print(_characterModel.toJson());
+    _characterList = CharacterList.fromJson(decodedJson);
+    // print(decodedJson);
+    // print('object');
+    // print(_characterList.toJson());
     setState(() {});
   }
 
@@ -36,7 +38,7 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
         leading: Icon(Icons.menu),
         title: Text('Character List'),
       ),
-      body: _characterModel == null
+      body: _characterList == null
           ? Center(
               child: CircularProgressIndicator(),
             )
@@ -45,7 +47,7 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
               child: Wrap(
                 spacing: 16.0,
                 runSpacing: 16.0,
-                children: _characterModel.characters
+                children: CharacterList.characters
                     .map(
                       (character) => Container(
                         child: CharacterCard(

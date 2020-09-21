@@ -1,6 +1,6 @@
+import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
+import 'package:GenshinImpactCompanionApp/screens/character_detail_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:GenshinImpactCompanionApp/models/character_model.dart';
-import 'package:GenshinImpactCompanionApp/screens/character_detail.dart';
 
 class CharacterCard extends StatelessWidget {
   const CharacterCard({Key key, @required this.character}) : super(key: key);
@@ -21,7 +21,7 @@ class CharacterCard extends StatelessWidget {
         );
       },
       child: Hero(
-        tag: character.id,
+        tag: character.name,
         child: Column(
           children: <Widget>[
             Card(

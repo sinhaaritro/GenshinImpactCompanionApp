@@ -1,5 +1,5 @@
 class WeaponTypeModel {
-  String weaponTypeAsset(String weapon) {
+  static String weaponTypeAsset(String weapon) {
     String weaponAsset;
     switch (weapon.toLowerCase()) {
       case 'sword':
