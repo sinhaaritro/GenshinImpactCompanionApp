@@ -1,5 +1,5 @@
 class ElementTypeModel {
-  String elementTypeAsset(String element) {
+  static String elementTypeAsset(String element) {
     String elementAsset;
     switch (element.toLowerCase()) {
       case 'anemo':

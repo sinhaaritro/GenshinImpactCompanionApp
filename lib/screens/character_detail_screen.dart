@@ -12,11 +12,6 @@ class CharacterDetail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    RarityModel _rarityModel = new RarityModel();
-    WeaponTypeModel _weaponTypeModel = new WeaponTypeModel();
-    ElementTypeModel _elementTypeModel = new ElementTypeModel();
-    SkillTypeModel _skillTypeModel = new SkillTypeModel();
-
     return Scaffold(
       appBar: AppBar(
         title: Text(character.name),
@@ -43,7 +38,7 @@ class CharacterDetail extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Image.asset(
-                      _rarityModel.rarityAsset(character.rarity),
+                      RarityModel.rarityAsset(character.rarity),
                     ),
                     SizedBox(height: 26),
                     Text(
@@ -53,7 +48,7 @@ class CharacterDetail extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Image.asset(
-                      _elementTypeModel.elementTypeAsset(character.element),
+                      ElementTypeModel.elementTypeAsset(character.element),
                       height: 50,
                       width: 50,
                     ),
