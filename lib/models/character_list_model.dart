@@ -34,7 +34,7 @@ class Character {
   String constellation;
   String title;
   String shortdesc;
-  List<ActiveSkill> activeSkills;
+  List<Skill> activeSkills;
   List<Skill> passiveSkills;
   List<Skill> constellationSkills;
 
@@ -55,9 +55,9 @@ class Character {
     shortdesc = json['overview']['shortdesc'];
 
     if (json['skills']['combat_talent'] != null) {
-      activeSkills = new List<ActiveSkill>();
+      activeSkills = new List<Skill>();
       json['skills']['combat_talent'].forEach((v) {
-        activeSkills.add(new ActiveSkill.fromJson(v));
+        activeSkills.add(new Skill.fromJson(v));
       });
     }
 
@@ -119,11 +119,19 @@ class Skill {
   String name;
   String desc;
   String icon;
+  List<SkillAttribute> skillAttributes;
 
   Skill.fromJson(Map<String, dynamic> json) {
     name = json['name'];
     icon = json['icon'];
     desc = json['desc'];
+
+    if (json['attributes'] != null) {
+      skillAttributes = new List<SkillAttribute>();
+      json['attributes'].forEach((v) {
+        skillAttributes.add(new SkillAttribute.fromJson(v));
+      });
+    }
   }
 
   Map<String, dynamic> toJson() {
@@ -131,30 +139,28 @@ class Skill {
     data['name'] = this.name;
     data['icon'] = this.icon;
     data['desc'] = this.desc;
+
+    if (this.skillAttributes != null) {
+      data['attributes'] = this.skillAttributes.map((v) => v.toJson()).toList();
+    }
 
     return data;
   }
 }
 
-class ActiveSkill {
+class SkillAttribute {
   String name;
-  String desc;
-  String icon;
-  String type;
+  String value;
 
-  ActiveSkill.fromJson(Map<String, dynamic> json) {
+  SkillAttribute.fromJson(Map<String, dynamic> json) {
     name = json['name'];
-    icon = json['icon'];
-    desc = json['desc'];
-    type = json['type'];
+    value = json['value'];
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
     data['name'] = this.name;
-    data['icon'] = this.icon;
-    data['type'] = this.type;
-    data['desc'] = this.desc;
+    data['value'] = this.value;
 
     return data;
   }

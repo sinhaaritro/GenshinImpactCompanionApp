@@ -35,64 +35,123 @@
         "skills": {
           "combat_talent": [
             {
-              "desc": "Normal Attack Performs up to 5 consecutive strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
+              "desc": "Normal Attack \nPerforms up to 5 consecutive strikes.  \n\nCharged Attack \nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
               "icon": "image",
               "name": "Foreign Rockblade",
-              "type": "Normal Attack"
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "44%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "43%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "53%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "58%"
+                },
+                {
+                  "name": "5-Hit DMG",
+                  "value": "71%"
+                },
+                {
+                  "name": "Charged Attack DMG",
+                  "value": "56% + 72%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "20"
+                }
+              ]
             },
             {
-              "desc": "",
+              "desc": "You discussed the falling stars with Paimon. Summon a meteorite to strike down, causing an explosion and dealing Geo DMG to all enemies in range. \nThe meteorite is climbable and can block attacks. Hold to adjust its impact location. The meteorite is affiliated with Geo.",
               "icon": "image",
               "name": "Starfell Sword",
-              "type": "Elemental Skill"
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "278%"
+                },
+                {
+                  "name": "Meteorite Duration",
+                  "value": "30s"
+                },
+                {
+                  "name": "CD",
+                  "value": "8s"
+                }
+              ]
             },
             {
-              "desc": "",
+              "desc": "Energize the Geo elements deep underground, causing a great tremor and expanding shockwave, which knocks surrounding enemies back and deals Geo DMG while inflicting them with Crystallization. A stonewall is also erected at the edge of the shockwave. \nThe stonewall is unclimbable and can block attacks. \nThe stonewall is affiliated with Geo.",
               "icon": "image",
               "name": "Wake of Earth",
-              "type": "Elemental Burst"
+              "attributes": [
+                {
+                  "name": "DMG Per Shockwave",
+                  "value": "165%"
+                },
+                {
+                  "name": "Stonewall Duration",
+                  "value": "15s"
+                },
+                {
+                  "name": "CD",
+                  "value": "15s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "60"
+                }
+              ]
             }
           ],
           "constellations": [
             {
-              "desc": "",
+              "desc": "Allies within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption.",
               "icon": "image",
               "name": "Invincible Stonewall"
             },
             {
-              "desc": "",
+              "desc": "When the meteorite created by Starfell Sword is destroyed, it will also explode, dealing additional AoE Geo DMG equal to the amount of damage dealt by Starfell Sword.",
               "icon": "image",
               "name": "Rockcore Meltdown"
             },
             {
-              "desc": "",
+              "desc": "Increases the level of Wake of Earth by 3. Maximum upgrade level is 15.",
               "icon": "image",
               "name": "Will of the Rock"
             },
             {
-              "desc": "",
+              "desc": "The shockwave triggered by Wake of Earth regenerates 5 Energy for every enemy hit. A maximum of 25 Energy can be recovered in this manner.",
               "icon": "image",
               "name": "Reaction Force"
             },
             {
-              "desc": "",
+              "desc": "Increases the level of Starfell Sword by 3. Maximum upgrade level is 15.",
               "icon": "image",
               "name": "Meteorite Impact"
             },
             {
-              "desc": "",
+              "desc": "The barrier created by Wake of Earth lasts 5s longer. The meteorite created by Starfell Sword lasts 10s longer.",
               "icon": "image",
               "name": "Everlasting Boulder"
             }
           ],
           "passive_talent": [
             {
-              "desc": "",
+              "desc": "Reduces Starfell Sword's CD by 2s.",
               "icon": "image",
               "name": "Shattered Darkrock"
             },
             {
-              "desc": "",
+              "desc": "Normal Attack sequence's final attack causes a collapse, dealing 60% of ATK as Geo DMG to surrounding enemies.",
               "icon": "image",
               "name": "Frenzied Rockslide"
             }
@@ -126,71 +185,906 @@
         "skills": {
           "combat_talent": [
             {
-              "desc": "Normal Attack Performs up to 5 consecutive strikes.  Charged Attack Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
+              "desc": "Normal Attack \nPerform up to 5 consecutive strikes. \n\nCharged Attack \nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
               "icon": "image",
-              "name": "Foreign Rockblade",
-              "type": "Normal Attack"
+              "name": "Foreign Ironwind",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "44%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "43%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "53%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "58%"
+                },
+                {
+                  "name": "5-Hit DMG",
+                  "value": "71%"
+                },
+                {
+                  "name": "Charged Attack DMG",
+                  "value": "56% + 72%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "20"
+                }
+              ]
+            },
+            {
+              "desc": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to enemies in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area. \nHold: DMG and AoE will gradually increase. \nElemental Absorption: If the vortex comes into contact with Hydro / Pyro / Cryo / Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
+              "icon": "image",
+              "name": "Palm Vortex",
+              "attributes": [
+                {
+                  "name": "Initial Cutting DMG",
+                  "value": "12%"
+                },
+                {
+                  "name": "Max Cutting DMG",
+                  "value": "17%"
+                },
+                {
+                  "name": "Initial Storm DMG",
+                  "value": "176%"
+                },
+                {
+                  "name": "Max Storm DMG",
+                  "value": "192%"
+                },
+                {
+                  "name": "Base CD",
+                  "value": "5s"
+                },
+                {
+                  "name": "Max Charging CD",
+                  "value": "8s"
+                }
+              ]
+            },
+            {
+              "desc": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG. \nElemental Absorption: If the vortex comes into contact with Hydro / Pyro / Cryo / Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
+              "icon": "image",
+              "name": "Gust Surge",
+              "attributes": [
+                {
+                  "name": "Tornado DMG",
+                  "value": "81%"
+                },
+                {
+                  "name": "Additional Elemental DMG",
+                  "value": "25%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "6s"
+                },
+                {
+                  "name": "CD",
+                  "value": "15s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Palm Vortex pulls in enemies within a 5m radius.",
+              "icon": "image",
+              "name": "Raging Vortex"
+            },
+            {
+              "desc": "Increases Energy Recharge by 16%.",
+              "icon": "image",
+              "name": "Uprising Whirlwind"
+            },
+            {
+              "desc": "Increases the level of Gust Surge by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Sweeping Gust"
+            },
+            {
+              "desc": "Reduces DMG taken while casting Palm Vortex by 10%.",
+              "icon": "image",
+              "name": "Cherishing Breezes"
+            },
+            {
+              "desc": "Increases the level of Palm Vortex by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Vortex Stellaris"
+            },
+            {
+              "desc": "Targets who take DMG from Gust Surge have their Anemo RES decreased by 20%. \nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+              "icon": "image",
+              "name": "Interwinded Winds"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path.",
+              "icon": "image",
+              "name": "Slitting Wind"
+            },
+            {
+              "desc": "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
+              "icon": "image",
+              "name": "Second Wind"
+            }
+          ]
+        },
+        "title": "None",
+        "weapon": "Sword"
+      },
+      {
+        "affiliation": "Knights of Favonius",
+        "birthday": "August 10th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "image",
+        "constellation": "Lepus",
+        "element": "Pyro",
+        "gender": "Female",
+        "icon": "image",
+        "name": "Amber",
+        "overview": {
+          "shortdesc": "A perky, straightforward girl, who is also the only Outrider of the Knights of Favonius. Her amazing mastery of the glider has made her a three-time winner of the Gliding Champion in Mondstadt. As a rising star within the Knights of Favonius, Amber is always ready for any challenging tasks. - Description from Official Website."
+        },
+        "rarity": 5,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack: Perform up to 5 rapid shots. \nCharged Attack: Perform a more precise attack with increased damage. While aiming, Pyro accumulates in the arrowhead. When fully charged, the arrow deals high Pyro DMG.",
+              "icon": "image",
+              "name": "Marksmanship",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "36%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "36%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "46%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "47%"
+                },
+                {
+                  "name": "5-Hit DMG",
+                  "value": "59%"
+                },
+                {
+                  "name": "Aimed Shot DMG",
+                  "value": "44%"
+                },
+                {
+                  "name": "Fully-Charged Aimed Shot DMG",
+                  "value": "124%"
+                }
+              ]
+            },
+            {
+              "desc": "Throws a Baron Bunny decoy which taunts nearby opponents. Baron Bunny inherits HP proportional to Amber's Max HP. Upon destruction or expiration, Baron Bunny explodes and deals Pyro DMG to all surrounding opponents. Hold to adjust the throwing distance and direction.",
+              "icon": "image",
+              "name": "Explosive Puppet",
+              "attributes": [
+                {
+                  "name": "Inherited HP",
+                  "value": "41%"
+                },
+                {
+                  "name": "Explosion DMG",
+                  "value": "123%"
+                },
+                {
+                  "name": "CD",
+                  "value": "15s"
+                }
+              ]
+            },
+            {
+              "desc": "Unleashes Fiery Rain which rains down from above and deals Pyro DoT.",
+              "icon": "image",
+              "name": "Fiery Rain",
+              "attributes": [
+                {
+                  "name": "DMG per Wave",
+                  "value": "28%"
+                },
+                {
+                  "name": "Total DMG",
+                  "value": "505%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "2s"
+                },
+                {
+                  "name": "CD",
+                  "value": "10s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "30"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's DMG.",
+              "icon": "image",
+              "name": "One Arrow to Rule Them All"
+            },
+            {
+              "desc": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it. \nExplosion via manual detonation deals 200% additional DMG.",
+              "icon": "image",
+              "name": "Bunny Triggered"
+            },
+            {
+              "desc": "Increases the level of Fiery Rain by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "It Burns!"
+            },
+            {
+              "desc": "Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge.",
+              "icon": "image",
+              "name": "It's Not Just Any Doll..."
+            },
+            {
+              "desc": "Increases the level of Explosive Puppet by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "It's Baron Bunny!"
+            },
+            {
+              "desc": "Fiery Rain increases Amber's Movement SPD by 20% and Base ATK by 30% for 10s.",
+              "icon": "image",
+              "name": "Wildfire"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Aimed Shot hits on weak spots increase Base ATK by 10% for 10s",
+              "icon": "image",
+              "name": "Precise Shot"
+            },
+            {
+              "desc": "Decreases all party members' gliding Stamina Consumption by 20%.",
+              "icon": "image",
+              "name": "Champion Glider"
+            }
+          ]
+        },
+        "title": "Champion Glider",
+        "weapon": "Bow"
+      },
+      {
+        "affiliation": "Favonius Church",
+        "birthday": "July 5th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "image",
+        "constellation": "Crater",
+        "element": "Hydro",
+        "gender": "Female",
+        "icon": "image",
+        "name": "Barbara",
+        "overview": {
+          "shortdesc": "The Deaconess of the Favonius Church and a shining starlet adored by all. Although the concept of a starlet is rather novel in a city of bards, the people of Mondstadt love Barbara nonetheless."
+        },
+        "rarity": 5,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack: Perform up to 4 water splash attacks that deal Hydro DMG. \nCharged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.",
+              "icon": "image",
+              "name": "Whisper of Water",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "38%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "36%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "41%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "55%"
+                },
+                {
+                  "name": "Charged Attack DMG",
+                  "value": "166%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "50"
+                }
+              ]
+            },
+            {
+              "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding enemies and afflicting them with the Wet status. \n\nMelody Loop: \nBarbara's Normal Attacks heal all party members and nearby allied characters for a certain amount of HP, which scales with Barbara's Max HP. \nHer Charged Attack generates 4 times the amount of healing. \nRegenerates a certain amount of the current's character's HP at regular intervals. \nApplies the Wet status to the character and enemies who come in contact with them.",
+              "icon": "image",
+              "name": "Let the Show Begin",
+              "attributes": [
+                {
+                  "name": "HP Regeneration per Hit",
+                  "value": "0.40% Max HP + 13"
+                },
+                {
+                  "name": "Continuous Regeneration per sec",
+                  "value": "2.40% Max HP + 80"
+                },
+                {
+                  "name": "Droplet DMG",
+                  "value": "58%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "15s"
+                },
+                {
+                  "name": "CD",
+                  "value": "32s"
+                }
+              ]
+            },
+            {
+              "desc": "Heals friendly forces and all parties for a large amount of HP that scales with Barbara's Max HP.",
+              "icon": "image",
+              "name": "Shining Miracle",
+              "attributes": [
+                {
+                  "name": "Regeneration",
+                  "value": "18% Max HP + 587"
+                },
+                {
+                  "name": "CD",
+                  "value": "20s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "80"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Barbara regenerates 1 Energy every 10s.",
+              "icon": "image",
+              "name": "Joyful Ballad"
+            },
+            {
+              "desc": "Decreases the CD of Let the Show Begin by 15%. During the ability's duration, the current character gains 15% Hydro DMG Bonus.",
+              "icon": "image",
+              "name": "Vitality Burst"
+            },
+            {
+              "desc": "Increases the level of Shining Miracle by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Star of Tomorrow"
+            },
+            {
+              "desc": "Every enemy hit by Barbara's Charged Attack causes her to regenerate 1 Energy.",
+              "icon": "image",
+              "name": "Attentiveness be My Power"
+            },
+            {
+              "desc": "Increases the level of Let the Show Begin by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Bond of Innocence"
+            },
+            {
+              "desc": "When Barbara is not on the field, and the character in play falls: \nAutomatically revives this character. \nFully regenerates this characters HP to 100%. \nThis effect can only occur once every 15 mins.",
+              "icon": "image",
+              "name": "Dedicating Everything to You"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "The Stamina Consumption of characters within Let the Show Begin's Melody Loop is reduced by 12%.",
+              "icon": "image",
+              "name": "Glorious Season"
+            },
+            {
+              "desc": "When a character gains an Elemental Orb/Particle, the duration of Let the Show Begin's Melody Loop is extended by 1s. The maximum extension is 5s.",
+              "icon": "image",
+              "name": "Encore"
+            },
+            {
+              "desc": "When Barbara cooks a boiled dish, the Perfect zone on the cooking meter is twice the normal size.",
+              "icon": "image",
+              "name": "Give It Your All"
+            }
+          ]
+        },
+        "title": "Shining Idol",
+        "weapon": "Catalyst"
+      },
+      {
+        "affiliation": "Southern Cross Fleet",
+        "birthday": "February 14th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "image",
+        "constellation": "Victor Mare",
+        "element": "Electro",
+        "gender": "Female",
+        "icon": "image",
+        "name": "Beidou",
+        "overview": {
+          "shortdesc": "Captain of the Crux, with quite the reputation in Liyue. There are those who say she can split mountains and part the sea. Others say she draws lightning through her sword. Some say that even the mightiest of sea beasts are no match for her."
+        },
+        "rarity": 5,
+        "region": "Liyue",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack: \nPerform up to 5 successive strikes.\n\nCharged Attack: \nDrains Stamina over time to perform continuous slashes. At end of the sequence, perform a more powerful slash.",
+              "icon": "image",
+              "name": "Oceanborne",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "64%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "64%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "80%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "78%"
+                },
+                {
+                  "name": "5-Hit DMG",
+                  "value": "101%"
+                },
+                {
+                  "name": "Charged Attack Cycling DMG",
+                  "value": "56%"
+                },
+                {
+                  "name": "Charged Attack Final DMG",
+                  "value": "102%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "40/s"
+                },
+                {
+                  "name": "Max Duration",
+                  "value": "5s"
+                }
+              ]
+            },
+            {
+              "desc": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\nPress: \nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG. \nHold: \nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP. \nCounterattacks with the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. The shield possesses the following properties: \nWhen attacked, it will greatly increase the DMG dealt by the Counterattack. This increase can take place twice within the ability's duration. \nIncreases Beidou's resistance to interruption. \nHas 250% Electro DMG Absorption Efficiency. \nApplies the Electro element to Beidou.",
+              "icon": "image",
+              "name": "Tidecaller",
+              "attributes": [
+                {
+                  "name": "Shield DMG Absorption",
+                  "value": "12% max HP + 401"
+                },
+                {
+                  "name": "Base DMG",
+                  "value": "122%"
+                },
+                {
+                  "name": "DMG Bonus per Stack",
+                  "value": "160%"
+                },
+                {
+                  "name": "CD",
+                  "value": "7.5s"
+                }
+              ]
+            },
+            {
+              "desc": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself.\nThunderbeast's Targe:\nWhen Normal and Charged Attacks hit, they create a lightning discharge that can jump between enemies, dealing Electro DMG.\nIncreases Beidou's resistance to interruption.\nTriggers a maximum of 1 lightning discharge per second.",
+              "icon": "image",
+              "name": "Stormbreaker",
+              "attributes": [
+                {
+                  "name": "Elemental Burst DMG",
+                  "value": "122%"
+                },
+                {
+                  "name": "Lightning DMG",
+                  "value": "96%"
+                },
+                {
+                  "name": "DMG Reduction",
+                  "value": "20%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "15s"
+                },
+                {
+                  "name": "CD",
+                  "value": "20s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "80"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "When Stormbreaker is used: Creates a shield that absorbs up to 16% of Beiou's Max HP for 15s. This shield absorbs Electro DMG 250% more effectively.",
+              "icon": "image",
+              "name": "Sea Beast's Scourge"
+            },
+            {
+              "desc": "Stormbreaker's arc lightning can jump to 2 additional targets.",
+              "icon": "image",
+              "name": "Upon the Turbulent Sea, the Thunder Arises"
+            },
+            {
+              "desc": "Increases the level of Tidecaller by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Summoner of Storm"
+            },
+            {
+              "desc": "Within 10s of taking DMG, Beidou's Normal Attacks gain 20% additional Electro DMG.",
+              "icon": "image",
+              "name": "Stunning Revenge"
+            },
+            {
+              "desc": "Increases the level of Stormbreaker by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Crimson Tidewalker"
+            },
+            {
+              "desc": "During the duration of Stormbreaker, the Electro RES of surrounding enemies is decreased by 15%.",
+              "icon": "image",
+              "name": "Bane of the Evil"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Counterattacking with Tidecaller at the precise moment when the character is hit grants the maximum DMG Bonus.",
+              "icon": "image",
+              "name": "Retribution"
+            },
+            {
+              "desc": "Gain the following effects for 10s after unleashing Tidecaller with its maximum DMG Bonus:\nDMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\nGreatly reduced delay before unleashing Charged Attacks.",
+              "icon": "image",
+              "name": "Lightning Storm"
+            },
+            {
+              "desc": "When Beioud cooks a DEF dish, her perfect cooking range is increased by 100%.",
+              "icon": "image",
+              "name": "Ironclad"
+            }
+          ]
+        },
+        "title": "Queen of the Crux Fleet",
+        "weapon": "Claymore"
+      },
+      {
+        "affiliation": "Adventurers' Guild",
+        "birthday": "February 29th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "image",
+        "constellation": "Rota Calamitas",
+        "element": "Pyro",
+        "gender": "Male",
+        "icon": "image",
+        "name": "Bennett",
+        "overview": {
+          "shortdesc": "The few young adventurers that the Mondstadt Adventurers' Guild has always find themselves tangled up in baffling bouts of bad luck. He is the only active member of his own adventure group, known as \"Benny's Adventure Team,\" after all the other members decided to \"take leave\" following a series of unfortunate incidents. As a result, the team is currently on the verge of being dissolved. Being unable to break the poor boy's heart, Katheryne of the Adventurers' Guild has kept \"Benny's Adventure Team\" on the books, whilst also hiding from him the fact that all the other members have long since officially left the team. - Description from Official Website."
+        },
+        "rarity": 5,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack: \nPerforms up to 5 rapid strikes.\n\nCharged Attack: \nConsumes a certain amount of Stamina to unleash 2 rapid sword swings.",
+              "icon": "image",
+              "name": "Strike of Fortune",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "45%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "43%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "55%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "60%"
+                },
+                {
+                  "name": "5-Hit DMG",
+                  "value": "72%"
+                },
+                {
+                  "name": "Charged Attack DMG",
+                  "value": "56% + 61%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "20"
+                }
+              ]
+            },
+            {
+              "desc": "Bennett's collective strike of zealousness, dreams, and Pyro. Though sometimes he gets a bit too overzealous, causing his Pyro energy to explode.\nBennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur. \nTap: \nPerforms a quick flaming swing with his sword. \nShort Hold: \nPerforms a two-stage attack that deals Pyro DMG and launches enemies. \nLong Hold: \nPerforms a three-stage attack that does Pyro DMG. However, the last attack causes an explosion, launching both Bennett and his enemies. Bennett is not hurt by this explosion.",
+              "icon": "image",
+              "name": "Passion Overload",
+              "attributes": [
+                {
+                  "name": "Tap DMG",
+                  "value": "138%"
+                },
+                {
+                  "name": "Short Stage Hold DMG",
+                  "value": "84% + 92%"
+                },
+                {
+                  "name": "Hold ATK Follow-Up DMG",
+                  "value": "112%"
+                },
+                {
+                  "name": "Two-Stage Hold DMG",
+                  "value": "88% + 96%"
+                },
+                {
+                  "name": "Explosion DMG",
+                  "value": "132%"
+                },
+                {
+                  "name": "CD",
+                  "value": "5s / 7.5s / 10s"
+                }
+              ]
+            },
+            {
+              "desc": "Bennett jumps towards the enemy and attacks, dealing Pyro DMG and creating an inspiration circle.\nIf the health of a character in the circle is equal to or falls below 70%, their health will continuously regenerate.\nIf the health of a character in the circle is higher than 70%, they gain an ATK Bonus equal to a set percentage of Bennett's Base ATK.\nIn both cases, characters inside the circle with also gain the Pyro affix.",
+              "icon": "image",
+              "name": "Fantastic Voyage",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "233%"
+                },
+                {
+                  "name": "HP Regeneration",
+                  "value": "2.4% Max HP + 80/s"
+                },
+                {
+                  "name": "ATK Bonus Ratio",
+                  "value": "56%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "10s"
+                },
+                {
+                  "name": "CD",
+                  "value": "15s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Fantastic Voyage's ATK increases no longer has an HP restriction, and gains an additional 20% Base ATK.",
+              "icon": "image",
+              "name": "Grand Expectation"
+            },
+            {
+              "desc": "When HP falls below 70%, increases Energy Recharge by 30%.",
+              "icon": "image",
+              "name": "Impasse Conqueror"
+            },
+            {
+              "desc": "Increases Passion Overload's skill level by 3. Max level is 15.",
+              "icon": "image",
+              "name": "Unstoppable Fervor"
+            },
+            {
+              "desc": "Short hold to release Passion Overload as a two-stage attack. Press the attack button to perform an additional falling attack.",
+              "icon": "image",
+              "name": "Unexpected Odyssey"
+            },
+            {
+              "desc": "Increases Fantastic Voyage's skill level by 3. Max level is 15.",
+              "icon": "image",
+              "name": "True Explorer"
+            },
+            {
+              "desc": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's circle gain a 15% Pyro DMG Bonus. Normal and Charged Attacks also become Pyro attacks.",
+              "icon": "image",
+              "name": "Fire Ventures with Me"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Decreases Passion Overload's CD by 20%.",
+              "icon": "image",
+              "name": "Rekindle"
+            },
+            {
+              "desc": "When inside Fantastic Voyage's circle, Passion Overload's CD is decreased by 50% and Bennett cannot be launched by this skill's explosion.",
+              "icon": "image",
+              "name": "Fearnaught"
+            }
+          ]
+        },
+        "title": "Leader of Benny's Adventure Team",
+        "weapon": "Sword"
+      },
+      {
+        "affiliation": "",
+        "birthday": "",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "image",
+        "constellation": "",
+        "element": "",
+        "gender": "",
+        "icon": "image",
+        "name": "",
+        "overview": {
+          "shortdesc": ""
+        },
+        "rarity": 5,
+        "region": "",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "",
+              "icon": "image",
+              "name": "",
+              "attributes": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
             },
             {
               "desc": "",
               "icon": "image",
-              "name": "Starfell Sword",
-              "type": "Elemental Skill"
+              "name": "",
+              "attributes": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
             },
             {
               "desc": "",
               "icon": "image",
-              "name": "Wake of Earth",
-              "type": "Elemental Burst"
+              "name": "",
+              "attributes": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
             }
           ],
           "constellations": [
             {
               "desc": "",
               "icon": "image",
-              "name": "Invincible Stonewall"
+              "name": ""
             },
             {
               "desc": "",
               "icon": "image",
-              "name": "Rockcore Meltdown"
+              "name": ""
             },
             {
               "desc": "",
               "icon": "image",
-              "name": "Will of the Rock"
+              "name": ""
             },
             {
               "desc": "",
               "icon": "image",
-              "name": "Reaction Force"
+              "name": ""
             },
             {
               "desc": "",
               "icon": "image",
-              "name": "Meteorite Impact"
+              "name": ""
             },
             {
               "desc": "",
               "icon": "image",
-              "name": "Everlasting Boulder"
+              "name": ""
             }
           ],
           "passive_talent": [
             {
               "desc": "",
               "icon": "image",
-              "name": "Shattered Darkrock"
+              "name": ""
             },
             {
               "desc": "",
               "icon": "image",
-              "name": "Frenzied Rockslide"
+              "name": ""
             }
           ]
         },
-        "title": "None",
-        "weapon": "Sword"
+        "title": "",
+        "weapon": ""
       }
     ],
     "weapons": [

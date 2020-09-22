@@ -1,9 +1,9 @@
+import 'package:GenshinImpactCompanionApp/screens/character_list_screen/widgets/character_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
-import 'package:GenshinImpactCompanionApp/widgets/character_card.dart';
 
 class CharacterListScreen extends StatefulWidget {
   @override
@@ -50,9 +50,7 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
                 children: CharacterList.characters
                     .map(
                       (character) => Container(
-                        child: CharacterCard(
-                          character: character,
-                        ),
+                        child: CharacterCard(character: character),
                       ),
                     )
                     .toList(),
