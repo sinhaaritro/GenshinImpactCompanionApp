@@ -45,6 +45,7 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
           : Container(
               padding: EdgeInsets.all(16.0),
               child: Wrap(
+                alignment: WrapAlignment.center,
                 spacing: 16.0,
                 runSpacing: 16.0,
                 children: CharacterList.characters
