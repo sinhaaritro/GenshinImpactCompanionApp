@@ -14,20 +14,11 @@ class TextParser extends StatelessWidget {
   Widget build(BuildContext context) {
     return ParsedText(
       text: text,
-      style: const TextStyle(
-        fontSize: 16,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0.5,
-      ),
+      style: Theme.of(context).textTheme.bodyText2,
       parse: <MatchText>[
         MatchText(
           pattern: RegKeywordsTags.headingTags,
-          style: const TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.w500,
-            letterSpacing: 0.15,
-            color: Colors.amber,
-          ),
+          style: Theme.of(context).textTheme.headline6,
         ),
         MatchText(
           pattern: RegKeywordsTags.inParagraphTags,

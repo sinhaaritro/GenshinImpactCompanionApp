@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 class CharacterDetail extends StatelessWidget {
   final Character character;
 
-  CharacterDetail({this.character});
+  const CharacterDetail({this.character});
 
   @override
   Widget build(BuildContext context) {
@@ -23,16 +23,16 @@ class CharacterDetail extends StatelessWidget {
           CharacterOverviewTab(character: character),
           CharacterSkillTab(character: character),
           ExpansionTile(
-              title: Text(
+              title: const Text(
                 "Stats",
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 34,
                   fontWeight: FontWeight.w400,
                   letterSpacing: 0.25,
                 ),
               ),
-              initiallyExpanded: false,
               children: [
+                // ignore: avoid_unnecessary_containers
                 Container(
                   child: Text(character.gender),
                 ),

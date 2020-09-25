@@ -1,7 +1,6 @@
 import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
 import 'package:GenshinImpactCompanionApp/models/element_type_model.dart';
-import 'package:GenshinImpactCompanionApp/models/rarity_model.dart';
-import 'package:GenshinImpactCompanionApp/models/weapon_type_model.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 class CharacterImageAndMainStat extends StatelessWidget {
@@ -16,58 +15,56 @@ class CharacterImageAndMainStat extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Expanded(
-          flex: 2,
-          child: Image.asset('assets/images/Character_Default_Card.png'),
+        Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Card(
+            elevation: 4.0,
+            child: CachedNetworkImage(
+              imageUrl: character.icon,
+              placeholder: (context, url) =>
+                  Image.asset('assets/images/Character_Default_Icon.png'),
+              errorWidget: (context, url, error) => const Icon(Icons.error),
+            ),
+          ),
         ),
-        Expanded(
-          flex: 1,
+        Flexible(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Rarity",
-                style: const TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w500,
-                  letterSpacing: 0.15,
-                ),
+                character.name,
+                textAlign: TextAlign.left,
+                style: Theme.of(context).textTheme.headline4,
+              ),
+              const SizedBox(height: 8),
+              Row(
+                children: [
+                  Text(
+                    character.rarity.toString(),
+                    style: Theme.of(context).textTheme.headline6,
+                  ),
+                  const Icon(Icons.grade, size: 18),
+                  const SizedBox(width: 12),
+                  Text(
+                    character.element,
+                    style: Theme.of(context).textTheme.headline6.merge(
+                        TextStyle(
+                            color: ElementTypeModel.elementTypeColor(
+                                character.element))),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 8),
+              Row(
+                children: [
+                  Text(
+                    character.weapon,
+                    style: Theme.of(context).textTheme.bodyText1,
+                  ),
+                  const Text(" User"),
+                ],
               ),
               const SizedBox(height: 12),
-              Image.asset(
-                RarityModel.rarityAsset(character.rarity),
-              ),
-              const SizedBox(height: 24),
-              Text(
-                "Element",
-                style: const TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w500,
-                  letterSpacing: 0.15,
-                ),
-              ),
-              const SizedBox(height: 12),
-              Image.asset(
-                ElementTypeModel.elementTypeAsset(character.element),
-                height: 50,
-                width: 50,
-              ),
-              const SizedBox(height: 24),
-              Text(
-                "Weapon",
-                style: const TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w500,
-                  letterSpacing: 0.15,
-                ),
-              ),
-              const SizedBox(height: 12),
-              Image.asset(
-                WeaponTypeModel.weaponTypeAsset(character.weapon),
-                height: 50,
-                width: 50,
-              ),
             ],
           ),
         )

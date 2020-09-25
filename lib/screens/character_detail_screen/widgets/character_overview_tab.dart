@@ -14,9 +14,9 @@ class CharacterOverviewTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ExpansionTile(
-      title: Text(
+      title: const Text(
         "Overview",
-        style: const TextStyle(
+        style: TextStyle(
           fontSize: 34,
           fontWeight: FontWeight.w400,
           letterSpacing: 0.25,
@@ -26,7 +26,6 @@ class CharacterOverviewTab extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(12.0),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Row(children: [
                 Expanded(
@@ -79,9 +78,9 @@ class CharacterOverviewTab extends StatelessWidget {
               const SizedBox(height: 8.0),
               const Divider(),
               const SizedBox(height: 8.0),
-              Text(
+              const Text(
                 'Ingame Description',
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w500,
                   letterSpacing: 0.15,

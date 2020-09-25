@@ -1,6 +1,6 @@
 class SkillTypeModel {
   static String activeSkillType(int n) {
-    List<String> skillSubtitle = [
+    final List<String> skillSubtitle = [
       'Normal Attack',
       'Elemental Skill',
       'Elemental Burst'
@@ -9,7 +9,7 @@ class SkillTypeModel {
   }
 
   static String passiveSkillType(int n) {
-    List<String> skillSubtitle = [
+    final List<String> skillSubtitle = [
       'Unlocked at Ascension 1',
       'Unlocked at Ascension 4',
       'Unlocked Automatically'
@@ -18,7 +18,7 @@ class SkillTypeModel {
   }
 
   static String constellationsSkillType(int n) {
-    List<String> skillSubtitle = [
+    final List<String> skillSubtitle = [
       'Constellation Lv. 1',
       'Constellation Lv. 2',
       'Constellation Lv. 3',

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class CharacterCardName extends StatelessWidget {
+  final String characterName;
+
   const CharacterCardName({
     Key key,
     @required this.characterName,
   }) : super(key: key);
-
-  final String characterName;
 
   @override
   Widget build(BuildContext context) {

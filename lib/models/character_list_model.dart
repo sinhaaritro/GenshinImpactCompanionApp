@@ -3,15 +3,15 @@ class CharacterList {
 
   CharacterList.fromJson(Map<String, dynamic> json) {
     if (json['genshin_impact']['characters'] != null) {
-      characters = new List<Character>();
+      characters = <Character>[];
       json['genshin_impact']['characters'].forEach((v) {
-        characters.add(new Character.fromJson(v));
+        characters.add(Character.fromJson(v));
       });
     }
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
+    final Map<String, dynamic> data = <String, dynamic>{};
     if (CharacterList.characters != null) {
       data['characters'] =
           CharacterList.characters.map((v) => v.toJson()).toList();
@@ -39,74 +39,82 @@ class Character {
   List<Skill> constellationSkills;
 
   Character.fromJson(Map<String, dynamic> json) {
-    name = json['name'];
-    icon = json['icon'];
-    characterCard = json['character_card'];
-    element = json['element'];
-    gender = json['gender'];
-    rarity = json['rarity'];
-    region = json['region'];
-    weapon = json['weapon'];
-    affiliation = json['affiliation'];
-    birthday = json['birthday'];
-    constellation = json['constellation'];
-    title = json['title'];
+    name = json['name'] as String;
+    icon = json['icon'] as String;
+    characterCard = json['character_card'] as String;
+    element = json['element'] as String;
+    gender = json['gender'] as String;
+    rarity = json['rarity'] as int;
+    region = json['region'] as String;
+    weapon = json['weapon'] as String;
+    affiliation = json['affiliation'] as String;
+    birthday = json['birthday'] as String;
+    constellation = json['constellation'] as String;
+    title = json['title'] as String;
 
-    shortdesc = json['overview']['shortdesc'];
+    //TODO
+    if (icon == "image") {
+      icon =
+          "https://strattonapps.com/wp-content/uploads/2020/02/flutter-logo-5086DD11C5-seeklogo.com_.png";
+    }
+    if (characterCard == "image") {
+      characterCard =
+          "https://strattonapps.com/wp-content/uploads/2020/02/flutter-logo-5086DD11C5-seeklogo.com_.png";
+    }
+
+    shortdesc = json['overview']['shortdesc'] as String;
 
     if (json['skills']['combat_talent'] != null) {
-      activeSkills = new List<Skill>();
+      activeSkills = <Skill>[];
       json['skills']['combat_talent'].forEach((v) {
-        activeSkills.add(new Skill.fromJson(v));
+        activeSkills.add(Skill.fromJson(v));
       });
     }
 
     if (json['skills']['passive_talent'] != null) {
-      passiveSkills = new List<Skill>();
+      passiveSkills = <Skill>[];
       json['skills']['passive_talent'].forEach((v) {
-        passiveSkills.add(new Skill.fromJson(v));
+        passiveSkills.add(Skill.fromJson(v));
       });
     }
 
     if (json['skills']['constellations'] != null) {
-      constellationSkills = new List<Skill>();
+      constellationSkills = <Skill>[];
       json['skills']['constellations'].forEach((v) {
-        constellationSkills.add(new Skill.fromJson(v));
+        constellationSkills.add(Skill.fromJson(v));
       });
     }
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['name'] = this.name;
-    data['icon'] = this.icon;
-    data['character_card'] = this.characterCard;
-    data['element'] = this.element;
-    data['gender'] = this.gender;
-    data['rarity'] = this.rarity;
-    data['region'] = this.region;
-    data['weapon'] = this.weapon;
-    data['affiliation'] = this.affiliation;
-    data['birthday'] = this.birthday;
-    data['constellation'] = this.constellation;
-    data['title'] = this.title;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['name'] = name;
+    data['icon'] = icon;
+    data['character_card'] = characterCard;
+    data['element'] = element;
+    data['gender'] = gender;
+    data['rarity'] = rarity;
+    data['region'] = region;
+    data['weapon'] = weapon;
+    data['affiliation'] = affiliation;
+    data['birthday'] = birthday;
+    data['constellation'] = constellation;
+    data['title'] = title;
 
-    final Map<String, dynamic> overview = new Map<String, dynamic>();
-    overview['shortdesc'] = this.shortdesc;
+    final Map<String, dynamic> overview = <String, dynamic>{};
+    overview['shortdesc'] = shortdesc;
     data['overview'] = overview;
 
-    final Map<String, dynamic> skills = new Map<String, dynamic>();
-    if (this.activeSkills != null) {
-      skills['combat_talent'] =
-          this.activeSkills.map((v) => v.toJson()).toList();
+    final Map<String, dynamic> skills = <String, dynamic>{};
+    if (activeSkills != null) {
+      skills['combat_talent'] = activeSkills.map((v) => v.toJson()).toList();
     }
-    if (this.passiveSkills != null) {
-      skills['passive_talent'] =
-          this.passiveSkills.map((v) => v.toJson()).toList();
+    if (passiveSkills != null) {
+      skills['passive_talent'] = passiveSkills.map((v) => v.toJson()).toList();
     }
-    if (this.constellationSkills != null) {
+    if (constellationSkills != null) {
       skills['constellations'] =
-          this.constellationSkills.map((v) => v.toJson()).toList();
+          constellationSkills.map((v) => v.toJson()).toList();
     }
 
     data['skills'] = skills;
@@ -122,26 +130,32 @@ class Skill {
   List<SkillAttribute> skillAttributes;
 
   Skill.fromJson(Map<String, dynamic> json) {
-    name = json['name'];
-    icon = json['icon'];
-    desc = json['desc'];
+    name = json['name'] as String;
+    icon = json['icon'] as String;
+    desc = json['desc'] as String;
+
+    //TODO
+    if (icon == "image") {
+      icon =
+          "https://strattonapps.com/wp-content/uploads/2020/02/flutter-logo-5086DD11C5-seeklogo.com_.png";
+    }
 
     if (json['attributes'] != null) {
-      skillAttributes = new List<SkillAttribute>();
+      skillAttributes = <SkillAttribute>[];
       json['attributes'].forEach((v) {
-        skillAttributes.add(new SkillAttribute.fromJson(v));
+        skillAttributes.add(SkillAttribute.fromJson(v));
       });
     }
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['name'] = this.name;
-    data['icon'] = this.icon;
-    data['desc'] = this.desc;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['name'] = name;
+    data['icon'] = icon;
+    data['desc'] = desc;
 
-    if (this.skillAttributes != null) {
-      data['attributes'] = this.skillAttributes.map((v) => v.toJson()).toList();
+    if (skillAttributes != null) {
+      data['attributes'] = skillAttributes.map((v) => v.toJson()).toList();
     }
 
     return data;
@@ -153,14 +167,14 @@ class SkillAttribute {
   String value;
 
   SkillAttribute.fromJson(Map<String, dynamic> json) {
-    name = json['name'];
-    value = json['value'];
+    name = json['name'] as String;
+    value = json['value'] as String;
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['name'] = this.name;
-    data['value'] = this.value;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['name'] = name;
+    data['value'] = value;
 
     return data;
   }

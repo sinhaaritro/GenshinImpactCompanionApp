@@ -18,8 +18,8 @@ class SkillAttributeTable extends StatelessWidget {
             child: DataTable(
               headingRowHeight: 0.0,
               columns: const <DataColumn>[
-                DataColumn(label: Text(""), numeric: false),
-                DataColumn(label: Text(""), numeric: false),
+                DataColumn(label: Text("")),
+                DataColumn(label: Text("")),
               ],
               rows: skillAttributes
                   .map((skillAttribute) => DataRow(cells: [

@@ -26,7 +26,7 @@ class CharacterCard extends StatelessWidget {
         tag: character.name,
         child: Column(
           children: <Widget>[
-            CharacterCardImage(),
+            CharacterCardImage(characterCardImage: character.icon),
             CharacterCardName(characterName: character.name),
           ],
         ),

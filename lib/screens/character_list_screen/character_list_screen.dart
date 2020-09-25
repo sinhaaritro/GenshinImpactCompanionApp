@@ -1,9 +1,10 @@
+import 'dart:convert';
+
+import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_list_screen/widgets/character_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'dart:convert';
-import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
 
 class CharacterListScreen extends StatefulWidget {
   @override
@@ -19,10 +20,10 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
     fetchData();
   }
 
-  fetchData() async {
-    String jsonString =
+  Future<void> fetchData() async {
+    final String jsonString =
         await rootBundle.loadString('assets/text/genshin_impact_data.json');
-    var decodedJson = jsonDecode(jsonString);
+    final decodedJson = jsonDecode(jsonString);
 
     _characterList = CharacterList.fromJson(decodedJson);
     // print(decodedJson);
@@ -35,24 +36,22 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Icon(Icons.menu),
-        title: Text('Character List'),
+        leading: const Icon(Icons.menu),
+        title: const Text('Character List'),
       ),
       body: _characterList == null
-          ? Center(
+          ? const Center(
               child: CircularProgressIndicator(),
             )
           : Container(
-              padding: EdgeInsets.all(16.0),
+              padding: const EdgeInsets.all(16.0),
               child: Wrap(
                 alignment: WrapAlignment.center,
                 spacing: 16.0,
                 runSpacing: 16.0,
                 children: CharacterList.characters
                     .map(
-                      (character) => Container(
-                        child: CharacterCard(character: character),
-                      ),
+                      (character) => CharacterCard(character: character),
                     )
                     .toList(),
               ),

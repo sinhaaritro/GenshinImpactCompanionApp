@@ -14,9 +14,9 @@ class CharacterSkillTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ExpansionTile(
-        title: Text(
+        title: const Text(
           "Skills",
-          style: const TextStyle(
+          style: TextStyle(
             fontSize: 34,
             fontWeight: FontWeight.w400,
             letterSpacing: 0.25,
@@ -25,28 +25,26 @@ class CharacterSkillTab extends StatelessWidget {
         children: [
           Container(
             padding: const EdgeInsets.all(12.0),
-            child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  SkillCardGroup(
-                    skillGroupName: "Active Skills",
-                    skillList: character.activeSkills,
-                    skillSubtitle: SkillTypeModel.activeSkillType,
-                  ),
-                  const SizedBox(height: 12.0),
-                  SkillCardGroup(
-                    skillGroupName: "Passive Skills",
-                    skillList: character.passiveSkills,
-                    skillSubtitle: SkillTypeModel.passiveSkillType,
-                  ),
-                  const SizedBox(height: 12.0),
-                  SkillCardGroup(
-                    skillGroupName: "Constellations",
-                    skillList: character.constellationSkills,
-                    skillSubtitle: SkillTypeModel.constellationsSkillType,
-                  ),
-                ]),
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              SkillCardGroup(
+                skillGroupName: "Active Skills",
+                skillList: character.activeSkills,
+                skillSubtitle: SkillTypeModel.activeSkillType,
+              ),
+              const SizedBox(height: 12.0),
+              SkillCardGroup(
+                skillGroupName: "Passive Skills",
+                skillList: character.passiveSkills,
+                skillSubtitle: SkillTypeModel.passiveSkillType,
+              ),
+              const SizedBox(height: 12.0),
+              SkillCardGroup(
+                skillGroupName: "Constellations",
+                skillList: character.constellationSkills,
+                skillSubtitle: SkillTypeModel.constellationsSkillType,
+              ),
+            ]),
           ),
         ]);
   }

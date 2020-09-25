@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class ElementTypeModel {
   static String elementTypeAsset(String element) {
     String elementAsset;
@@ -43,5 +45,51 @@ class ElementTypeModel {
         break;
     }
     return 'assets/images/Element_$elementAsset.png';
+  }
+
+  static Color elementTypeColor(String element) {
+    Color elementColor;
+    switch (element.toLowerCase()) {
+      case 'anemo':
+        {
+          elementColor = Colors.lightGreen;
+        }
+        break;
+
+      case 'cryo':
+        {
+          elementColor = Colors.lightGreen;
+        }
+        break;
+
+      case 'dendro':
+        {
+          elementColor = Colors.lightGreen;
+        }
+        break;
+
+      case 'electro':
+        {
+          elementColor = Colors.lightGreen;
+        }
+        break;
+
+      case 'geo':
+        {
+          elementColor = Colors.lightGreen;
+        }
+        break;
+      case 'hydro':
+        {
+          elementColor = Colors.lightGreen;
+        }
+        break;
+      case 'pyro':
+        {
+          elementColor = Colors.lightGreen;
+        }
+        break;
+    }
+    return elementColor;
   }
 }

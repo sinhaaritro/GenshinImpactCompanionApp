@@ -21,11 +21,11 @@
             "weapon": "Iron Sting"
           }
         ],
-        "character_card": "image",
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg/revision/latest?cb=20190704220805",
         "constellation": "Unknown",
         "element": "Geo",
-        "gender": "Male / Female",
-        "icon": "image",
+        "gender": "Player's Choice",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest?cb=20200327223204",
         "name": "Traveler (Geo)",
         "overview": {
           "shortdesc": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven."
@@ -171,11 +171,11 @@
             "weapon": "Iron Sting"
           }
         ],
-        "character_card": "image",
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg/revision/latest?cb=20190704220805",
         "constellation": "Unknown",
         "element": "Anemo",
-        "gender": "Male / Female",
-        "icon": "image",
+        "gender": "Player's Choice",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest?cb=20200327223204",
         "name": "Traveler (Anemo)",
         "overview": {
           "shortdesc": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven."
@@ -337,16 +337,16 @@
             "weapon": ""
           }
         ],
-        "character_card": "image",
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/26/Character_Amber_Card.jpg/revision/latest?cb=20190704220454",
         "constellation": "Lepus",
         "element": "Pyro",
         "gender": "Female",
-        "icon": "image",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/c6/Character_Amber_Thumb.png/revision/latest?cb=20200327220947",
         "name": "Amber",
         "overview": {
           "shortdesc": "A perky, straightforward girl, who is also the only Outrider of the Knights of Favonius. Her amazing mastery of the glider has made her a three-time winner of the Gliding Champion in Mondstadt. As a rising star within the Knights of Favonius, Amber is always ready for any challenging tasks. - Description from Official Website."
         },
-        "rarity": 5,
+        "rarity": 4,
         "region": "Mondstadt",
         "skills": {
           "combat_talent": [
@@ -491,16 +491,16 @@
             "weapon": ""
           }
         ],
-        "character_card": "image",
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/93/Character_Barbara_Card.jpg/revision/latest?cb=20200331202944",
         "constellation": "Crater",
         "element": "Hydro",
         "gender": "Female",
-        "icon": "image",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png/revision/latest?cb=20200327221227",
         "name": "Barbara",
         "overview": {
           "shortdesc": "The Deaconess of the Favonius Church and a shining starlet adored by all. Although the concept of a starlet is rather novel in a city of bards, the people of Mondstadt love Barbara nonetheless."
         },
-        "rarity": 5,
+        "rarity": 4,
         "region": "Mondstadt",
         "skills": {
           "combat_talent": [
@@ -646,16 +646,16 @@
             "weapon": ""
           }
         ],
-        "character_card": "image",
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/8/84/Character_Beidou_Card.jpg/revision/latest?cb=20200401024902",
         "constellation": "Victor Mare",
         "element": "Electro",
         "gender": "Female",
-        "icon": "image",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png/revision/latest?cb=20200327221339",
         "name": "Beidou",
         "overview": {
           "shortdesc": "Captain of the Crux, with quite the reputation in Liyue. There are those who say she can split mountains and part the sea. Others say she draws lightning through her sword. Some say that even the mightiest of sea beasts are no match for her."
         },
-        "rarity": 5,
+        "rarity": 4,
         "region": "Liyue",
         "skills": {
           "combat_talent": [
@@ -821,16 +821,16 @@
             "weapon": ""
           }
         ],
-        "character_card": "image",
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/7f/Character_Bennett_Card.jpg/revision/latest?cb=20200401142103",
         "constellation": "Rota Calamitas",
         "element": "Pyro",
         "gender": "Male",
-        "icon": "image",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png/revision/latest?cb=20200401105146",
         "name": "Bennett",
         "overview": {
           "shortdesc": "The few young adventurers that the Mondstadt Adventurers' Guild has always find themselves tangled up in baffling bouts of bad luck. He is the only active member of his own adventure group, known as \"Benny's Adventure Team,\" after all the other members decided to \"take leave\" following a series of unfortunate incidents. As a result, the team is currently on the verge of being dissolved. Being unable to break the poor boy's heart, Katheryne of the Adventurers' Guild has kept \"Benny's Adventure Team\" on the books, whilst also hiding from him the fact that all the other members have long since officially left the team. - Description from Official Website."
         },
-        "rarity": 5,
+        "rarity": 4,
         "region": "Mondstadt",
         "skills": {
           "combat_talent": [
@@ -978,6 +978,931 @@
           ]
         },
         "title": "Leader of Benny's Adventure Team",
+        "weapon": "Sword"
+      },
+      {
+        "affiliation": "",
+        "birthday": "September 7th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Chongyun_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200603053443",
+        "constellation": "Nubis Caesor",
+        "element": "Cryo",
+        "gender": "Male",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200603090201",
+        "name": "Chongyun",
+        "overview": {
+          "shortdesc": "An exorcist who roams the land with Liyue as his base of operations, evil spirits fleeing wherever he goes. As the heir to a clan of exorcists, he has always possessed abilities superior to most. However, these abilities are not the result of training, but of an inborn trait - congenital positivity. - Description from Official Website."
+        },
+        "rarity": 4,
+        "region": "Liyue",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerform up to 4 consecutive strikes.\n\nCharged Attack:\nDrains Stamina over time to perform continuous swirling attacks against all nearby enemies. At the end of the sequence, perform a more powerful slash.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/28/Talent_Demonbane.png/revision/latest?cb=20200705141558",
+              "name": "Demonbane",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "78%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "71%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "90%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "114%"
+                },
+                {
+                  "name": "Charged Attack Spinning DMG",
+                  "value": "59%"
+                },
+                {
+                  "name": "Charged Attack Spinning Final DMG",
+                  "value": "107%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "40/s"
+                },
+                {
+                  "name": "Max Duration",
+                  "value": "5s"
+                }
+              ]
+            },
+            {
+              "desc": "\"The Linlang rings, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\"\nChongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals Cryo DMG.\nAfter a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all DMG done through Normal and Charged Attacks by Sword, Claymore and Polearm-wielding characters will be converted to Cryo DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/cb/Talent_Spirit_Blade_-_Chonghua%27s_Layered_Frost.png/revision/latest?cb=20200705141558",
+              "name": "Spirit Blade - Chonghua's Layered Frost",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "112%"
+                },
+                {
+                  "name": "Enchantment Duration",
+                  "value": "2s"
+                },
+                {
+                  "name": "Field Duration",
+                  "value": "10s"
+                },
+                {
+                  "name": "CD",
+                  "value": "6s"
+                }
+              ]
+            },
+            {
+              "desc": "\"As ice doth give the biting frost birth, my transcendent blade shakes heaven and earth. Heed my summons and come hence!\"\nPerforming the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\nWhen the spirit blades explode, they will deal AoE Cryo DMG and launch enemies.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Spirit_Blade_-_Cloud-parting_Star.png/revision/latest?cb=20200705141558",
+              "name": "Spirit Blade - Cloud-parting Star",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "142%"
+                },
+                {
+                  "name": "CD",
+                  "value": "12s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "40"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as Cryo DMG to all enemies in its path.",
+              "icon": "image",
+              "name": "Ice Unleashed"
+            },
+            {
+              "desc": "Elemental Skills and Elemental Bursts cast within the Frost Field created by Spirit Blade - Chonghua's Layered Frost have their CD time decreased by 15%.",
+              "icon": "image",
+              "name": "Atmospheric Revolution"
+            },
+            {
+              "desc": "Increases the level of Spirit Blade - Cloud-parting Star by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Cloudburst"
+            },
+            {
+              "desc": "Chongyun regenerates 1 Energy every time he hits an enemy affected by Cold or Frozen status effects. This effect can only occur once every 2s.",
+              "icon": "image",
+              "name": "Frozen Skies"
+            },
+            {
+              "desc": "Increases the level of Spirit Blade - Chonghua's Layered Frost by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "The True Path"
+            },
+            {
+              "desc": "Spirit Blade - Cloud-parting Star deals 15% more DMG to enemies with a lower percentage of their Max HP remaining than Chongyun. This skill will also summon 1 additional spirit blade.",
+              "icon": "image",
+              "name": "Rally of Four Blades"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Sword, Claymore, or Polearm-wielding characters within the field created by Spirit Blade - Chonghua's Layered Frost have their Normal Attack SPD increased by 8%.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Steady_Breathing.png/revision/latest?cb=20200705141557",
+              "name": "Steady Breathing"
+            },
+            {
+              "desc": "When the field created by Spirit Blade - Chonghua's Layered Frost disappears, another spirit will be summoned to strike nearby enemies, dealing 100% of Chonghua's Layered Frost's Skill DMG as AoE Cryo DMG. Enemies hit by this blade will have their Cryo RES decreased by 10% for 6s.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/12/Talent_Rimechaser_Blade.png/revision/latest?cb=20200705141557",
+              "name": "Rimechaser Blade"
+            }
+          ]
+        },
+        "title": "Banisher of Evil and Rumors Thereof",
+        "weapon": "Claymore"
+      },
+      {
+        "affiliation": "",
+        "birthday": "April 30th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/45/Character_Diluc_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200220072322",
+        "constellation": "Noctua",
+        "element": "Pyro",
+        "gender": "Male",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/02/Character_Diluc_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200327221200",
+        "name": "Diluc",
+        "overview": {
+          "shortdesc": "As the wealthiest gentleman in Mondstadt, the ever-dapper Diluc always presents himself as the epitome of perfection. But behind the courteous visage burns a zealous soul that has sworn to protect Mondstadt at all costs, allowing him to mercilessly vanquish all who threaten his city. - Description from Official Website."
+        },
+        "rarity": 5,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerform up to 4 consecutive strikes.\n\nCharged Attack:\nDrains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Tempered_Sword.png/revision/latest?cb=20200905014758",
+              "name": "Tempered Sword",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "81%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "79%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "89%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "121%"
+                },
+                {
+                  "name": "Charged Attack Spinning DMG",
+                  "value": "68%"
+                },
+                {
+                  "name": "Charged Attack Spinning Final DMG",
+                  "value": "126%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "40/s"
+                },
+                {
+                  "name": "Max Duration",
+                  "value": "5/s"
+                }
+              ]
+            },
+            {
+              "desc": "The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.\nPerforms a forward slash that deals Pyro DMG.\nThis skill can be used 3 times consecutively. Enters CD if not cast again within a short period (5s).",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Searing_Onslaught.png/revision/latest?cb=20200905014757",
+              "name": "Searing Onslaught",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "94%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "98%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "129%"
+                },
+                {
+                  "name": "CD",
+                  "value": "10s"
+                }
+              ]
+            },
+            {
+              "desc": "The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.\nFlames emerge from Diluc, knocking back nearby enemies. The flames then converge into the blade, summoning a Phoenix that flies forward and deals Pyro DMG to all enemies in its path.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/f5/Talent_Dawn.png/revision/latest?cb=20200905014756",
+              "name": "Dawn",
+              "attributes": [
+                {
+                  "name": "Slashing DMG",
+                  "value": "198%"
+                },
+                {
+                  "name": "DoT",
+                  "value": "69%"
+                },
+                {
+                  "name": "Explosion DMG",
+                  "value": "198%"
+                },
+                {
+                  "name": "CD",
+                  "value": "15s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Diluc deals 15% more DMG to enemies whose HP is above 50%.",
+              "icon": "image",
+              "name": "Conviction"
+            },
+            {
+              "desc": "When Diluc takes DMG, his Base ATK increases by 10% and his ATK SPD increases by 5%. Last for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
+              "icon": "image",
+              "name": "Searing Ember"
+            },
+            {
+              "desc": "Increases Searing Onslaught's skill level by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Steel and Fire"
+            },
+            {
+              "desc": "Casting Searing Onslaught in sequence greatly increases damage dealt.\nWithin 2s of using Searing Onslaught, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for the next 2s.",
+              "icon": "image",
+              "name": "Flowing Flame"
+            },
+            {
+              "desc": "Increases Dawn's skill level by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Phoenix, Harbinger of Dawn"
+            },
+            {
+              "desc": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
+              "icon": "image",
+              "name": "Flaming Sword, Nemesis of Dark"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/5f/Talent_Relentless.png/revision/latest?cb=20200905014757",
+              "name": "Relentless"
+            },
+            {
+              "desc": "For 12s after using Dawn, Diluc gains 20% Pyro DMG Bonus and his Normal and Charged Attacks deal Pyro DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/c3/Talent_Blessing_of_Phoenix.png/revision/latest?cb=20200905014755",
+              "name": "Blessing of Phoenix"
+            },
+            {
+              "desc": "Diluc gains 1 additional Proficiency when he performs a Perfect Cooking.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/44/Talent_Cook_for_Battle.png/revision/latest?cb=20200905014756",
+              "name": "Cook for Battle"
+            }
+          ]
+        },
+        "title": "Dark Side of Dawn",
+        "weapon": "Claymore"
+      },
+      {
+        "affiliation": "Adventurers' Guild",
+        "birthday": "May 27th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/48/Character_Fischl_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200331202523",
+        "constellation": "Corvus",
+        "element": "Electro",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200331202202",
+        "name": "Fischl",
+        "overview": {
+          "shortdesc": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz. Currently serves as an investigator in the Adventurers' Guild. Through her unique abilities, eccentric character, and (while she would never admit it herself) hard work, Fischl has become a rising star among the Adventurers' Guild's investigators, earning the recognition of all. - Description from Official Website."
+        },
+        "rarity": 4,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerform up to 5 consecutive shots with a bow.\n\nCharged Attack:\nPerform a more precise Aimed Shot with increased DMG. While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the en",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/37/Talent_Bolts_of_Downfall.png/revision/latest?cb=20200905021741",
+              "name": "Bolts of Downfall",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "44%"
+                },{
+                  "name": "2-Hit DMG",
+                  "value": "47%"
+                },{
+                  "name": "3-Hit DMG",
+                  "value": "58%"
+                },{
+                  "name": "4-Hit DMG",
+                  "value": "58%"
+                },{
+                  "name": "5-Hit DMG",
+                  "value": "72%"
+                },{
+                  "name": "Aimed Shot DMG",
+                  "value": "44%"
+                },{
+                  "name": "Fully-Charged Aimed Shot DMG",
+                  "value": "124%"
+                }
+              ]
+            },
+            {
+              "desc": "\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"--Flowers for Princess Fischl (IV): Farewell Frau Welt\nSummons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby enemies with Freikugel.\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/b/b3/Talent_Nightrider.png/revision/latest?cb=20200905021743",
+              "name": "Nightrider",
+              "attributes": [
+                {
+                  "name": "Oz ATK DMG",
+                  "value": "54%?"
+                },
+                {
+                  "name": "Summoning DMG",
+                  "value": "65%"
+                },
+                {
+                  "name": "Oz's Duration",
+                  "value": "10s"
+                },
+                {
+                  "name": "CD",
+                  "value": "26s"
+                }
+              ]
+            },
+            {
+              "desc": "\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\" -- Flowers for Princess Fishcl (I): End Time Zersetzung.\nSummons Oz to spread his twin wings of twilight and defend Fischl. Has the following properties during the ability's duration:\nFischl takes on Oz's form, greatly increasing her Movement Speed.\nGreatly decreases the DMG Fischl takes.\nDeals Electro DMG to enemies she comes in contact with.\nThis ability can be canceled prematurely by leaving the field. Once this ability's effects end, it will return a portion of its Energy Cost.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/ff/Talent_Midnight_Phantasmagoria.png/revision/latest?cb=20200905021742",
+              "name": "Midnight Phantasmagoria",
+              "attributes": [
+                {
+                  "name": "DMG Reduction",
+                  "value": "50%"
+                },{
+                  "name": "Contact DMG",
+                  "value": "40%"
+                },{
+                  "name": "Energy Return",
+                  "value": "6"
+                },{
+                  "name": "CD",
+                  "value": "12s"
+                },{
+                  "name": "Energy Cost",
+                  "value": "40"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "When Oz is not present in combat, he can still watch over Fischl through the crow's eyes. When Fischl attacks an enemy, Oz fires a joint attack through the crow's eyes, dealing 22% of ATK DMG.",
+              "icon": "image",
+              "name": "Gaze of the Deep"
+            },
+            {
+              "desc": "When Nightrider is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%.",
+              "icon": "image",
+              "name": "Devourer of All-Sins"
+            },
+            {
+              "desc": "Increases Nightrider's skill level by 3. Max level is 15.",
+              "icon": "image",
+              "name": "Wings of Nightmare"
+            },
+            {
+              "desc": "When Midnight Phantasmagoria is used, deals 222% of ATK as Electro DMG to surrounding enemies. When the skill duration ends, Fischl recovers 20% of her HP.",
+              "icon": "image",
+              "name": "Her Pilgrimage of Bleak"
+            },
+            {
+              "desc": "Increases Midnight Phantasmagoria's skill level by 3. Max level is 15.",
+              "icon": "image",
+              "name": "Against the Fleeing Light"
+            },
+            {
+              "desc": "Increases the duration of Oz's summoning by 2s. Additionally, Oz attacks with the current character when present, dealing 30% of Fischl's ATK as Electro DMG.",
+              "icon": "image",
+              "name": "Undone Be Thy Sinful Hex"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing AoE Electro DMG equal to 152.7% of the arrow's DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/28/Talent_Stellar_Predator.png/revision/latest?cb=20200905021743",
+              "name": "Stellar Predator"
+            },
+            {
+              "desc": "If a character triggers an Electro-related Elemental Reaction when Oz is on the field, the enemy shall be stricken with Thundering Retribution, dealing Electro DMG equal to 80% of Fischl's ATK.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/01/Talent_Lightning_Smite.png/revision/latest?cb=20200905021742",
+              "name": "Lightning Smite"
+            },
+            {
+              "desc": "When dispatched on an expedition in Mondstadt, the time consumed is reduced by 25%.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/60/Talent_Mein_Hausgarten.png/revision/latest?cb=20200922123429",
+              "name": "Mein Hausgarten"
+            }
+          ]
+        },
+        "title": "Sovereign of Immernachtreich",
+        "weapon": "Bow"
+      },
+      {
+        "affiliation": "Knights of Favonius",
+        "birthday": "March 14th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Jean_Card.jpg/revision/latest/scale-to-width-down/281?cb=20190703155524",
+        "constellation": "Leo Minor",
+        "element": "Anemo",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/8/89/Character_Jean_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200327221111",
+        "name": "Jean",
+        "overview": {
+          "shortdesc": "As the Acting Grandmaster of the Knights, Jean has always been devoted to her duties and maintaining peace in Mondstadt.\nShe had taken precautions long before the onset of Stormterror's assault, and she will guard Mondstadt with her life as always. - Description from Official Website."
+        },
+        "rarity": 5,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerforms up to 5 consecutive strikes.\n\nCharged Attack:\nConsumes a certain amount of stamina to launch an enemy using the power of wind. Launched enemies will slowly fall to the ground.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/2a/Talent_Favonius_Bladework.png/revision/latest?cb=20200820120949",
+              "name": "Favonius Bladework",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "48%"
+                },{
+                  "name": "2-Hit DMG",
+                  "value": "46%"
+                },{
+                  "name": "3-Hit DMG",
+                  "value": "60%"
+                },{
+                  "name": "4-Hit DMG",
+                  "value": "66%"
+                },{
+                  "name": "5-Hit DMG",
+                  "value": "79%"
+                },{
+                  "name": "Charged Attack DMG",
+                  "value": "162%"
+                },{
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "20"
+                }
+              ]
+            },
+            {
+              "desc": "That which follows Jean, the wholehearted defender, is a guardian wind that can banish danger from her comrades' presence.\nFocusing the might of the formless wind around her blade, Jean releases a miniature storm, launching enemies in the direction she aims at, dealing massive Anemo DMG.\nHold:\nAt the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding enemies towards her front. Direction can be adjusted. Character is immobile during skill duration.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/24/Talent_Gale_Blade.png/revision/latest?cb=20200820120949",
+              "name": "Gale Blade",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "292%"
+                },{
+                  "name": "Stamina Consumption",
+                  "value": "20/s"
+                },{
+                  "name": "Max Duration",
+                  "value": "5s"
+                },{
+                  "name": "CD",
+                  "value": "6s"
+                }
+              ]
+            },
+            {
+              "desc": "Jean's magnanimity is as vast as the dandelion fields, and it is the root of her wish to protect others.\nCalling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding enemies and causing Anemo DMG. At the same time, she instantly regenerates a large amount of HP for nearby allied units and all party members. HP restored scale off Jean's ATK.\nDandelion Field:\nContinuosuly regenerates HP for one ally and imbues them with the Anemo attributes. Deals Anemo DMG to enemies entering or exiting the Field.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/e/ef/Talent_Dandelion_Breeze.png/revision/latest?cb=20200820120948",
+              "name": "Dandelion Breeze",
+              "attributes": [
+                {
+                  "name": "Elemental Burst DMG",
+                  "value": "425%"
+                },{
+                  "name": "Field Entering/Exiting DMG",
+                  "value": "78.4%"
+                },{
+                  "name": "Field Activation Healing",
+                  "value": "251% ATK + 1540"
+                },{
+                  "name": "Continuous Regeneration",
+                  "value": "25.12% ATK + 154"
+                },{
+                  "name": "CD",
+                  "value": "20s"
+                },{
+                  "name": "Energy Cost",
+                  "value": "80"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Increases the pulling speed of Gale Blade after holding for more than 1s, and increases the DMG dealt by 40%.",
+              "icon": "image",
+              "name": "Spiraling Tempest"
+            },
+            {
+              "desc": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.",
+              "icon": "image",
+              "name": "People's Aegis"
+            },
+            {
+              "desc": "Increases the level of Dandelion Breeze by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "When the West Wind Arises"
+            },
+            {
+              "desc": "Within the Field created by Dandelion Breeze, all enemies have their Anemo RES decreased by 40%.",
+              "icon": "image",
+              "name": "Lands of Dandelion"
+            },
+            {
+              "desc": "Increases the level of Gale Blade by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Outbursting Gust"
+            },
+            {
+              "desc": "Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.",
+              "icon": "image",
+              "name": "Lion's Fang, Fair Protector of Mondstadt"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Hits by Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/79/Talent_Wind_Companion.png/revision/latest?cb=20200820120950",
+              "name": "Wind Companion"
+            },{
+              "desc": "Using Dandelion Breeze will regenerate 20% of its Energy.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1d/Talent_Let_the_Wind_Lead.png/revision/latest?cb=20200820120949",
+              "name": "Let the Wind Lead"
+            },
+            {
+              "desc": "When Jean crafts Talent Materials, she has a 20% chance to receive an additional crafted item.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/0c/Talent_Continuous_Improvement.png/revision/latest?cb=20200820120948",
+              "name": "Continuous Improvement"
+            }
+          ]
+        },
+        "title": "Dandelion Knight",
+        "weapon": "Sword"
+      },
+      {
+        "affiliation": "Knights of Favonius",
+        "birthday": "November 30th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/64/Character_Kaeya_Card.jpg/revision/latest/scale-to-width-down/281?cb=20190704215128",
+        "constellation": "Pavo Ocellus",
+        "element": "Cryo",
+        "gender": "Male",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/33/Character_Kaeya_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200327221032",
+        "name": "Kaeya",
+        "overview": {
+          "shortdesc": "In the Knights of Favonius, Kaeya is the most trusted aide for the Acting Grand Master Jean. You can always count on him to solve any intractable problems. Everyone in Mondstadt loves Kaeya, but no one knows what secrets this witty, charming knight has... - Description from Official Website."
+        },
+        "rarity": 4,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerforms up to 5 consecutive strikes.\n\nCharged Attack:\nConsumes a certain amount of Stamina to unleash 2 rapid sword swings.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/8/8d/Talent_Ceremonial_Bladework.png/revision/latest?cb=20200603091909",
+              "name": "Ceremonial Bladework",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "48%"
+                },{
+                  "name": "2-Hit DMG",
+                  "value": "47%"
+                },{
+                  "name": "3-Hit DMG",
+                  "value": "59%"
+                },{
+                  "name": "4-Hit DMG",
+                  "value": "64%"
+                },{
+                  "name": "5-Hit DMG",
+                  "value": "79%"
+                },{
+                  "name": "Charged Attack DMG",
+                  "value": "55% + 73.1%"
+                },{
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "20"
+                }
+              ]
+            },
+            {
+              "desc": "Kaeya seems affable, but his nature is that of unyielding ice.\nUnleashes a frigid blast, dealing Cryo DMG to enemies in front of Kaeya.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Frostgnaw.png/revision/latest?cb=20200603091916",
+              "name": "Frostgnaw",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "191%"
+                },
+                {
+                  "name": "CD",
+                  "value": "6s"
+                }
+              ]
+            },
+            {
+              "desc": "A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.\nCoalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\nThese icicles will follow the character around and deal Cryo DMG to enemies in their path for so long as they persist.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/29/Talent_Glacial_Waltz.png/revision/latest?cb=20200603091924",
+              "name": "Glacial Waltz",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "78%"
+                },{
+                  "name": "CD",
+                  "value": "15s"
+                },{
+                  "name": "Duration",
+                  "value": "8s"
+                },{
+                  "name": "Energy Cost",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "CRIT Rate of Normal Attack and Charged Attack against enemies affected by the Cold or Frozen status effects is increased by 15%.",
+              "icon": "image",
+              "name": "Excellent Blood"
+            },
+            {
+              "desc": "Every time Glacial Waltz defeats an enemy, its duration is increased by 2.5s, up to a maximum of 15s.",
+              "icon": "image",
+              "name": "Never-Ending Performance"
+            },
+            {
+              "desc": "Increases the level of Frostgnaw by 3. Max upgrade level is 15.",
+              "icon": "image",
+              "name": "Dance of Frost"
+            },
+            {
+              "desc": "Triggers automatically when Kaeya's HP falls below 20%:\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\nThis shield absorbs Cryo DMG with 250% efficiency.\nCan only occur once every 60s.",
+              "icon": "image",
+              "name": "Frozen Kiss"
+            },
+            {
+              "desc": "Increases the level of Glacial Waltz by 3. Max upgrade level is 15.",
+              "icon": "image",
+              "name": "Frostbiting Embrace"
+            },
+            {
+              "desc": "Glacial Waltz will generate 1 additional icicle.",
+              "icon": "image",
+              "name": "Glacial Whirlwind"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/3c/Talent_Sword_of_Cruelty.png/revision/latest?cb=20200603091941",
+              "name": "Sword of Cruelty"
+            },{
+              "desc": "Enemies Frozen by Frostgnaw will drop additional Elemental Particles. Frostgnaw may only produce a maximum of 2 additional Elemental Particles per use.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/a/a8/Talent_Heart_of_the_Abyss.png/revision/latest?cb=20200603091949",
+              "name": "Heart of the Abyss"
+            },
+            {
+              "desc": "When Kaeya crafts Character and Weapon Materials, he has a 20% chance to receive an additional crafted item.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/93/Talent_Energy_Thirst.png/revision/latest?cb=20200603092001",
+              "name": "Energy Thirst"
+            }
+          ]
+        },
+        "title": "",
+        "weapon": "Sword"
+      },
+      {
+        "affiliation": "Liyue Qixing",
+        "birthday": "November 20th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Keqing_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200913050427",
+        "constellation": "Trulla Cementarii",
+        "element": "Electro",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/06/Character_Keqing_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200828163603",
+        "name": "Keqing",
+        "overview": {
+          "shortdesc": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue ⁠— but in truth, gods admire skeptics such as her quite a lot.\nShe firmly believes that humanity's future should be determined by humans themselves, and that they can even do better than the archons and adepti have done for them. In order to prove this, she works harder than anyone else. - Description from Official Website."
+        },
+        "rarity": 5,
+        "region": "Liyue",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerform up to 5 rapid strikes.\n\nharged Attack:\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack:\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/68/Talent_Yunlai_Swordsmanship.png/revision/latest?cb=20200923124549",
+              "name": "Yunlai Swordsmanship",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "?"
+                },{
+                  "name": "2-Hit DMG",
+                  "value": "?"
+                },{
+                  "name": "3-Hit DMG",
+                  "value": "?"
+                },{
+                  "name": "4-Hit DMG",
+                  "value": "?"
+                },{
+                  "name": "5-Hit DMG",
+                  "value": "?"
+                },{
+                  "name": "Charged Attack DMG",
+                  "value": "?"
+                },{
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "?"
+                },{
+                  "name": "Plunge DMG",
+                  "value": "?"
+                },{
+                  "name": "Low Plunge DMG",
+                  "value": "?"
+                },{
+                  "name": "High Plunge DMG",
+                  "value": "?"
+                }
+              ]
+            },
+            {
+              "desc": "Humans are like moths, endlessly chasing the flame we call gods and adepti. But this light that I have here is my own.\nHurls a Lightning Stiletto that annihilates her enemies like the swift thunder. When the Stiletto hits its target, it deals Electro DMG to enemies in a small AoE, and places a Stiletto Mark on the spot hit.\n\nHold:\nHold to adjust the direction in which the Stiletto shall be thrown. Stilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.\n\nLightning Stiletto:\nIf Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\nIf she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals AoE Electro DMG. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\nIf Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing AoE Electro DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/5a/Talent_Stellar_Restoration.png/revision/latest?cb=20200923124548",
+              "name": "Stellar Restoration",
+              "attributes": [
+                {
+                  "name": "Lightning Stiletto DMG",
+                  "value": "50.4%"
+                },{
+                  "name": "Slashing DMG",
+                  "value": "168%"
+                },{
+                  "name": "Thunderclap Slash DMG",
+                  "value": "84% * 2"
+                },{
+                  "name": "CD",
+                  "value": "7.5s"
+                }
+              ]
+            },
+            {
+              "desc": "The swiftest technique in Keqing's personal arsenal is fast enough to bring stars crashing down.\nKeqing unleashes the power of lightning, dealing Electro DMG in an AoE.\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby enemies simultaneously that deal multiple instances of Electro DMG. The final attack deals massive AoE Electro DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/14/Talent_Starward_Sword.png/revision/latest?cb=20200923124548",
+              "name": "Starward Sword",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "88%"
+                },{
+                  "name": "Consecutive Slash DMG",
+                  "value": "24% * 8"
+                },{
+                  "name": "Last Attack DMG",
+                  "value": "189%"
+                },{
+                  "name": "CD",
+                  "value": "12s"
+                },{
+                  "name": "Energy Cost",
+                  "value": "40"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Recasting Stellar Restoration while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as AoE Electro DMG at the start point and terminus of her Blink.",
+              "icon": "image",
+              "name": "Thundering Might"
+            },
+            {
+              "desc": "When Keqing's Normal and Charged Attack's hit enemies affected by Electro, they have a 50% chance of producing an Elemental Particle. This effect can only occur once every 5s.",
+              "icon": "image",
+              "name": "Keen Extraction"
+            },
+            {
+              "desc": "Increases the level of Starward Sword by 3.",
+              "icon": "image",
+              "name": "Foreseen Reformation"
+            },
+            {
+              "desc": "For 10s after Keqing triggers an Electro-related Elemental Reaction, her ATK is increased by 25%.",
+              "icon": "image",
+              "name": "Attunement"
+            },
+            {
+              "desc": "Increases the level of Stellar Restoration by 3.",
+              "icon": "image",
+              "name": "Beckoning Stars"
+            },
+            {
+              "desc": "When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% Elector DMG Bonus for 8s. Effects triggered by Normal Attacks, Charged Attacks, Elemental Skills, and Elemental Bursts are considered independent entities.",
+              "icon": "image",
+              "name": "Tenacious Star"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Within 5s of recasting Stellar Restoration while a Lightning Stiletto is present, Keqing's Normal and Charged Attacks are converted to Electro DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/a/a4/Talent_Thundering_Penance.png/revision/latest?cb=20200923124549",
+              "name": "Thundering Penance"
+            },{
+              "desc": "When casting Starward Sword, Keqing's CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/d/d3/Talent_Aristocratic_Dignity.png/revision/latest?cb=20200923125001",
+              "name": "Aristocratic Dignity"
+            },
+            {
+              "desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/2c/Talent_Land%27s_Overseer.png/revision/latest?cb=20200923124547",
+              "name": "Land's Overseer"
+            }
+          ]
+        },
+        "title": "Yuheng of the Liyue Qixing",
         "weapon": "Sword"
       },
       {

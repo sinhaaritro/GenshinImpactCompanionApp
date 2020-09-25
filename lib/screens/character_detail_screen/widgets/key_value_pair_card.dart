@@ -17,10 +17,8 @@ class KeyValuePairCard extends StatelessWidget {
         child: Tooltip(
           message: message,
           child: Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Expanded(
-                flex: 1,
                 child: Image.asset(
                   imageAsset,
                   height: 30,
