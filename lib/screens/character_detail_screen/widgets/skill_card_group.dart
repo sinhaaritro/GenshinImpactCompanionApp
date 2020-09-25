@@ -1,4 +1,4 @@
-import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
+import 'package:GenshinImpactCompanionApp/models/skill_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/widgets/skill_attribute_table.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/text_parser.dart';
 import 'package:flutter/material.dart';

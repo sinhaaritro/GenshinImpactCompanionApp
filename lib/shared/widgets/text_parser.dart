@@ -1,3 +1,4 @@
+import 'package:GenshinImpactCompanionApp/models/element_type_model.dart';
 import 'package:GenshinImpactCompanionApp/models/regex_pattern_matcher_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_parsed_text/flutter_parsed_text.dart';
@@ -18,58 +19,58 @@ class TextParser extends StatelessWidget {
       parse: <MatchText>[
         MatchText(
           pattern: RegKeywordsTags.headingTags,
-          style: Theme.of(context).textTheme.headline6,
+          style: Theme.of(context)
+              .textTheme
+              .headline6
+              .merge(const TextStyle(color: Colors.amber)),
         ),
         MatchText(
-          pattern: RegKeywordsTags.inParagraphTags,
-          style: const TextStyle(
-            color: Colors.amber,
-          ),
-        ),
+            pattern: RegKeywordsTags.inParagraphTags,
+            style: Theme.of(context).textTheme.bodyText1),
         MatchText(
           pattern: RegKeywordsTags.officialWebsiteDescription,
           style: const TextStyle(fontStyle: FontStyle.italic),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementAnemoPattern,
-          style: const TextStyle(
-            color: Colors.lightGreen,
+          style: TextStyle(
+            color: ElementTypeModel.elementTypeColor('Anemo'),
           ),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementCryoPattern,
-          style: const TextStyle(
-            color: Colors.cyan,
+          style: TextStyle(
+            color: ElementTypeModel.elementTypeColor('Cryo'),
           ),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementDendroPattern,
-          style: const TextStyle(
-            color: Colors.green,
+          style: TextStyle(
+            color: ElementTypeModel.elementTypeColor('Dendro'),
           ),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementElectroPattern,
-          style: const TextStyle(
-            color: Colors.lightBlue,
+          style: TextStyle(
+            color: ElementTypeModel.elementTypeColor('Electro'),
           ),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementGeoPattern,
-          style: const TextStyle(
-            color: Colors.yellow,
+          style: TextStyle(
+            color: ElementTypeModel.elementTypeColor('Geo'),
           ),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementHydroPattern,
-          style: const TextStyle(
-            color: Colors.blue,
+          style: TextStyle(
+            color: ElementTypeModel.elementTypeColor('Hydro'),
           ),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementPyroPattern,
-          style: const TextStyle(
-            color: Colors.red,
+          style: TextStyle(
+            color: ElementTypeModel.elementTypeColor('Pyro'),
           ),
         ),
       ],

@@ -1,4 +1,4 @@
-import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
+import 'package:GenshinImpactCompanionApp/models/skill_attribute_model.dart';
 import 'package:flutter/material.dart';
 
 class SkillAttributeTable extends StatelessWidget {

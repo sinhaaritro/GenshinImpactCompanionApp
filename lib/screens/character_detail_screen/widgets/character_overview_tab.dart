@@ -1,4 +1,4 @@
-import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
+import 'package:GenshinImpactCompanionApp/models/character_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/widgets/key_value_pair_card.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/text_parser.dart';
 import 'package:flutter/material.dart';

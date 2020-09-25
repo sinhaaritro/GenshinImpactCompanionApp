@@ -1,4 +1,4 @@
-import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
+import 'package:GenshinImpactCompanionApp/models/character_model.dart';
 import 'package:GenshinImpactCompanionApp/models/element_type_model.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';

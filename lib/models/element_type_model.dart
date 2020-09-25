@@ -58,35 +58,35 @@ class ElementTypeModel {
 
       case 'cryo':
         {
-          elementColor = Colors.lightGreen;
+          elementColor = Colors.cyan;
         }
         break;
 
       case 'dendro':
         {
-          elementColor = Colors.lightGreen;
+          elementColor = Colors.green;
         }
         break;
 
       case 'electro':
         {
-          elementColor = Colors.lightGreen;
+          elementColor = Colors.lightBlue;
         }
         break;
 
       case 'geo':
         {
-          elementColor = Colors.lightGreen;
+          elementColor = Colors.yellow;
         }
         break;
       case 'hydro':
         {
-          elementColor = Colors.lightGreen;
+          elementColor = Colors.blue;
         }
         break;
       case 'pyro':
         {
-          elementColor = Colors.lightGreen;
+          elementColor = Colors.red;
         }
         break;
     }

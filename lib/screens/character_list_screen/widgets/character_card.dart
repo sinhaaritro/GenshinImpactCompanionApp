@@ -1,4 +1,4 @@
-import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
+import 'package:GenshinImpactCompanionApp/models/character_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/character_detail_screen.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_list_screen/widgets/character_card_image.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_list_screen/widgets/character_card_name.dart';
