@@ -1,8 +1,7 @@
 import 'dart:convert';
-
 import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
-import 'package:GenshinImpactCompanionApp/screens/character_list_screen/widgets/character_card.dart';
-import 'package:GenshinImpactCompanionApp/shared/widgets/bottom_navigation_bar_widget.dart';
+import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/character_detail_screen.dart';
+import 'package:GenshinImpactCompanionApp/shared/widgets/item_card/item_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -35,30 +34,39 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Characters'),
-      ),
-      bottomNavigationBar: BottomNavigationBarWidget(),
-      body: _characterList == null
-          ? const Center(
-              child: CircularProgressIndicator(),
-            )
-          : ListView(
-              padding: const EdgeInsets.all(16.0),
-              children: [
-                Wrap(
-                  alignment: WrapAlignment.center,
-                  spacing: 16.0,
-                  runSpacing: 16.0,
-                  children: CharacterList.characters
-                      .map(
-                        (character) => CharacterCard(character: character),
-                      )
-                      .toList(),
-                ),
-              ],
-            ),
-    );
+    return _characterList == null
+        ? const Center(
+            child: CircularProgressIndicator(),
+          )
+        : ListView(
+            padding: const EdgeInsets.all(16.0),
+            children: [
+              Wrap(
+                alignment: WrapAlignment.center,
+                spacing: 16.0,
+                runSpacing: 16.0,
+                children: CharacterList.characters
+                    .map(
+                      (character) => InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => CharacterDetail(
+                                character: character,
+                              ),
+                            ),
+                          );
+                        },
+                        child: ItemCard(
+                          itemName: character.name,
+                          itemCardImage: character.icon,
+                        ),
+                      ),
+                    )
+                    .toList(),
+              ),
+            ],
+          );
   }
 }

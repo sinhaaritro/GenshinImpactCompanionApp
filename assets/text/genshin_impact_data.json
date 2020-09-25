@@ -16,9 +16,9 @@
         "builds": [
           {
             "artifact_sets": [
-              "Instructor"
+              ""
             ],
-            "weapon": "Iron Sting"
+            "weapon": ""
           }
         ],
         "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg/revision/latest?cb=20190704220805",
@@ -36,7 +36,7 @@
           "combat_talent": [
             {
               "desc": "Normal Attack \nPerforms up to 5 consecutive strikes.  \n\nCharged Attack \nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/54/Talent_Foreign_Rockblade.png/revision/latest?cb=20200705094207",
               "name": "Foreign Rockblade",
               "attributes": [
                 {
@@ -71,7 +71,7 @@
             },
             {
               "desc": "You discussed the falling stars with Paimon. Summon a meteorite to strike down, causing an explosion and dealing Geo DMG to all enemies in range. \nThe meteorite is climbable and can block attacks. Hold to adjust its impact location. The meteorite is affiliated with Geo.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/05/Talent_Starfell_Sword.png/revision/latest?cb=20200705094208",
               "name": "Starfell Sword",
               "attributes": [
                 {
@@ -90,7 +90,7 @@
             },
             {
               "desc": "Energize the Geo elements deep underground, causing a great tremor and expanding shockwave, which knocks surrounding enemies back and deals Geo DMG while inflicting them with Crystallization. A stonewall is also erected at the edge of the shockwave. \nThe stonewall is unclimbable and can block attacks. \nThe stonewall is affiliated with Geo.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/5f/Talent_Wake_of_Earth.png/revision/latest?cb=20200705094208",
               "name": "Wake of Earth",
               "attributes": [
                 {
@@ -147,12 +147,12 @@
           "passive_talent": [
             {
               "desc": "Reduces Starfell Sword's CD by 2s.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/5e/Talent_Shattered_Darkrock.png/revision/latest?cb=20200705094207",
               "name": "Shattered Darkrock"
             },
             {
               "desc": "Normal Attack sequence's final attack causes a collapse, dealing 60% of ATK as Geo DMG to surrounding enemies.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/40/Talent_Frenzied_Rockslide.png/revision/latest?cb=20200705094207",
               "name": "Frenzied Rockslide"
             }
           ]
@@ -166,9 +166,9 @@
         "builds": [
           {
             "artifact_sets": [
-              "Instructor"
+              ""
             ],
-            "weapon": "Iron Sting"
+            "weapon": ""
           }
         ],
         "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg/revision/latest?cb=20190704220805",
@@ -185,8 +185,8 @@
         "skills": {
           "combat_talent": [
             {
-              "desc": "Normal Attack \nPerform up to 5 consecutive strikes. \n\nCharged Attack \nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
-              "icon": "image",
+              "desc": "Normal Attack\nPerform up to 5 consecutive strikes. \n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1f/Talent_Foreign_Ironwind.png/revision/latest?cb=20200705094023",
               "name": "Foreign Ironwind",
               "attributes": [
                 {
@@ -220,8 +220,8 @@
               ]
             },
             {
-              "desc": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to enemies in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area. \nHold: DMG and AoE will gradually increase. \nElemental Absorption: If the vortex comes into contact with Hydro / Pyro / Cryo / Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
-              "icon": "image",
+              "desc": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to enemies in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\nHold:\nDMG and AoE will gradually increase.\n\nElemental Absorption:\nIf the vortex comes into contact with Hydro / Pyro / Cryo / Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/07/Talent_Palm_Vortex.png/revision/latest?cb=20200705094024",
               "name": "Palm Vortex",
               "attributes": [
                 {
@@ -251,8 +251,8 @@
               ]
             },
             {
-              "desc": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG. \nElemental Absorption: If the vortex comes into contact with Hydro / Pyro / Cryo / Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
-              "icon": "image",
+              "desc": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG. \n\nElemental Absorption:\nIf the vortex comes into contact with Hydro / Pyro / Cryo / Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/98/Talent_Gust_Surge.png/revision/latest?cb=20200705094024",
               "name": "Gust Surge",
               "attributes": [
                 {
@@ -313,12 +313,12 @@
           "passive_talent": [
             {
               "desc": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/22/Talent_Slitting_Wind.png/revision/latest?cb=20200705094023",
               "name": "Slitting Wind"
             },
             {
               "desc": "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/5e/Talent_Second_Wind.png/revision/latest?cb=20200705094024",
               "name": "Second Wind"
             }
           ]
@@ -351,8 +351,8 @@
         "skills": {
           "combat_talent": [
             {
-              "desc": "Normal Attack: Perform up to 5 rapid shots. \nCharged Attack: Perform a more precise attack with increased damage. While aiming, Pyro accumulates in the arrowhead. When fully charged, the arrow deals high Pyro DMG.",
-              "icon": "image",
+              "desc": "Normal Attack:\nPerform up to 5 rapid shots.\n\nCharged Attack:\nPerform a more precise attack with increased damage. While aiming, Pyro accumulates in the arrowhead. When fully charged, the arrow deals high Pyro DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/e/ee/Talent_Marksmanship.png/revision/latest?cb=20200531021637",
               "name": "Marksmanship",
               "attributes": [
                 {
@@ -387,7 +387,7 @@
             },
             {
               "desc": "Throws a Baron Bunny decoy which taunts nearby opponents. Baron Bunny inherits HP proportional to Amber's Max HP. Upon destruction or expiration, Baron Bunny explodes and deals Pyro DMG to all surrounding opponents. Hold to adjust the throwing distance and direction.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/e/e0/Talent_Explosive_Puppet.png/revision/latest?cb=20200531021436",
               "name": "Explosive Puppet",
               "attributes": [
                 {
@@ -406,7 +406,7 @@
             },
             {
               "desc": "Unleashes Fiery Rain which rains down from above and deals Pyro DoT.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/6c/Talent_Fiery_Rain.png/revision/latest?cb=20200531021458",
               "name": "Fiery Rain",
               "attributes": [
                 {
@@ -466,14 +466,45 @@
           ],
           "passive_talent": [
             {
+              "desc": "Increases the CRIT Rate of Fiery Rain by 10%, and AoE by 30%",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/54/Talent_Every_Arrow_Finds_Its_Target.png/revision/latest?cb=20200531021537",
+              "name": "Every Arrow Finds Its Target",
+              "attributes": [
+                {
+                  "name": "CRIT Rate Bonus",
+                  "value": "10%"
+                },
+                {
+                  "name": "AoE Increase",
+                  "value": "30%"
+                }
+              ]
+            },
+            {
               "desc": "Aimed Shot hits on weak spots increase Base ATK by 10% for 10s",
-              "icon": "image",
-              "name": "Precise Shot"
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Precise_Shot.png/revision/latest?cb=20200531021551",
+              "name": "Precise Shot",
+              "attributes": [
+                {
+                  "name": "Base ATK increase",
+                  "value": "10%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "10s"
+                }
+              ]
             },
             {
               "desc": "Decreases all party members' gliding Stamina Consumption by 20%.",
-              "icon": "image",
-              "name": "Champion Glider"
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/5f/Talent_Champion_Glider.png/revision/latest?cb=20200531021603",
+              "name": "Champion Glider",
+              "attributes": [
+                {
+                  "name": "Gliding Stamina Consumption decrease",
+                  "value": "20%"
+                }
+              ]
             }
           ]
         },
@@ -505,8 +536,8 @@
         "skills": {
           "combat_talent": [
             {
-              "desc": "Normal Attack: Perform up to 4 water splash attacks that deal Hydro DMG. \nCharged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.",
-              "icon": "image",
+              "desc": "Normal Attack:\nPerform up to 4 water splash attacks that deal Hydro DMG.\n\nCharged Attack:\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Whisper_of_Water.png/revision/latest?cb=20200820121237",
               "name": "Whisper of Water",
               "attributes": [
                 {
@@ -536,8 +567,8 @@
               ]
             },
             {
-              "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding enemies and afflicting them with the Wet status. \n\nMelody Loop: \nBarbara's Normal Attacks heal all party members and nearby allied characters for a certain amount of HP, which scales with Barbara's Max HP. \nHer Charged Attack generates 4 times the amount of healing. \nRegenerates a certain amount of the current's character's HP at regular intervals. \nApplies the Wet status to the character and enemies who come in contact with them.",
-              "icon": "image",
+              "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding enemies and afflicting them with the Wet status.\n\nMelody Loop:\nBarbara's Normal Attacks heal all party members and nearby allied characters for a certain amount of HP, which scales with Barbara's Max HP. \nHer Charged Attack generates 4 times the amount of healing. \nRegenerates a certain amount of the current's character's HP at regular intervals.\nApplies the Wet status to the character and enemies who come in contact with them.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/ca/Talent_Let_the_Show_Begin.png/revision/latest?cb=20200820121236",
               "name": "Let the Show Begin",
               "attributes": [
                 {
@@ -564,7 +595,7 @@
             },
             {
               "desc": "Heals friendly forces and all parties for a large amount of HP that scales with Barbara's Max HP.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/f0/Talent_Shining_Miracle.png/revision/latest?cb=20200820121237",
               "name": "Shining Miracle",
               "attributes": [
                 {
@@ -617,17 +648,17 @@
           "passive_talent": [
             {
               "desc": "The Stamina Consumption of characters within Let the Show Begin's Melody Loop is reduced by 12%.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Glorious_Season.png/revision/latest?cb=20200820121236",
               "name": "Glorious Season"
             },
             {
               "desc": "When a character gains an Elemental Orb/Particle, the duration of Let the Show Begin's Melody Loop is extended by 1s. The maximum extension is 5s.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/3f/Talent_Encore.png/revision/latest?cb=20200820121235",
               "name": "Encore"
             },
             {
               "desc": "When Barbara cooks a boiled dish, the Perfect zone on the cooking meter is twice the normal size.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/e/eb/Talent_Give_It_Your_All.png/revision/latest?cb=20200820121235",
               "name": "Give It Your All"
             }
           ]
@@ -660,8 +691,8 @@
         "skills": {
           "combat_talent": [
             {
-              "desc": "Normal Attack: \nPerform up to 5 successive strikes.\n\nCharged Attack: \nDrains Stamina over time to perform continuous slashes. At end of the sequence, perform a more powerful slash.",
-              "icon": "image",
+              "desc": "Normal Attack:\nPerform up to 5 successive strikes.\n\nCharged Attack:\nDrains Stamina over time to perform continuous slashes. At end of the sequence, perform a more powerful slash.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/40/Talent_Oceanborne.png/revision/latest?cb=20200905031233",
               "name": "Oceanborne",
               "attributes": [
                 {
@@ -703,8 +734,8 @@
               ]
             },
             {
-              "desc": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\nPress: \nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG. \nHold: \nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP. \nCounterattacks with the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. The shield possesses the following properties: \nWhen attacked, it will greatly increase the DMG dealt by the Counterattack. This increase can take place twice within the ability's duration. \nIncreases Beidou's resistance to interruption. \nHas 250% Electro DMG Absorption Efficiency. \nApplies the Electro element to Beidou.",
-              "icon": "image",
+              "desc": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\nPress:\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG.\n\nHold:\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP. \nCounterattacks with the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. The shield possesses the following properties: \nWhen attacked, it will greatly increase the DMG dealt by the Counterattack. This increase can take place twice within the ability's duration. \nIncreases Beidou's resistance to interruption. \nHas 250% Electro DMG Absorption Efficiency. \nApplies the Electro element to Beidou.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/92/Talent_Tidecaller.png/revision/latest?cb=20200905031235",
               "name": "Tidecaller",
               "attributes": [
                 {
@@ -727,7 +758,7 @@
             },
             {
               "desc": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself.\nThunderbeast's Targe:\nWhen Normal and Charged Attacks hit, they create a lightning discharge that can jump between enemies, dealing Electro DMG.\nIncreases Beidou's resistance to interruption.\nTriggers a maximum of 1 lightning discharge per second.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/33/Talent_Stormbreaker.png/revision/latest?cb=20200905031234",
               "name": "Stormbreaker",
               "attributes": [
                 {
@@ -792,7 +823,7 @@
           "passive_talent": [
             {
               "desc": "Counterattacking with Tidecaller at the precise moment when the character is hit grants the maximum DMG Bonus.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/69/Talent_Retribution.png/revision/latest?cb=20200905031234",
               "name": "Retribution"
             },
             {
@@ -802,7 +833,7 @@
             },
             {
               "desc": "When Beioud cooks a DEF dish, her perfect cooking range is increased by 100%.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/47/Talent_Ironclad.png/revision/latest?cb=20200905031233",
               "name": "Ironclad"
             }
           ]
@@ -835,8 +866,8 @@
         "skills": {
           "combat_talent": [
             {
-              "desc": "Normal Attack: \nPerforms up to 5 rapid strikes.\n\nCharged Attack: \nConsumes a certain amount of Stamina to unleash 2 rapid sword swings.",
-              "icon": "image",
+              "desc": "Normal Attack:\nPerforms up to 5 rapid strikes.\n\nCharged Attack:\nConsumes a certain amount of Stamina to unleash 2 rapid sword swings.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Strike_of_Fortune.png/revision/latest?cb=20200604221213",
               "name": "Strike of Fortune",
               "attributes": [
                 {
@@ -870,8 +901,8 @@
               ]
             },
             {
-              "desc": "Bennett's collective strike of zealousness, dreams, and Pyro. Though sometimes he gets a bit too overzealous, causing his Pyro energy to explode.\nBennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur. \nTap: \nPerforms a quick flaming swing with his sword. \nShort Hold: \nPerforms a two-stage attack that deals Pyro DMG and launches enemies. \nLong Hold: \nPerforms a three-stage attack that does Pyro DMG. However, the last attack causes an explosion, launching both Bennett and his enemies. Bennett is not hurt by this explosion.",
-              "icon": "image",
+              "desc": "Bennett's collective strike of zealousness, dreams, and Pyro. Though sometimes he gets a bit too overzealous, causing his Pyro energy to explode\n\nBennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur.\n\nTap: \nPerforms a quick flaming swing with his sword.\n\nShort Hold: \nPerforms a two-stage attack that deals Pyro DMG and launches enemies.\n\nLong Hold: \nPerforms a three-stage attack that does Pyro DMG. However, the last attack causes an explosion, launching both Bennett and his enemies. Bennett is not hurt by this explosion.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/66/Talent_Passion_Overload.png/revision/latest?cb=20200604221223",
               "name": "Passion Overload",
               "attributes": [
                 {
@@ -902,7 +933,7 @@
             },
             {
               "desc": "Bennett jumps towards the enemy and attacks, dealing Pyro DMG and creating an inspiration circle.\nIf the health of a character in the circle is equal to or falls below 70%, their health will continuously regenerate.\nIf the health of a character in the circle is higher than 70%, they gain an ATK Bonus equal to a set percentage of Bennett's Base ATK.\nIn both cases, characters inside the circle with also gain the Pyro affix.",
-              "icon": "image",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/a/a2/Talent_Fantastic_Voyage.png/revision/latest?cb=20200604221231",
               "name": "Fantastic Voyage",
               "attributes": [
                 {
@@ -2118,20 +2149,13 @@
             "mora": 0
           }
         ],
-        "base_stats": {
-          "1": {
-            "base": 42,
-            "secondary": 36
-          },
-          "20": {
-            "base": 109,
-            "secondary": 64
-          },
-          "secondary_stat_type": "Elemental Mastery"
-        },
-        "description": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
-        "icon": "image",
         "name": "Iron Sting",
+        "icon": "image",
+        "base_stat": "42",
+        "secondary_stat_type": "Elemental Mastery",
+        "secondary_stat": "36",
+        "description": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
+        "passive_name" : "Infusion Stinger",
         "passive": {
           "effect": [
             "Dealing Elemental DMG increases all DMG by 8% for 6s. Max 2 stacks. Can only occur once every 1s.",
@@ -2144,6 +2168,256 @@
         },
         "rarity": 4,
         "type": "sword"
+      },
+      {
+        "ascension": [
+          {
+            "materials": [
+              {
+                "amount": 3,
+                "name": "Grain of Aerosiderite"
+              },
+              {
+                "amount": 3,
+                "name": "Mist Flower Pollen"
+              },
+              {
+                "amount": 2,
+                "name": "Firm Arrowhead"
+              }
+            ],
+            "mora": 10000
+          },
+          {
+            "materials": [
+              {
+                "amount": 4,
+                "name": "Piece of Aerosiderite"
+              },
+              {
+                "amount": 12,
+                "name": "Mist Flower Pollen"
+              },
+              {
+                "amount": 12,
+                "name": "Firm Arrowhead"
+              }
+            ],
+            "mora": 20000
+          },
+          {
+            "materials": [
+              {
+                "amount": 8,
+                "name": "Piece of Aerosiderite"
+              },
+              {
+                "amount": 10,
+                "name": "Mist Grass"
+              },
+              {
+                "amount": 10,
+                "name": "Sharp Arrowhead"
+              }
+            ],
+            "mora": 0
+          },
+          {
+            "materials": [
+              {
+                "amount": 4,
+                "name": "Bit of Aerosiderite"
+              },
+              {
+                "amount": 15,
+                "name": "Mist Grass"
+              },
+              {
+                "amount": 15,
+                "name": "Sharp Arrowhead"
+              }
+            ],
+            "mora": 35000
+          },
+          {
+            "materials": [
+              {
+                "amount": 8,
+                "name": "Bit of Aerosiderite"
+              },
+              {
+                "amount": 12,
+                "name": "Mist Grass Lamp"
+              },
+              {
+                "amount": 12,
+                "name": "Historic Arrowhead"
+              }
+            ],
+            "mora": 0
+          },
+          {
+            "materials": [
+              {
+                "amount": 4,
+                "name": "Chunk of Aerosiderite"
+              },
+              {
+                "amount": 18,
+                "name": "Mist Grass Lamp"
+              },
+              {
+                "amount": 18,
+                "name": "Historic Arrowhead"
+              }
+            ],
+            "mora": 0
+          }
+        ],
+        "name": "Iron Sting",
+        "icon": "image",
+        "base_stat": "42",
+        "secondary_stat_type": "Elemental Mastery",
+        "secondary_stat": "36",
+        "description": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
+        "passive_name" : "Infusion Stinger",
+        "passive": {
+          "effect": [
+            "Dealing Elemental DMG increases all DMG by 8% for 6s. Max 2 stacks. Can only occur once every 1s.",
+            "Dealing Elemental DMG increases all DMG by 10% for 6s. Max 2 stacks. Can only occur once every 1s.",
+            "Dealing Elemental DMG increases all DMG by 12% for 6s. Max 2 stacks. Can only occur once every 1s.",
+            "Dealing Elemental DMG increases all DMG by 14% for 6s. Max 2 stacks. Can only occur once every 1s.",
+            "Dealing Elemental DMG increases all DMG by 16% for 6s. Max 2 stacks. Can only occur once every 1s."
+          ],
+          "name": "Infusion Stinger"
+        },
+        "rarity": 4,
+        "type": "sword"
+      },
+      {
+        "ascension": [
+          {
+            "materials": [
+              {
+                "amount": 3,
+                "name": ""
+              },
+              {
+                "amount": 3,
+                "name": ""
+              },
+              {
+                "amount": 2,
+                "name": ""
+              }
+            ],
+            "mora": 10000
+          },
+          {
+            "materials": [
+              {
+                "amount": 4,
+                "name": ""
+              },
+              {
+                "amount": 12,
+                "name": ""
+              },
+              {
+                "amount": 12,
+                "name": ""
+              }
+            ],
+            "mora": 20000
+          },
+          {
+            "materials": [
+              {
+                "amount": 8,
+                "name": ""
+              },
+              {
+                "amount": 10,
+                "name": ""
+              },
+              {
+                "amount": 10,
+                "name": ""
+              }
+            ],
+            "mora": 0
+          },
+          {
+            "materials": [
+              {
+                "amount": 4,
+                "name": ""
+              },
+              {
+                "amount": 15,
+                "name": ""
+              },
+              {
+                "amount": 15,
+                "name": ""
+              }
+            ],
+            "mora": 35000
+          },
+          {
+            "materials": [
+              {
+                "amount": 8,
+                "name": ""
+              },
+              {
+                "amount": 12,
+                "name": ""
+              },
+              {
+                "amount": 12,
+                "name": ""
+              }
+            ],
+            "mora": 0
+          },
+          {
+            "materials": [
+              {
+                "amount": 4,
+                "name": ""
+              },
+              {
+                "amount": 18,
+                "name": ""
+              },
+              {
+                "amount": 18,
+                "name": ""
+              }
+            ],
+            "mora": 0
+          }
+        ],
+        "name": "",
+        "icon": "",
+        "base_stat": "",
+        "secondary_stat_type": "",
+        "secondary_stat": "",
+        "description": "",
+        "passive_name" : "",
+        "passive": {
+          "effect": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "name": ""
+        },
+        "rarity": 0,
+        "type": ""
       }
     ]
   }

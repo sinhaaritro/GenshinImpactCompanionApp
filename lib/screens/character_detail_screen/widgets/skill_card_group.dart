@@ -1,12 +1,13 @@
-import 'package:GenshinImpactCompanionApp/models/skill_model.dart';
+import 'package:GenshinImpactCompanionApp/models/character_skill_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/widgets/skill_attribute_table.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/text_parser.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 class SkillCardGroup extends StatelessWidget {
   final String skillGroupName;
   final Function skillSubtitle;
-  final List<Skill> skillList;
+  final List<CharacterSkill> skillList;
 
   const SkillCardGroup(
       {Key key, this.skillGroupName, this.skillList, this.skillSubtitle})
@@ -32,9 +33,14 @@ class SkillCardGroup extends StatelessWidget {
             .map((skill) => Card(
                   elevation: 2.0,
                   child: ExpansionTile(
-                      leading: Image.asset(
-                        'assets/images/Icon_Map.png',
+                      leading: CachedNetworkImage(
+                        imageUrl: skill.value.icon,
+                        placeholder: (context, url) => Image.asset(
+                            'assets/images/Character_Default_Icon.png'),
+                        errorWidget: (context, url, error) =>
+                            const Icon(Icons.error),
                         height: 40,
+                        width: 40,
                       ),
                       title: Text(
                         skill.value.name,

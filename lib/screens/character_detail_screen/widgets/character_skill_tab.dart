@@ -1,5 +1,5 @@
 import 'package:GenshinImpactCompanionApp/models/character_model.dart';
-import 'package:GenshinImpactCompanionApp/models/skill_type_model.dart';
+import 'package:GenshinImpactCompanionApp/models/character_skill_type_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/widgets/skill_card_group.dart';
 import 'package:flutter/material.dart';
 
@@ -30,19 +30,19 @@ class CharacterSkillTab extends StatelessWidget {
               SkillCardGroup(
                 skillGroupName: "Active Skills",
                 skillList: character.activeSkills,
-                skillSubtitle: SkillTypeModel.activeSkillType,
+                skillSubtitle: CharacterSkillTypeModel.activeSkillType,
               ),
               const SizedBox(height: 12.0),
               SkillCardGroup(
                 skillGroupName: "Passive Skills",
                 skillList: character.passiveSkills,
-                skillSubtitle: SkillTypeModel.passiveSkillType,
+                skillSubtitle: CharacterSkillTypeModel.passiveSkillType,
               ),
               const SizedBox(height: 12.0),
               SkillCardGroup(
                 skillGroupName: "Constellations",
                 skillList: character.constellationSkills,
-                skillSubtitle: SkillTypeModel.constellationsSkillType,
+                skillSubtitle: CharacterSkillTypeModel.constellationsSkillType,
               ),
             ]),
           ),

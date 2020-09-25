@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-class CharacterCardImage extends StatelessWidget {
-  final String characterCardImage;
+class CardImage extends StatelessWidget {
+  final String itemCardImage;
 
-  const CharacterCardImage({
+  const CardImage({
     Key key,
-    @required this.characterCardImage,
+    @required this.itemCardImage,
   }) : super(key: key);
 
   @override
@@ -16,7 +16,7 @@ class CharacterCardImage extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(4),
         child: CachedNetworkImage(
-          imageUrl: characterCardImage,
+          imageUrl: itemCardImage,
           placeholder: (context, url) =>
               Image.asset('assets/images/Character_Default_Icon.png'),
           errorWidget: (context, url, error) => const Icon(Icons.error),

@@ -1,26 +1,20 @@
-import 'package:GenshinImpactCompanionApp/models/skill_attribute_model.dart';
+import 'package:GenshinImpactCompanionApp/models/character_skill_attribute_model.dart';
 
-class Skill {
+class CharacterSkill {
   String name;
   String desc;
   String icon;
-  List<SkillAttribute> skillAttributes;
+  List<CharacterSkillAttribute> skillAttributes;
 
-  Skill.fromJson(Map<String, dynamic> json) {
+  CharacterSkill.fromJson(Map<String, dynamic> json) {
     name = json['name'] as String;
     icon = json['icon'] as String;
     desc = json['desc'] as String;
 
-    //TODO
-    if (icon == "image") {
-      icon =
-          "https://strattonapps.com/wp-content/uploads/2020/02/flutter-logo-5086DD11C5-seeklogo.com_.png";
-    }
-
     if (json['attributes'] != null) {
-      skillAttributes = <SkillAttribute>[];
+      skillAttributes = <CharacterSkillAttribute>[];
       json['attributes'].forEach((v) {
-        skillAttributes.add(SkillAttribute.fromJson(v));
+        skillAttributes.add(CharacterSkillAttribute.fromJson(v));
       });
     }
   }

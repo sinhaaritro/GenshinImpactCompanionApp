@@ -1,4 +1,4 @@
-import 'package:GenshinImpactCompanionApp/models/skill_model.dart';
+import 'package:GenshinImpactCompanionApp/models/character_skill_model.dart';
 
 class Character {
   String name;
@@ -14,9 +14,9 @@ class Character {
   String constellation;
   String title;
   String shortdesc;
-  List<Skill> activeSkills;
-  List<Skill> passiveSkills;
-  List<Skill> constellationSkills;
+  List<CharacterSkill> activeSkills;
+  List<CharacterSkill> passiveSkills;
+  List<CharacterSkill> constellationSkills;
 
   Character.fromJson(Map<String, dynamic> json) {
     name = json['name'] as String;
@@ -32,36 +32,26 @@ class Character {
     constellation = json['constellation'] as String;
     title = json['title'] as String;
 
-    //TODO
-    if (icon == "image") {
-      icon =
-          "https://strattonapps.com/wp-content/uploads/2020/02/flutter-logo-5086DD11C5-seeklogo.com_.png";
-    }
-    if (characterCard == "image") {
-      characterCard =
-          "https://strattonapps.com/wp-content/uploads/2020/02/flutter-logo-5086DD11C5-seeklogo.com_.png";
-    }
-
     shortdesc = json['overview']['shortdesc'] as String;
 
     if (json['skills']['combat_talent'] != null) {
-      activeSkills = <Skill>[];
+      activeSkills = <CharacterSkill>[];
       json['skills']['combat_talent'].forEach((v) {
-        activeSkills.add(Skill.fromJson(v));
+        activeSkills.add(CharacterSkill.fromJson(v));
       });
     }
 
     if (json['skills']['passive_talent'] != null) {
-      passiveSkills = <Skill>[];
+      passiveSkills = <CharacterSkill>[];
       json['skills']['passive_talent'].forEach((v) {
-        passiveSkills.add(Skill.fromJson(v));
+        passiveSkills.add(CharacterSkill.fromJson(v));
       });
     }
 
     if (json['skills']['constellations'] != null) {
-      constellationSkills = <Skill>[];
+      constellationSkills = <CharacterSkill>[];
       json['skills']['constellations'].forEach((v) {
-        constellationSkills.add(Skill.fromJson(v));
+        constellationSkills.add(CharacterSkill.fromJson(v));
       });
     }
   }

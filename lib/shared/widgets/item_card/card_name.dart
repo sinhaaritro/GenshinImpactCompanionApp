@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CharacterCardName extends StatelessWidget {
-  final String characterName;
+class CardName extends StatelessWidget {
+  final String itemName;
 
-  const CharacterCardName({
+  const CardName({
     Key key,
-    @required this.characterName,
+    @required this.itemName,
   }) : super(key: key);
 
   @override
@@ -13,7 +13,7 @@ class CharacterCardName extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 4.0),
       child: Text(
-        characterName,
+        itemName,
         textAlign: TextAlign.center,
         style: const TextStyle(
           fontSize: 16,

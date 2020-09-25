@@ -1,8 +1,8 @@
-class SkillAttribute {
+class CharacterSkillAttribute {
   String name;
   String value;
 
-  SkillAttribute.fromJson(Map<String, dynamic> json) {
+  CharacterSkillAttribute.fromJson(Map<String, dynamic> json) {
     name = json['name'] as String;
     value = json['value'] as String;
   }

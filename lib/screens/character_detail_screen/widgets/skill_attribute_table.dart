@@ -1,8 +1,8 @@
-import 'package:GenshinImpactCompanionApp/models/skill_attribute_model.dart';
+import 'package:GenshinImpactCompanionApp/models/character_skill_attribute_model.dart';
 import 'package:flutter/material.dart';
 
 class SkillAttributeTable extends StatelessWidget {
-  final List<SkillAttribute> skillAttributes;
+  final List<CharacterSkillAttribute> skillAttributes;
 
   const SkillAttributeTable({
     Key key,

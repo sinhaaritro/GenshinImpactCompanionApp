@@ -1,4 +1,4 @@
-class SkillTypeModel {
+class CharacterSkillTypeModel {
   static String activeSkillType(int n) {
     final List<String> skillSubtitle = [
       'Normal Attack',
