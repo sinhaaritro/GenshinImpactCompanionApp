@@ -13,20 +13,19 @@ class CharacterSkillTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ExpansionTile(
-        title: const Text(
-          "Skills",
-          style: TextStyle(
-            fontSize: 34,
-            fontWeight: FontWeight.w400,
-            letterSpacing: 0.25,
+    return Column(
+      children: [
+        ListTile(
+          title: Text(
+            "Skills",
+            style: Theme.of(context).textTheme.headline5,
           ),
         ),
-        children: [
-          Container(
-            padding: const EdgeInsets.all(12.0),
-            child:
-                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
               SkillCardGroup(
                 skillGroupName: "Active Skills",
                 skillList: character.activeSkills,
@@ -44,8 +43,10 @@ class CharacterSkillTab extends StatelessWidget {
                 skillList: character.constellationSkills,
                 skillSubtitle: CharacterSkillTypeModel.constellationsSkillType,
               ),
-            ]),
+            ],
           ),
-        ]);
+        ),
+      ],
+    );
   }
 }

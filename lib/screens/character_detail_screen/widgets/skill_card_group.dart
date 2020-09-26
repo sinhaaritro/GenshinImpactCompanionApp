@@ -15,60 +15,60 @@ class SkillCardGroup extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(children: [
-      Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 8.0),
-        child: Text(
-          skillGroupName,
-          style: const TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.w400,
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8.0),
+          child: Text(
+            skillGroupName,
+            textAlign: TextAlign.right,
+            style: Theme.of(context).textTheme.headline6,
           ),
         ),
-      ),
-      Column(
-        children: skillList
-            .asMap()
-            .entries
-            .map((skill) => Card(
-                  elevation: 2.0,
-                  child: ExpansionTile(
-                      leading: CachedNetworkImage(
-                        imageUrl: skill.value.icon,
-                        placeholder: (context, url) => Image.asset(
-                            'assets/images/Character_Default_Icon.png'),
-                        errorWidget: (context, url, error) =>
-                            const Icon(Icons.error),
-                        height: 40,
-                        width: 40,
-                      ),
-                      title: Text(
-                        skill.value.name,
-                        style: const TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w500,
-                          letterSpacing: 0.15,
-                        ),
-                      ),
-                      subtitle: Text(
-                        skillSubtitle(skill.key),
-                        style: const TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.w400,
-                          letterSpacing: 0.15,
-                        ),
-                      ),
-                      childrenPadding: const EdgeInsets.all(12.0),
-                      children: [
-                        TextParser(text: skill.value.desc),
-                        const SizedBox(height: 16),
-                        SkillAttributeTable(
-                          skillAttributes: skill.value.skillAttributes,
-                        ),
-                      ]),
-                ))
-            .toList(),
-      )
-    ]);
+        Column(
+          children: skillList
+              .asMap()
+              .entries
+              .map(
+                (skill) => ExpansionTile(
+                  leading: CachedNetworkImage(
+                    imageUrl: skill.value.icon,
+                    placeholder: (context, url) =>
+                        Image.asset('assets/images/Character_Default_Icon.png'),
+                    errorWidget: (context, url, error) =>
+                        const Icon(Icons.error),
+                    height: 40,
+                    width: 40,
+                  ),
+                  title: Text(
+                    skill.value.name,
+                    style: const TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w500,
+                      letterSpacing: 0.15,
+                    ),
+                  ),
+                  subtitle: Text(
+                    skillSubtitle(skill.key),
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w400,
+                      letterSpacing: 0.15,
+                    ),
+                  ),
+                  children: [
+                    TextParser(text: skill.value.desc),
+                    const SizedBox(height: 16),
+                    SkillAttributeTable(
+                      skillAttributes: skill.value.skillAttributes,
+                    ),
+                  ],
+                ),
+              )
+              .toList(),
+        )
+      ],
+    );
   }
 }

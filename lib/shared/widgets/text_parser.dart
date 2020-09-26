@@ -19,10 +19,10 @@ class TextParser extends StatelessWidget {
       parse: <MatchText>[
         MatchText(
           pattern: RegKeywordsTags.headingTags,
-          style: Theme.of(context)
-              .textTheme
-              .headline6
-              .merge(const TextStyle(color: Colors.amber)),
+          style: Theme.of(context).textTheme.headline6.merge(const TextStyle(
+                color: Colors.amber,
+                fontWeight: FontWeight.normal,
+              )),
         ),
         MatchText(
             pattern: RegKeywordsTags.inParagraphTags,

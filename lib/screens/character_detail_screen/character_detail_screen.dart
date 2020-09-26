@@ -18,8 +18,11 @@ class CharacterDetail extends StatelessWidget {
       body: ListView(
         children: [
           CharacterImageAndMainStat(character: character),
+          const SizedBox(height: 8),
           CharacterOverviewTab(character: character),
+          const SizedBox(height: 8),
           CharacterSkillTab(character: character),
+          const SizedBox(height: 8),
           // ExpansionTile(
           //   title: const Text(
           //     "Stats",

@@ -24,7 +24,7 @@
         "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg/revision/latest?cb=20190704220805",
         "constellation": "Viator/Viatrix",
         "element": "Geo",
-        "gender": "Player's Choice",
+        "gender": "Male / Female",
         "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest?cb=20200327223204",
         "name": "Traveler (Geo)",
         "overview": {
@@ -174,7 +174,7 @@
         "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg/revision/latest?cb=20190704220805",
         "constellation": "Viator/Viatrix",
         "element": "Anemo",
-        "gender": "Player's Choice",
+        "gender": "Male / Female",
         "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest?cb=20200327223204",
         "name": "Traveler (Anemo)",
         "overview": {
@@ -2046,378 +2046,103 @@
     "weapons": [
       {
         "ascension": [
-          {
-            "materials": [
-              {
-                "amount": 3,
-                "name": "Grain of Aerosiderite"
-              },
-              {
-                "amount": 3,
-                "name": "Mist Flower Pollen"
-              },
-              {
-                "amount": 2,
-                "name": "Firm Arrowhead"
-              }
+          [
+            "Grain of Aerosiderite",
+            "Mist Flower Pollen",
+            "Firm Arrowhead"
+          ],
+          [
+            "Piece of Aerosiderite",
+            "Mist Flower Pollen",
+            "Firm Arrowhead"
+          ],
+          [
+            "Piece of Aerosiderite",
+            "Mist Grass",
+            "Sharp Arrowhead"
+          ],
+          [
+            "Bit of Aerosiderite",
+            "Mist Grass",
+            "Sharp Arrowhead"
+          ],
+          [
+            "Bit of Aerosiderite",
+            "Mist Grass Lamp",
+            "Historic Arrowhead"
             ],
-            "mora": 10000
-          },
-          {
-            "materials": [
-              {
-                "amount": 4,
-                "name": "Piece of Aerosiderite"
-              },
-              {
-                "amount": 12,
-                "name": "Mist Flower Pollen"
-              },
-              {
-                "amount": 12,
-                "name": "Firm Arrowhead"
-              }
-            ],
-            "mora": 20000
-          },
-          {
-            "materials": [
-              {
-                "amount": 8,
-                "name": "Piece of Aerosiderite"
-              },
-              {
-                "amount": 10,
-                "name": "Mist Grass"
-              },
-              {
-                "amount": 10,
-                "name": "Sharp Arrowhead"
-              }
-            ],
-            "mora": 0
-          },
-          {
-            "materials": [
-              {
-                "amount": 4,
-                "name": "Bit of Aerosiderite"
-              },
-              {
-                "amount": 15,
-                "name": "Mist Grass"
-              },
-              {
-                "amount": 15,
-                "name": "Sharp Arrowhead"
-              }
-            ],
-            "mora": 35000
-          },
-          {
-            "materials": [
-              {
-                "amount": 8,
-                "name": "Bit of Aerosiderite"
-              },
-              {
-                "amount": 12,
-                "name": "Mist Grass Lamp"
-              },
-              {
-                "amount": 12,
-                "name": "Historic Arrowhead"
-              }
-            ],
-            "mora": 0
-          },
-          {
-            "materials": [
-              {
-                "amount": 4,
-                "name": "Chunk of Aerosiderite"
-              },
-              {
-                "amount": 18,
-                "name": "Mist Grass Lamp"
-              },
-              {
-                "amount": 18,
-                "name": "Historic Arrowhead"
-              }
-            ],
-            "mora": 0
-          }
+          [
+            "Chunk of Aerosiderite",
+            "Mist Grass Lamp",
+            "Historic Arrowhead"
+          ]
         ],
         "name": "Iron Sting",
-        "icon": "image",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/35/Weapon_Iron_Sting.png/revision/latest?cb=20200620234336",
         "base_stat": "42",
         "secondary_stat_type": "Elemental Mastery",
         "secondary_stat": "36",
         "description": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
         "passive_name" : "Infusion Stinger",
-        "passive": {
-          "effect": [
+        "passive effect": [
             "Dealing Elemental DMG increases all DMG by 8% for 6s. Max 2 stacks. Can only occur once every 1s.",
             "Dealing Elemental DMG increases all DMG by 10% for 6s. Max 2 stacks. Can only occur once every 1s.",
             "Dealing Elemental DMG increases all DMG by 12% for 6s. Max 2 stacks. Can only occur once every 1s.",
             "Dealing Elemental DMG increases all DMG by 14% for 6s. Max 2 stacks. Can only occur once every 1s.",
             "Dealing Elemental DMG increases all DMG by 16% for 6s. Max 2 stacks. Can only occur once every 1s."
-          ],
-          "name": "Infusion Stinger"
-        },
+        ],
         "rarity": 4,
         "type": "sword"
       },
       {
         "ascension": [
-          {
-            "materials": [
-              {
-                "amount": 3,
-                "name": "Grain of Aerosiderite"
-              },
-              {
-                "amount": 3,
-                "name": "Mist Flower Pollen"
-              },
-              {
-                "amount": 2,
-                "name": "Firm Arrowhead"
-              }
-            ],
-            "mora": 10000
-          },
-          {
-            "materials": [
-              {
-                "amount": 4,
-                "name": "Piece of Aerosiderite"
-              },
-              {
-                "amount": 12,
-                "name": "Mist Flower Pollen"
-              },
-              {
-                "amount": 12,
-                "name": "Firm Arrowhead"
-              }
-            ],
-            "mora": 20000
-          },
-          {
-            "materials": [
-              {
-                "amount": 8,
-                "name": "Piece of Aerosiderite"
-              },
-              {
-                "amount": 10,
-                "name": "Mist Grass"
-              },
-              {
-                "amount": 10,
-                "name": "Sharp Arrowhead"
-              }
-            ],
-            "mora": 0
-          },
-          {
-            "materials": [
-              {
-                "amount": 4,
-                "name": "Bit of Aerosiderite"
-              },
-              {
-                "amount": 15,
-                "name": "Mist Grass"
-              },
-              {
-                "amount": 15,
-                "name": "Sharp Arrowhead"
-              }
-            ],
-            "mora": 35000
-          },
-          {
-            "materials": [
-              {
-                "amount": 8,
-                "name": "Bit of Aerosiderite"
-              },
-              {
-                "amount": 12,
-                "name": "Mist Grass Lamp"
-              },
-              {
-                "amount": 12,
-                "name": "Historic Arrowhead"
-              }
-            ],
-            "mora": 0
-          },
-          {
-            "materials": [
-              {
-                "amount": 4,
-                "name": "Chunk of Aerosiderite"
-              },
-              {
-                "amount": 18,
-                "name": "Mist Grass Lamp"
-              },
-              {
-                "amount": 18,
-                "name": "Historic Arrowhead"
-              }
-            ],
-            "mora": 0
-          }
-        ],
-        "name": "Iron Sting",
-        "icon": "image",
-        "base_stat": "42",
-        "secondary_stat_type": "Elemental Mastery",
-        "secondary_stat": "36",
-        "description": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
-        "passive_name" : "Infusion Stinger",
-        "passive": {
-          "effect": [
-            "Dealing Elemental DMG increases all DMG by 8% for 6s. Max 2 stacks. Can only occur once every 1s.",
-            "Dealing Elemental DMG increases all DMG by 10% for 6s. Max 2 stacks. Can only occur once every 1s.",
-            "Dealing Elemental DMG increases all DMG by 12% for 6s. Max 2 stacks. Can only occur once every 1s.",
-            "Dealing Elemental DMG increases all DMG by 14% for 6s. Max 2 stacks. Can only occur once every 1s.",
-            "Dealing Elemental DMG increases all DMG by 16% for 6s. Max 2 stacks. Can only occur once every 1s."
+          [
+            "Grain of Aerosiderite",
+            "Hunter's Sacrificial Knife",
+            "Divining Scroll"
           ],
-          "name": "Infusion Stinger"
-        },
-        "rarity": 4,
+          [
+            "Piece of Aerosiderite",
+            "Hunter's Sacrificial Knife",
+            "Divining Scroll"
+          ],
+          [
+            "Piece of Aerosiderite",
+            "Agent's Sacrificial Knife",
+            "Seal Scroll"
+          ],
+          [
+            "Bit of Aerosiderite",
+            "Agent's Sacrificial Knife",
+            "Seal Scroll"
+          ],
+          [
+            "Bit of Aerosiderite",
+            "Inspector's Sacrificial Knife",
+            "Forbidden Curse Scroll"
+            ],
+          [
+            "Chunk of Aerosiderite",
+            "Inspector's Sacrificial Knife",
+            "Forbidden Curse Scroll"
+          ]
+        ],
+        "name": "Skyrider Sword",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/34/Weapon_Skyrider_Sword.png/revision/latest?cb=20200706102839",
+        "base_stat": "38",
+        "secondary_stat_type": "Energy Recharge",
+        "secondary_stat": "11.3%",
+        "description": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+        "passive_name" : "Determination",
+        "passive effect": [
+            "Using an Elemental Burst grants a 12% increase in Base ATK and Movement SPD for 12s.",
+            "Using an Elemental Burst grants a 15% increase in Base ATK and Movement SPD for 12s.",
+            "Using an Elemental Burst grants a 18% increase in Base ATK and Movement SPD for 12s.",
+            "Using an Elemental Burst grants a 21% increase in Base ATK and Movement SPD for 12s.",
+            "Using an Elemental Burst grants a 24% increase in Base ATK and Movement SPD for 12s."
+        ],
+        "rarity": 3,
         "type": "sword"
-      },
-      {
-        "ascension": [
-          {
-            "materials": [
-              {
-                "amount": 3,
-                "name": ""
-              },
-              {
-                "amount": 3,
-                "name": ""
-              },
-              {
-                "amount": 2,
-                "name": ""
-              }
-            ],
-            "mora": 10000
-          },
-          {
-            "materials": [
-              {
-                "amount": 4,
-                "name": ""
-              },
-              {
-                "amount": 12,
-                "name": ""
-              },
-              {
-                "amount": 12,
-                "name": ""
-              }
-            ],
-            "mora": 20000
-          },
-          {
-            "materials": [
-              {
-                "amount": 8,
-                "name": ""
-              },
-              {
-                "amount": 10,
-                "name": ""
-              },
-              {
-                "amount": 10,
-                "name": ""
-              }
-            ],
-            "mora": 0
-          },
-          {
-            "materials": [
-              {
-                "amount": 4,
-                "name": ""
-              },
-              {
-                "amount": 15,
-                "name": ""
-              },
-              {
-                "amount": 15,
-                "name": ""
-              }
-            ],
-            "mora": 35000
-          },
-          {
-            "materials": [
-              {
-                "amount": 8,
-                "name": ""
-              },
-              {
-                "amount": 12,
-                "name": ""
-              },
-              {
-                "amount": 12,
-                "name": ""
-              }
-            ],
-            "mora": 0
-          },
-          {
-            "materials": [
-              {
-                "amount": 4,
-                "name": ""
-              },
-              {
-                "amount": 18,
-                "name": ""
-              },
-              {
-                "amount": 18,
-                "name": ""
-              }
-            ],
-            "mora": 0
-          }
-        ],
-        "name": "",
-        "icon": "",
-        "base_stat": "",
-        "secondary_stat_type": "",
-        "secondary_stat": "",
-        "description": "",
-        "passive_name" : "",
-        "passive": {
-          "effect": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "name": ""
-        },
-        "rarity": 0,
-        "type": ""
       }
     ]
   }
