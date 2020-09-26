@@ -73,6 +73,10 @@ class TextParser extends StatelessWidget {
             color: ElementTypeModel.elementTypeColor('Pyro'),
           ),
         ),
+        MatchText(
+          pattern: RegKeywordsTags.passiveName,
+          style: Theme.of(context).textTheme.headline6,
+        ),
       ],
     );
   }

@@ -1,13 +1,13 @@
-import 'package:GenshinImpactCompanionApp/models/character_model.dart';
-import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/widgets/character_image_and_main_stat.dart';
-import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/widgets/character_skill_section.dart';
+import 'package:GenshinImpactCompanionApp/models/weapon_list_model.dart';
+import 'package:GenshinImpactCompanionApp/screens/weapon_detail_screen/widgets/weapon_image_and_main_stat.dart';
+import 'package:GenshinImpactCompanionApp/screens/weapon_detail_screen/widgets/weapon_stats_section.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/about_the_item_section.dart';
 import 'package:flutter/material.dart';
 
-class CharacterDetail extends StatelessWidget {
-  final Character character;
+class WeaponDetail extends StatelessWidget {
+  final Weapon weapon;
 
-  const CharacterDetail({this.character});
+  const WeaponDetail({this.weapon});
 
   @override
   Widget build(BuildContext context) {
@@ -17,14 +17,14 @@ class CharacterDetail extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          CharacterImageAndMainStat(character: character),
+          WeaponImageAndMainStat(weapon: weapon),
           const SizedBox(height: 8),
           AboutTheItemSection(
-            itemType: "character",
-            itemDesc: character.shortdesc,
+            itemType: "weapon",
+            itemDesc: weapon.desc,
           ),
           const SizedBox(height: 8),
-          CharacterSkillSection(character: character),
+          WeaponStatsSection(weapon: weapon),
           const SizedBox(height: 8),
           // ExpansionTile(
           //   title: const Text(
@@ -38,7 +38,7 @@ class CharacterDetail extends StatelessWidget {
           //   children: [
           //     // ignore: avoid_unnecessary_containers
           //     Container(
-          //       child: Text(character.gender),
+          //       child: Text(weapon.gender),
           //     ),
           //   ],
           // ),

@@ -3,8 +3,8 @@ import 'package:GenshinImpactCompanionApp/models/character_skill_type_model.dart
 import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/widgets/skill_card_group.dart';
 import 'package:flutter/material.dart';
 
-class CharacterSkillTab extends StatelessWidget {
-  const CharacterSkillTab({
+class CharacterSkillSection extends StatelessWidget {
+  const CharacterSkillSection({
     Key key,
     @required this.character,
   }) : super(key: key);

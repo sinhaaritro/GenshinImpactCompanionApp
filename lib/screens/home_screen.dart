@@ -26,11 +26,13 @@ class _HomeScreenState extends State<HomeScreen> {
     LoadingScreen()
   ];
 
+  final List<String> topAppBarTitle = ["Characters", "Weapons", "", "", ""];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Characters'),
+        title: Text(topAppBarTitle[currentIndex]),
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentIndex,

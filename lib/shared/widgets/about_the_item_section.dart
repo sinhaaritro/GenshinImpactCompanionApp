@@ -1,13 +1,14 @@
-import 'package:GenshinImpactCompanionApp/models/character_model.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/text_parser.dart';
 import 'package:flutter/material.dart';
 
-class CharacterOverviewTab extends StatelessWidget {
-  final Character character;
+class AboutTheItemSection extends StatelessWidget {
+  final String itemDesc;
+  final String itemType;
 
-  const CharacterOverviewTab({
+  const AboutTheItemSection({
     Key key,
-    @required this.character,
+    this.itemDesc,
+    this.itemType,
   }) : super(key: key);
 
   @override
@@ -16,14 +17,14 @@ class CharacterOverviewTab extends StatelessWidget {
       children: [
         ListTile(
           title: Text(
-            "About the character",
+            "About the $itemType",
             style: Theme.of(context).textTheme.headline5,
           ),
         ),
         const SizedBox(height: 8.0),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          child: TextParser(text: character.shortdesc),
+          child: TextParser(text: itemDesc),
         ),
       ],
     );
