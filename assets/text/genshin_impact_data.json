@@ -22,7 +22,7 @@
           }
         ],
         "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg/revision/latest?cb=20190704220805",
-        "constellation": "Unknown",
+        "constellation": "Viator/Viatrix",
         "element": "Geo",
         "gender": "Player's Choice",
         "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest?cb=20200327223204",
@@ -157,7 +157,7 @@
             }
           ]
         },
-        "title": "None",
+        "title": "Outlander",
         "weapon": "Sword"
       },
       {
@@ -172,7 +172,7 @@
           }
         ],
         "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg/revision/latest?cb=20190704220805",
-        "constellation": "Unknown",
+        "constellation": "Viator/Viatrix",
         "element": "Anemo",
         "gender": "Player's Choice",
         "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest?cb=20200327223204",
@@ -323,7 +323,7 @@
             }
           ]
         },
-        "title": "None",
+        "title": "Outlander",
         "weapon": "Sword"
       },
       {
