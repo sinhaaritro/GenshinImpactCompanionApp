@@ -77,6 +77,10 @@ class TextParser extends StatelessWidget {
           pattern: RegKeywordsTags.passiveName,
           style: Theme.of(context).textTheme.headline6,
         ),
+        MatchText(
+          pattern: RegKeywordsTags.artifactBonus,
+          style: Theme.of(context).textTheme.bodyText1,
+        ),
       ],
     );
   }

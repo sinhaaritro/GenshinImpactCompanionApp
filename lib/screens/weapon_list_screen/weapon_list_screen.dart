@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:GenshinImpactCompanionApp/models/weapon_list_model.dart';
+import 'package:GenshinImpactCompanionApp/models/weapon_stat_scalling_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/weapon_detail_screen/weapon_detail_screen.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/item_card/item_card.dart';
 import 'package:flutter/material.dart';
@@ -25,6 +26,9 @@ class _WeaponListScreenState extends State<WeaponListScreen> {
     final decodedJson = jsonDecode(jsonString);
 
     _weaponList = WeaponList.fromJson(decodedJson);
+    WeaponStatScalling.fromJsonBaseAttackScalling(decodedJson);
+    WeaponStatScalling.fromJsonSecondaryElementalAttackScalling(decodedJson);
+    WeaponStatScalling.fromJsonSecondaryPercentageAttackScalling(decodedJson);
     // print(decodedJson);
     // print('object');
     // print(_weaponList.toJson());

@@ -1,3 +1,4 @@
+import 'package:GenshinImpactCompanionApp/screens/artifact_set_list_screen/artifact_set_list_screen.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_list_screen/character_list_screen.dart';
 import 'package:GenshinImpactCompanionApp/screens/loading.dart';
 import 'package:GenshinImpactCompanionApp/screens/weapon_list_screen/weapon_list_screen.dart';
@@ -21,12 +22,18 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> bottomNavScreens = [
     CharacterListScreen(),
     WeaponListScreen(),
-    LoadingScreen(),
-    LoadingScreen(),
+    AritfactSetListScreen(),
+    // LoadingScreen(),
     LoadingScreen()
   ];
 
-  final List<String> topAppBarTitle = ["Characters", "Weapons", "", "", ""];
+  final List<String> topAppBarTitle = [
+    "Characters",
+    "Weapons",
+    "Artifacts",
+    "",
+    "More"
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -51,10 +58,10 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: Icon(Icons.school),
             title: Text('Artifacts'),
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.school),
-            title: Text('Items'),
-          ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(Icons.school),
+          //   title: Text('Items'),
+          // ),
           BottomNavigationBarItem(
             icon: Icon(Icons.more_horiz),
             title: Text('More'),

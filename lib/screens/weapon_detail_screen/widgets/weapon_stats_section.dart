@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:GenshinImpactCompanionApp/models/weapon_list_model.dart';
+import 'package:GenshinImpactCompanionApp/models/weapon_stat_scalling_model.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/text_parser.dart';
 import 'package:flutter/material.dart';
 
@@ -16,8 +17,16 @@ class WeaponStatsSection extends StatefulWidget {
 class _WeaponStatsSectionState extends State<WeaponStatsSection> {
   double _passiveLevelValue = 1;
   double _weaponLevelValue = 1;
-  bool _isAsscended = true;
-
+  static const List<String> weaponLevels = [
+    "1",
+    "20",
+    "40",
+    "50",
+    "60",
+    "70",
+    "80",
+    "90"
+  ];
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -33,45 +42,35 @@ class _WeaponStatsSectionState extends State<WeaponStatsSection> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                children: [
-                  const StatsTitle(text: "Weapon Level"),
-                  Slider(
-                    value: _weaponLevelValue,
-                    min: 1,
-                    max: 9,
-                    divisions: 8,
-                    label: (_weaponLevelValue * 10).round().toString(),
-                    onChanged: (value) {
-                      setState(() {
-                        _weaponLevelValue = value;
-                      });
-                    },
-                  ),
-                ],
+              Text(
+                "Active Stats",
+                style: Theme.of(context).textTheme.headline5,
               ),
               const SizedBox(height: 24.0),
               Row(
                 children: const <Widget>[
                   StatsTitle(text: "Base Attack"),
-                  StatsTitle(text: "Ascension Done"),
+                  StatsTitle(text: "Weapon Level"),
                 ],
               ),
               Row(
                 children: [
-                  StatsValue(text: widget.weapon.baseStat),
+                  StatsValue(
+                      text: WeaponStatScalling.weaponBaseAttackScalling(
+                          widget.weapon.baseStat,
+                          _weaponLevelValue.toInt() - 1)),
                   Expanded(
-                    child: Column(
-                      children: [
-                        Switch(
-                          value: _isAsscended,
-                          onChanged: (newValue) {
-                            setState(() {
-                              _isAsscended = newValue;
-                            });
-                          },
-                        ),
-                      ],
+                    child: Slider(
+                      value: _weaponLevelValue,
+                      min: 1,
+                      max: 8,
+                      divisions: 7,
+                      label: weaponLevels[_weaponLevelValue.toInt() - 1],
+                      onChanged: (value) {
+                        setState(() {
+                          _weaponLevelValue = value;
+                        });
+                      },
                     ),
                   )
                 ],
@@ -87,8 +86,22 @@ class _WeaponStatsSectionState extends State<WeaponStatsSection> {
               Row(
                 children: [
                   StatsValue(text: widget.weapon.secondaryStatType),
-                  StatsValue(text: widget.weapon.secondaryStat),
+                  StatsValue(
+                      text: widget.weapon.secondaryStatType ==
+                              "Elemental Mastery"
+                          ? WeaponStatScalling.weaponSecondaryElementalScalling(
+                              widget.weapon.secondaryStat,
+                              _weaponLevelValue.toInt() - 1)
+                          : WeaponStatScalling
+                              .weaponSecondaryPercentageScalling(
+                                  widget.weapon.secondaryStat,
+                                  _weaponLevelValue.toInt() - 1)),
                 ],
+              ),
+              const SizedBox(height: 24.0),
+              Text(
+                "Passive Stats",
+                style: Theme.of(context).textTheme.headline5,
               ),
               const SizedBox(height: 24.0),
               Row(
@@ -117,14 +130,21 @@ class _WeaponStatsSectionState extends State<WeaponStatsSection> {
                 ],
               ),
               const SizedBox(height: 12.0),
-              TextParser(
-                  text:
-                      "Effect:\n ${widget.weapon.passiveEffect[(_passiveLevelValue.toInt() - 1)]}"),
-              Visibility(
-                visible: _passiveLevelValue.toInt() - 1 != 4,
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
                 child: TextParser(
                     text:
-                        "Mora Cost: ${500 * pow(2, _passiveLevelValue.toInt() - 1)}"),
+                        "Effect: \n${widget.weapon.passiveEffect[(_passiveLevelValue.toInt() - 1)]}"),
+              ),
+              const SizedBox(height: 12.0),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                child: Visibility(
+                  visible: _passiveLevelValue.toInt() - 1 != 4,
+                  child: TextParser(
+                      text:
+                          "Mora Cost: ${500 * pow(2, _passiveLevelValue.toInt() - 1)}"),
+                ),
               ),
             ],
           ),

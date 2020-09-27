@@ -1,12 +1,380 @@
 {
   "genshin_impact": {
-    "artifacts": [
+    "artifacts_sets_4_piece": [
       {
-        "2piece": "Increases Elemental Mastery by 80.",
-        "4piece": "After using Elemental Skill, increases all party members' Elemental Mastery by 120 for 8s.",
-        "icon": "image",
-        "name": "Instructor",
-        "psudo_group": 2
+        "2bonus": "Max HP increased by 1,000.",
+        "4bonus": "Opening chest regenerates 30% Max HP over 5s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Adventurer"
+      },
+      {
+        "2bonus": "Gain a 15% Geo DMG Bonus",
+        "4bonus": "Upon obtaining a crystal created through a Geo Elemental Reaction, all party members gain 35% RES to that particular element for 10s. Only one form of Elemental RES can be gained in this manner at any one time.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Archaic Petra"
+      },
+      {
+        "2bonus": "CRIT Rate +12%",
+        "4bonus": "When HP is below 70%, CRIT Rate increases by an additional 24%.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Berserker"
+      },
+      {
+        "2bonus": "Physical DMG +25%",
+        "4bonus": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Bloodstained Chivalry"
+      },
+      {
+        "2bonus": "ATK +18%",
+        "4bonus": "Increases DMG by 30% against enemies with more than 50% HP.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Brave Heart"
+      },
+      {
+        "2bonus": "Pyro DMG Bonus +15%",
+        "4bonus": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases 2-Piece Set effects by 50% for 10s. Max 3 stacks.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Crimson Witch of Flames"
+      },
+      {
+        "2bonus": "Base DEF +30%",
+        "4bonus": "Increases Elemental RES by 30% for each element present in the party.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Defenders's Will"
+      },
+      {
+        "2bonus": "Elemental Skill DMG increased by 20%",
+        "4bonus": "Defeating an enemy has 100% chance to remove Elemental Skill CD. Can only occur once every 15s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Gambler"
+      },
+      {
+        "2bonus": "ATK +18%",
+        "4bonus": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Gladiator's Finale"
+      },
+      {
+        "2bonus": "Increases Elemental Mastery by 80.",
+        "4bonus": "After using Elemental Skill, increases all party members' Elemental Mastery by 120 for 8s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Instructor"
+      },
+      {
+        "2bonus": "Pyro RES increased by 40%",
+        "4bonus": "Increases DMG against enemies that are Burning or affected by Pyro by 35%.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Lavawalker"
+      },
+      {
+        "2bonus": "DEF increased by 100.",
+        "4bonus": "Picking up Mora restores 300 HP.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Lucky Dog"
+      },
+      {
+        "2bonus": "Character Healing Effectiveness +15%",
+        "4bonus": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Mainden Beloved"
+      },
+      {
+        "2bonus": "Increases Normal Attack and Charged Attack DMG by 15%.",
+        "4bonus": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Martial Artist"
+      },
+      {
+        "2bonus": "Elemental Burst DMG +20%",
+        "4bonus": "Using an Elemental Burst increase all party memebers' ATK by 20% for 12s. This effect cannot stack.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Noblesse Oblige"
+      },
+      {
+        "2bonus": "ATK +18%",
+        "4bonus": "Increases Charged Attack CRIT Rate by 30%.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Resolution of Sojourner"
+      },
+      {
+        "2bonus": "Increases the effectiveness of shields by 35%",
+        "4bonus": "Gain an additional 40% Normal and Charged Attack DMG while under the protection of a shield.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Retracing Bolide"
+      },
+      {
+        "2bonus": "Energy Recharge +20%",
+        "4bonus": "Gaining Energy gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occurs once every 3s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Scholar"
+      },
+      {
+        "2bonus": "Energy Recharge +20%",
+        "4bonus": "Using an Elemental Burst regenerates 2 Energy for other party members every 2s for 6s. This effect cannot stack.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "The Exile"
+      },
+      {
+        "2bonus": "Electro DMG Bonus +15%",
+        "4bonus": "Increases damage caused by Overloaded, Electro-Charged, and Superconduct DMG by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Thundering Fury"
+      },
+      {
+        "2bonus": "Electro RES increased by 40%",
+        "4bonus": "Increases DMG against enemies affected by Electro by 35%.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Thundersoother"
+      },
+      {
+        "2bonus": "All Elemental RES increased by 20%",
+        "4bonus": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Tiny Miracle"
+      },
+      {
+        "2bonus": "Increases incoming healing by 20%.",
+        "4bonus": "Using Elemental Burst restores 20% HP.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Traveling Doctor"
+      },
+      {
+        "2bonus": "Anemo DMG Bonus +15%",
+        "4bonus": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Virdescent Venerer"
+      },
+      {
+        "2bonus": "Elemental Mastery +80",
+        "4bonus": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow.",
+        "flower_name":"NA",
+        "flower_icon":"image",
+        "feather_name":"NA",
+        "feather_icon":"image",
+        "time_name":"NA",
+        "time_icon":"image",
+        "goblet_name":"NA",
+        "goblet_icon":"image",
+        "tiara_name":"NA",
+        "tiara_icon":"image",
+        "set_name": "Wanderer's Troupe"
       }
     ],
     "characters": [
@@ -1937,8 +2305,8 @@
         "weapon": "Sword"
       },
       {
-        "affiliation": "",
-        "birthday": "",
+        "affiliation": "Knights of Favonius",
+        "birthday": "July 27th",
         "builds": [
           {
             "artifact_sets": [
@@ -1947,17 +2315,729 @@
             "weapon": ""
           }
         ],
-        "character_card": "image",
-        "constellation": "",
-        "element": "",
-        "gender": "",
-        "icon": "image",
-        "name": "",
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/78/Character_Klee_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200401053702",
+        "constellation": "Trifolium",
+        "element": "Pyro",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Klee_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200401053906",
+        "name": "Klee",
         "overview": {
-          "shortdesc": ""
+          "shortdesc": "Knights of Favonius Spark Knight! Forever with a bang and a flash! —And then disappearing from the stern gaze of Acting Grand Master Jean. Sure, time in solitary confinement gives lots of time to think about new gunpowder formulas...But it'd still be better to not be in solitary in the first place."
         },
         "rarity": 5,
-        "region": "",
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nThrows thing that go boom when they hit things! Perform up to 3 explosive attacks, dealing AoE Pyro DMG.\n\nCharged Attack:\nConsumes a certain amount of Stamina and deals AoE Pyro DMG to enemies after a short casting time.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Kaboom%21.png/revision/latest?cb=20200905020927",
+              "name": "Kaboom!",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "61%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "56%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "81%"
+                },
+                {
+                  "name": "Charged Attack DMG",
+                  "value": "152%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "50"
+                }
+              ]
+            },
+            {
+              "desc": "Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.\nJumpy Dumpty is tons of boom-band-fun!\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and ealing AoE pyro DMG with every bounce.\nOn the third bounce, the bomb splits into many mines. The mines will explode upon contact with enemies, or after a short period of time, dealing AoE Pyro DMG.\nStarts with 2 charges.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/33/Talent_Jumpy_Dumpty.png/revision/latest?cb=20200905020926",
+              "name": "Jumpy Dumpty",
+              "attributes": [
+                {
+                  "name": "Jumpy Dumpty DMG",
+                  "value": "NA"
+                },
+                {
+                  "name": "Mine DMG",
+                  "value": "NA"
+                },
+                {
+                  "name": "Mine Duration",
+                  "value": "NA"
+                },
+                {
+                  "name": "CD",
+                  "value": "NA"
+                }
+              ]
+            },
+            {
+              "desc": "The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...\nKlee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby enemies, dealing AoE Pyro DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/64/Talent_Sparks_%27n%27_Splash.png/revision/latest?cb=20200905020928",
+              "name": "Sparks 'n' Splash",
+              "attributes": [
+                {
+                  "name": "Sparks 'n' Splash DMG",
+                  "value": "24%"
+                },
+                {
+                  "name": "CD",
+                  "value": "25s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Attacks and Skills have a certain chance to summon sparks that bombard enemies, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.",
+              "icon": "image",
+              "name": "Chained Reactions"
+            },
+            {
+              "desc": "Being hit by Jumpy Dumpty's mines decrease enemy DEF by 15% for 10s.",
+              "icon": "image",
+              "name": "Explosive Frags"
+            },
+            {
+              "desc": "Increases the level of Jumpy Dumpty by 3. Maximum level is 15.",
+              "icon": "image",
+              "name": "Exquisite Compound"
+            },
+            {
+              "desc": "If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 233% of her ATK as AoE Pyro DMG.",
+              "icon": "image",
+              "name": "Bunny Triggered"
+            },
+            {
+              "desc": "Increases the level of Sparks 'n' Splash by 3. Maximum level is 15.",
+              "icon": "image",
+              "name": "Nova Burst"
+            },
+            {
+              "desc": "While under the effects of Sparks 'n' Splash, other members of the party will continuously regenerate Energy. When Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s.",
+              "icon": "image",
+              "name": "Blazing Delight"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark. This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/97/Talent_Pounding_Surprise.png/revision/latest?cb=20200905020927",
+              "name": "Pounding Surprise"
+            },
+            {
+              "desc": "When a Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/90/Talent_Sparkling_Burst.png/revision/latest?cb=20200905020928",
+              "name": "Sparkling Burst"
+            }
+          ]
+        },
+        "title": "Fleeing Sunlight",
+        "weapon": "Catalyst"
+      },
+      {
+        "affiliation": "Knights of Favonius",
+        "birthday": "June 9th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Lisa_Card.jpg/revision/latest/scale-to-width-down/281?cb=20191211171844",
+        "constellation": "Tempus Fugit",
+        "element": "Electro",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200327221057",
+        "name": "Lisa",
+        "overview": {
+          "shortdesc": "She is an intellectual witch who can never get enough naps. As the Librarian of the Knights of Favonius, Lisa is smart in that she always knows exactly what to do with whatever troubles her. As much as she loves her sleep, she still manages to keep everything under control in a calm, composed manner."
+        },
+        "rarity": 4,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerforms up to 4 Electro attacks, dealing Electro DMG.\nCharged Attack:\nConsumes a certain amount of Stamina to deal Electro DMG to all enemies in front after a short casting time.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/44/Talent_Lightning_Touch.png/revision/latest?cb=20200603084826",
+              "name": "Lightning Touch",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "177%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "36%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "43%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "55%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "50"
+                }
+              ]
+            },
+            {
+              "desc": "Channels the power of lighting to sweep bothersome matters away.\nElectro Purple is the raiment of the Rose Witch.\nPress:\nReleases a homing lightning orb. On hit, it deals Electro DMG, and applies a stack of the Conductive status (Max 3 stacks) to enemies in a small AoE.\nHold:\nAfter an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby enemies.\nDeals great amounts of extra damage to enemies based on the number of Conductive stacks applied to them and clears their Conductive stacks.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/c8/Talent_Violet_Arc.png/revision/latest?cb=20200603084836",
+              "name": "Violet Arc",
+              "attributes": [
+                {
+                  "name": "Press DMG",
+                  "value": "80%"
+                },
+                {
+                  "name": "Press CD",
+                  "value": "1s"
+                },
+                {
+                  "name": "Non-Conductive Hold DMG",
+                  "value": "320%"
+                },
+                {
+                  "name": "Stack 1 Conductive Hold DMG",
+                  "value": "368%"
+                },
+                {
+                  "name": "Stack 2 Conductive Hold DMG",
+                  "value": "424%"
+                },
+                {
+                  "name": "Stack 3 Conductive Hold DMG",
+                  "value": "488%"
+                },
+                {
+                  "name": "Hold CD",
+                  "value": "16s"
+                }
+              ]
+            },
+            {
+              "desc": "This rose's beauty is incomprehensible, as are its shocking thorns.\nSummons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding enemies and dealing Electro DMG.\nThe Lightning Rose will continuously emit lightning to knock back enemies and deal Electro DMG for so long as it persists.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/fd/Talent_Lightning_Rose.png/revision/latest?cb=20200603084847",
+              "name": "Lightning Rose",
+              "attributes": [
+                {
+                  "name": "Discharge DMG",
+                  "value": "37%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "15s"
+                },
+                {
+                  "name": "CD",
+                  "value": "20s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "80"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Lisa recovers 2 Energy for every opponent hit while holding Violet Arc.",
+              "icon": "image",
+              "name": "Infinite Circuit"
+            },
+            {
+              "desc": "Holding Violet Arc has the following effects: Increases DEF by 25%. Increases Lisa's resistance to interruption.",
+              "icon": "image",
+              "name": "Electromagnetic Field"
+            },
+            {
+              "desc": "Increases the level of Lightning Rose by 3. Maximum level upgrade is 15.",
+              "icon": "image",
+              "name": "Resonant Thunder"
+            },
+            {
+              "desc": "Increases the number of lightning bolts released by Lightning Rose by 1-3.",
+              "icon": "image",
+              "name": "Plasma Eruption"
+            },
+            {
+              "desc": "Increases the level of Violet Arc by 3. Maximum level upgrade is 15.",
+              "icon": "image",
+              "name": "Electrocute"
+            },
+            {
+              "desc": "When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive stat onto nearby enemies.\nThis effect can only occur once very 5s.",
+              "icon": "image",
+              "name": "Pulsating Witch"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Hits by Charged Attacks apply Violet Arc's Conductive status to enemies.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/48/Talent_Induced_Aftershock.png/revision/latest?cb=20200603084907",
+              "name": "Induced Aftershock"
+            },
+            {
+              "desc": "Enemies hit by Lightning Rose have their DEF decreased by 15% for 10s.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Static_Electricity_Field.png/revision/latest?cb=20200716225042",
+              "name": "Static Electricity Field"
+            },
+            {
+              "desc": "When Lisa crafts a potion, she has a 20% chance to receive a 200% yield.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/97/Talent_Potion_Insight.png/revision/latest?cb=20200603084916",
+              "name": "Potion Insight"
+            }
+          ]
+        },
+        "title": "The Librarian",
+        "weapon": "Catalyst"
+      },
+      {
+        "affiliation": "",
+        "birthday": "August 31st",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200912121033",
+        "constellation": "Astrolabos",
+        "element": "Hydro",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Mona_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200828161153",
+        "name": "Mona",
+        "overview": {
+          "shortdesc": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.\nThough she is often strapped for cash and lives a life of thrift, she is resolved to never use astrology for profit... It is this very resolution that has caused her to constantly fret about money."
+        },
+        "rarity": 5,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "",
+              "icon": "image",
+              "name": "",
+              "attributes": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": "",
+              "attributes": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": "",
+              "attributes": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            }
+          ]
+        },
+        "title": "Astral Reflection",
+        "weapon": "Catalyst"
+      },
+      {
+        "affiliation": "Liyue Qixing",
+        "birthday": "August 26th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200401040354",
+        "constellation": "Opus Aequilibrium",
+        "element": "Geo",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200327221345",
+        "name": "Ningguang",
+        "overview": {
+          "shortdesc": "Owner of the Jade Chamber in the skies above Liyue, there are stories abound about Ningguang, with her elegance and mysterious smile. As a Tianquan of the Liyue Qixing, not only does she embody law and order, she also represents fortune and wit."
+        },
+        "rarity": 5,
+        "region": "Liyue",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nShoots gems that deal Geo DMG. Upon hit, this grants Ningguang 1 Star Jade.\nCharged Attack:\nConsumes a certain amount of stamina to fire off a giant gem that deals Geo DMG. If Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Sparkling_Scatter.png/revision/latest?cb=20200718001202",
+              "name": "Sparkling Scatter",
+              "attributes": [
+                {
+                  "name": "Normal Attack DMG",
+                  "value": "28%"
+                },
+                {
+                  "name": "Charged Attack DMG",
+                  "value": "173%"
+                },
+                {
+                  "name": "DMG per Star Jade",
+                  "value": "42%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "50"
+                }
+              ]
+            },
+            {
+              "desc": "\"The canvas of stars is written upon this jade screen.\"\nNingguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing Aoe Geo DMG.\nJade Screen\nBlocks enemy projectiles.\nEndurance scales based on Ningguang's Max HP.\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at a time.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/e/e8/Talent_Jade_Screen.png/revision/latest?cb=20200718001159",
+              "name": "Jade Screen",
+              "attributes": [
+                {
+                  "name": "Inherited HP",
+                  "value": "51%"
+                },
+                {
+                  "name": "Skill DMG",
+                  "value": "230%"
+                },
+                {
+                  "name": "CD",
+                  "value": "12s"
+                }
+              ]
+            },
+            {
+              "desc": "\"Stars shatter. Silence falls.\"\nGathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her enemies that deal massive Geo DMG.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/47/Talent_Starshatter.png/revision/latest?cb=20200718001203",
+              "name": "Starshatter",
+              "attributes": [
+                {
+                  "name": "DMG Per Gem",
+                  "value": "87%"
+                },
+                {
+                  "name": "CD",
+                  "value": "12s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "40"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "When a Normal Attack hits, it deals AoE DMG.",
+              "icon": "image",
+              "name": "Piercing Fragments"
+            },
+            {
+              "desc": "When Jade Screen is shattered, its CD will reset.",
+              "icon": "image",
+              "name": "Shock Effect"
+            },
+            {
+              "desc": "Increases Starshatter's skill level by 3. Max level is 15.",
+              "icon": "image",
+              "name": "Majesty be the Array of Stars"
+            },
+            {
+              "desc": "Allies within a 10m radius of the Jade Screen take 10% less Elemental DMG.",
+              "icon": "image",
+              "name": "Exquisite be the Jade, Outshining All the Beneath"
+            },
+            {
+              "desc": "Increases Jade Screen's skill level by 3. Max level is 15.",
+              "icon": "image",
+              "name": "Invincible be the Jade Screen"
+            },
+            {
+              "desc": "When Starshatter is used, Ningguang gains 7 Star Jades.",
+              "icon": "image",
+              "name": "Grandeur be the Seven Stars"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/2d/Talent_Backup_Plan.png/revision/latest?cb=20200905032040",
+              "name": "Backup Plan"
+            },
+            {
+              "desc": "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/62/Talent_Strategic_Reserve.png/revision/latest?cb=20200718001204",
+              "name": "Strategic Reserve"
+            },
+            {
+              "desc": "When Ningguang crafts Character and Weapon Materials, she has a 20% chance to recover the materials used.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/cb/Talent_Meticulous_Calculation.png/revision/latest?cb=20200718001200",
+              "name": "Meticulous Calculation"
+            }
+          ]
+        },
+        "title": "Lady of the Jade Chamber",
+        "weapon": "Catalyst"
+      },
+      {
+        "affiliation": "Knights of Favonius",
+        "birthday": "March 21st",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/92/Character_Noelle_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200403111008",
+        "constellation": "Parma Cordis",
+        "element": "Geo",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200403105317",
+        "name": "Noelle",
+        "overview": {
+          "shortdesc": "Like most of Mondstadt's young people, Noelle always dreamed of being a knight of Favonius when she grew up. She may not have what it takes to be a knight just yet, but she is learning. Working as a maid at the Knights' headquarters, she is constantly taking notes on what constitutes knightly speech, knightly conduct, and knightly customs. She holds firm to her belief that one day she will join their ranks - she just needs to keep trying her hardest at everything she does."
+        },
+        "rarity": 4,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerforms up to 4 consecutive slashes\n\nCharged Attack:\nDrains Stamina over time to perform continuous swirling attack on all nearby enemies. At the end of the sequence, performs an additional powerful slash.",
+              "icon": "image",
+              "name": "Favonius Bladework - Maid",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "79.1%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "73.4%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "86.3%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "113%"
+                },
+                {
+                  "name": "Charged Attack Spinning DMG",
+                  "value": "50.7%"
+                },
+                {
+                  "name": "Charged Attack Final DMG",
+                  "value": "90.5%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "40/s"
+                },
+                {
+                  "name": "Max Duration",
+                  "value": "5s"
+                },
+                {
+                  "name": "Plunge DMG",
+                  "value": "74.6%"
+                },
+                {
+                  "name": "Low / High Plunge DMG",
+                  "value": "149% / 186%"
+                }
+              ]
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": "",
+              "attributes": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "desc": "Noelle is both a maid-servant and a valiant knight.\nSummons protective stone armor, dealing Geo DMG to surrounding enemies and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\nThe shield has the following properties:\nWhen Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters, both on and off the field\nApplies the Geo element to the character.\nPossesses 250% Absorption Efficiency against Geo DMG\nThe amount of HP healed when regeneration is triggered scales based on on Noelle's DEF.",
+              "icon": "image",
+              "name": "Breastplate",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "84% DEF"
+                },
+                {
+                  "name": "DMG Absorption",
+                  "value": "96% DEF + 160"
+                },
+                {
+                  "name": "Healing",
+                  "value": "12.2% + 19"
+                },
+                {
+                  "name": "Healing Triggering Chance",
+                  "value": "50%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "12s"
+                },
+                {
+                  "name": "CD",
+                  "value": "24s"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "While Sweeping Time and Breastplate are both in effect, attacks hits have a 100% chance to trigger Breastplate's healing effects.",
+              "icon": "image",
+              "name": "I Got Your Back"
+            },
+            {
+              "desc": "Decreases Noelle's Stamina Consumption of Charged Attacks by 20% and increases Charged Attack DMG by 15%.",
+              "icon": "image",
+              "name": "Maid of Whirlwinds"
+            },
+            {
+              "desc": "Increases Breastplate's skill level by 3. Max level is 15",
+              "icon": "image",
+              "name": "Invulnerable Maid"
+            },
+            {
+              "desc": "When Breastplate ends or shatters, it deals 400% of ATK as Geo DMG to surrounding enemies.",
+              "icon": "image",
+              "name": "To Be Cleaned"
+            },
+            {
+              "desc": "Increases Sweeping Time's skill level by 3. Max level is 15.",
+              "icon": "image",
+              "name": "Favonius Sweeper Master"
+            },
+            {
+              "desc": "Sweeping Time increases ATK by an additional 25% of Noelle's DEF. For the skill's duration, adds 1s duration time per opponent defeated, up to 10s.",
+              "icon": "image",
+              "name": "Must Be Spotless"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "When Noelle is in the party but not on the field, this ability triggers automatically when the active character's HP falls below 30%: Creates a shield that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF. This effect can only occur once every 60s.",
+              "icon": "image",
+              "name": "Devotion"
+            },
+            {
+              "desc": "Every 4 Normal or Charged Attack hits will decrease the CD of Breastplate by 1s.\nHitting multiple enemies with a single attack is only counted as 1 hit.",
+              "icon": "image",
+              "name": "Nice and Clean"
+            }
+          ]
+        },
+        "title": "Maid of Favonius",
+        "weapon": "Claymore"
+      },
+      {
+        "affiliation": "Bubu Pharmacy",
+        "birthday": "NA",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Qiqi_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200904131037",
+        "constellation": "Pristina Nola",
+        "element": "Cryo",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Qiqi_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200828162409",
+        "name": "Qiqi",
+        "overview": {
+          "shortdesc": "An apprentice and herb gatherer at Bubu Pharmacy.\n\"Blessed\" by the adepti with a body that cannot die, this petite zombie cannot do anything without first giving herself orders to do it."
+        },
+        "rarity": 4,
+        "region": "Liyue",
         "skills": {
           "combat_talent": [
             {
@@ -2040,7 +3120,975 @@
           ]
         },
         "title": "",
-        "weapon": ""
+        "weapon": "Sword"
+      },
+      {
+        "affiliation": "NA",
+        "birthday": "September 9th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/68/Character_Razor_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200327064550",
+        "constellation": "Lupus Minor",
+        "element": "Electro",
+        "gender": "Male",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200401142543",
+        "name": "Razor",
+        "overview": {
+          "shortdesc": "Some say he is an orphan raised by wolves. Others say he is a wolf spirit in human form. He is most at home in the wild, fighting with claw and thunder. To this day the wolf boy can be found prowling the forest, where he and his wolf pack hunt to survive using nothing more than their animal instincts."
+        },
+        "rarity": 4,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerform up to 4 consecutive strikes.\n\nCharged Attack:\nDrains Stamina over time to perform continuous swirling attacks against all nearby enemies. At end of the sequence, perform a more powerful slash.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Steel_Fang.png/revision/latest?cb=20200905023345",
+              "name": "Steel Fang",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "88%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "76%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "95%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "125%"
+                },
+                {
+                  "name": "Charged Attack Spinning DMG",
+                  "value": "63%"
+                },
+                {
+                  "name": "Charged Attack Final DMG",
+                  "value": "113%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "40/s"
+                }
+              ]
+            },
+            {
+              "desc": "Hunts his prey using the techniques taught to him by his master and his Lupical.\nIn the movement when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.\nPress:\nSwings the Thunder Wolf Claw, dealing Electro DMG to enemies in front of Razor.\nUpon striking an enemy, Razor gains an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\nHold:\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils. Each Electro Sigil cleared in this manner will be converted into Energy for Razor.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/06/Talent_Claw_and_Thunder.png/revision/latest?cb=20200905023344",
+              "name": "Claw and Thunder",
+              "attributes": [
+                {
+                  "name": "Press Skill DMG",
+                  "value": "199%"
+                },
+                {
+                  "name": "Hold Skill DMG",
+                  "value": "295%"
+                },
+                {
+                  "name": "Energy Recharge Bonus",
+                  "value": "20% per Electro Sigil"
+                },
+                {
+                  "name": "Energy Regenerated",
+                  "value": "5 per Electro Sigil absorbed"
+                },
+                {
+                  "name": "Electro Sigil duration",
+                  "value": "18s"
+                },
+                {
+                  "name": "Press CD",
+                  "value": "6s"
+                },
+                {
+                  "name": "Hold CD",
+                  "value": "10s"
+                }
+              ]
+            },
+            {
+              "desc": "These effects end when Razor leaves the battlefield (gets swapped out for another character). When Razor leaves the field, a maximum of 10 Energy will be returned to him based on the duration remaining on this skill.\nThe Wolf Within:\nStrikes alongside Razor's normal attacks, dealing Electro DMG.\nRaises Razor's ATK SPD and Electro RES.\nCauses Razor to be immune to DMG inflicted by the Electro-Charged status.\nDisables Razor's Charged Attacks.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/3a/Talent_Lightning_Fang.png/revision/latest?cb=20200905023344",
+              "name": "Lightning Fang",
+              "attributes": [
+                {
+                  "name": "Elemental Burst DMG",
+                  "value": "125%"
+                },
+                {
+                  "name": "Soul Companion DMG",
+                  "value": "20% Normal Attack DMG"
+                },
+                {
+                  "name": "Normal Attack SPD Bonus",
+                  "value": "20%"
+                },
+                {
+                  "name": "Electro RES Bonus",
+                  "value": "50%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "15s"
+                },
+                {
+                  "name": "CD",
+                  "value": "20s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "80"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+              "icon": "image",
+              "name": "Wolf's Nature"
+            },
+            {
+              "desc": "Increases CRIT Rate against enemies with less than 30% HP by 10%.",
+              "icon": "image",
+              "name": "Suppression"
+            },
+            {
+              "desc": "Increases the level of Lightning Fang by 3. Maximum level is 15.",
+              "icon": "image",
+              "name": "Soul Companion"
+            },
+            {
+              "desc": "When casting Claw and Thunder (Press), enemies hit will have their DEF decreased by 15% for 7s.",
+              "icon": "image",
+              "name": "Bite"
+            },
+            {
+              "desc": "Increases the level of Claw and Thunder by 3. Maximum level is 15.",
+              "icon": "image",
+              "name": "Sharpened Claws"
+            },
+            {
+              "desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG. When Razor is not using Lightning Fang, a lightning strike on an enemy will grant Razor an Electro Sigil for Claw and Thunder",
+              "icon": "image",
+              "name": "Lupus Fulguris"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Decreases Claw and Thunder's CD by 18%. Using Lightning Fang resets the CD of Claw and Thunder.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/5c/Talent_Awakening.png/revision/latest?cb=20200905023343",
+              "name": "Awakening"
+            },
+            {
+              "desc": "When Razor's Energy is below 50%, increases Energy Recharged by 30%.",
+              "icon": "image",
+              "name": "Hunger"
+            },
+            {
+              "desc": "Decreases all party members' sprinting Stamina Consumption by 20%. The greatest effect out of all Talents of the same type prevails.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/0a/Talent_Wolvensprint.png/revision/latest?cb=20200905023345",
+              "name": "Wolvensprint"
+            }
+          ]
+        },
+        "title": "",
+        "weapon": "Claymore"
+      },
+      {
+        "affiliation": "Knights of Favonius",
+        "birthday": "NA",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/22/Character_Sucrose_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200724044743",
+        "constellation": "Ampulla",
+        "element": "Anemo",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200724045342",
+        "name": "Sucrose",
+        "overview": {
+          "shortdesc": "An alchemist with an insatiable curiosity towards the world and everything in it. Attached to the Knights of Favonius as an assistant to Albedo, her area of focus is \"bio-alchemy.\"\nShe strives to enrich the world by transforming living things with the power of alchemy.\nGranted, the products of her research sometimes prove to be more weird than wonderful — but on the whole, she has made monumental contributions to the field of bio-alchemy."
+        },
+        "rarity": 4,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerforms up to 4 attacks using Wind Spirits, dealing Anemo DMG.\n\nCharged Attack:\nConsumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\n\nPlunging Attack:\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Anemo DMG upon impact with the ground.",
+              "icon": "image",
+              "name": "Wind Spirit Creation",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "33.5%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "30.6%"
+                },{
+                  "name": "3-Hit DMG",
+                  "value": "38.4%"
+                },{
+                  "name": "4-Hit DMG",
+                  "value": "47.9%"
+                },{
+                  "name": "Charged Attack DMG",
+                  "value": "120%"
+                },{
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "50"
+                },{
+                  "name": "Plunge DMG",
+                  "value": "56.8%"
+                },{
+                  "name": "Low Plunge DMG",
+                  "value": "114%"
+                },{
+                  "name": "High Plunge DMG",
+                  "value": "142%"
+                }
+              ]
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": "",
+              "attributes": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": "",
+              "attributes": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            },
+            {
+              "desc": "",
+              "icon": "image",
+              "name": ""
+            }
+          ]
+        },
+        "title": "Knights of Favonius Alchemist",
+        "weapon": "Catalyst"
+      },
+      {
+        "affiliation": "Archons",
+        "birthday": "June 16th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/76/Character_Venti_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200331042352",
+        "constellation": "Carmen Dei",
+        "element": "Anemo",
+        "gender": "Male",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Venti_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200327221212",
+        "name": "Venti",
+        "overview": {
+          "shortdesc": "A bard that seems to have arrived on some unknown wind - sometimes sings songs as old as the hills, and other times sings poems fresh and new. Likes apples and lively places, but is not a fan of cheese or anything sticky. When using his Anemo power to control the wind, it often appears as feathers, as he's fond of that which appears light and breezy."
+        },
+        "rarity": 5,
+        "region": "Mondstadt",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerform up to 6 consecutive shots with a bow.\n\nCharged Attack:\nPerform a more precise Aimed Shot with increased DMG. While aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/3f/Talent_Divine_Archery.png/revision/latest?cb=20200604180429",
+              "name": "Divine Archery",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "20.4% + 20.4%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "44.4%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "52.4%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "26.1% + 26.1%"
+                },
+                {
+                  "name": "5-Hit DMG",
+                  "value": "50.7%"
+                },
+                {
+                  "name": "6-Hit DMG",
+                  "value": "71%"
+                },
+                {
+                  "name": "Aimed Shot DMG",
+                  "value": "43.9%"
+                },
+                {
+                  "name": "Fully-Charged Aimed Shot DMG",
+                  "value": "124%"
+                },
+                {
+                  "name": "Plunge DMG",
+                  "value": "56.8%"
+                },
+                {
+                  "name": "Low / High Plunge DMG",
+                  "value": "114% / 142%"
+                }
+              ]
+            },
+            {
+              "desc": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\nIn the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten\n\nPress:\nSummons a Wind Domain at the enemy's location, dealing AoE Anemo DMG and launching enemies into the air.\n\nHold:\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected enemies into the air. After unleashing the Hold version of this ability, Venti rides the wind into the air.\nEnemies hit by Skyward Sonnet will fall to the ground slowly.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/1/17/Talent_Skyward_Sonnet.png/revision/latest?cb=20200604180442",
+              "name": "Skyward Sonnet",
+              "attributes": [
+                {
+                  "name": "Press DMG",
+                  "value": "376%"
+                },
+                {
+                  "name": "Press CD",
+                  "value": "6s"
+                },
+                {
+                  "name": "Hold DMG",
+                  "value": "380%"
+                },
+                {
+                  "name": "Hold CD",
+                  "value": "15s"
+                }
+              ]
+            },
+            {
+              "desc": "Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.\nFires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in object and enemies along its path, dealing continuous Anemo DMG.\n\nElemental Absorption:\nIf the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Wind%27s_Grand_Ode.png/revision/latest?cb=20200604180456",
+              "name": "Wind's Grand Ode",
+              "attributes": [
+                {
+                  "name": "DoT",
+                  "value": "47%"
+                },
+                {
+                  "name": "Additional Elemental DMG",
+                  "value": "23.5%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "8s"
+                },
+                {
+                  "name": "CD",
+                  "value": "15s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Fires 2 additional split arrows per Aimed Shot, each dealing 33% of the original arrow's DMG.",
+              "icon": "image",
+              "name": "Splitting Gale"
+            },
+            {
+              "desc": "Skyward Sonnet decreases enemy Anemo RES by 12% for 10s. Enemies launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES penalty when airborne.",
+              "icon": "image",
+              "name": "Breeze of Reminiscence"
+            },
+            {
+              "desc": "Increases the level of Wind's Grand Ode by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Ode to Thousand Winds"
+            },
+            {
+              "desc": "When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s.",
+              "icon": "image",
+              "name": "Hurricane of Freedom"
+            },
+            {
+              "desc": "Increases the level of Skyward Sonnet by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Concerto dal Cielo"
+            },
+            {
+              "desc": "Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%. If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+              "icon": "image",
+              "name": "Storm of Defiance"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Holding Skyward Sonnet creates an upcurrent that lasts for 20s.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/7/70/Talent_Embrace_of_Winds.png/revision/latest?cb=20200604180516",
+              "name": "Embrace of Winds"
+            },
+            {
+              "desc": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end. If an Elemental Absorption occurred, this also restored 15 Energy to all characters of that corresponding element.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Stormeye.png/revision/latest?cb=20200604180526",
+              "name": "Stormeye"
+            },
+            {
+              "desc": "Decreases all party members' gliding Stamina Consumption by 30%. The greatest effect out of all Talents of the same type prevails.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/05/Talent_Windrider.png/revision/latest?cb=20200604180534",
+              "name": "Windrider"
+            }
+          ]
+        },
+        "title": "Windborne Bard",
+        "weapon": "Bow"
+      },
+      {
+        "affiliation": "Wanmin Restaurant",
+        "birthday": "November 2nd",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Xiangling_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200331191545",
+        "constellation": "Ladle",
+        "element": "Pyro",
+        "gender": "Female",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200327221404",
+        "name": "Xiangling",
+        "overview": {
+          "shortdesc": "The Head Chef at the Wanmin Restaurant and also a waitress there, Xiangling is extremely passionate about cooking and excels at her signature hot and spicy dishes. Though still young, Xiangling is a true master of the culinary arts with all the skills of a kitchen veteran. She enjoys a good reputation among the hearty eaters at Chihu Rock. There's absolutely no need to be nervous if she wants you to sample her latest creation. It will not disappoint. Promise"
+        },
+        "rarity": 4,
+        "region": "Liyue",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerforms up to five consecutive spear strikes.\n\nCharged Attack:\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/91/Talent_Dough-Fu.png/revision/latest?cb=20200905024806",
+              "name": "Dough-Fu",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "42.1%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "42.1%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "26.1% + 26.1%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "14.1% x 4"
+                },
+                {
+                  "name": "5-Hit DMG",
+                  "value": "80%"
+                },{
+                  "name": "Charged Attack DMG",
+                  "value": "144%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "25"
+                }
+              ]
+            },
+            {
+              "desc": "Guoba loves to eat spicy food. Problem is, his stomach can't handle something that is spicy.\nSummons Guoba the Panda. Guoba continuously breathes fire at the enemy, dealing AoE Pyro DMG",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/a/a9/Talent_Guoba_Attack.png/revision/latest?cb=20200905024806",
+              "name": "Guoba Attack",
+              "attributes": [
+                {
+                  "name": "Flame DMG",
+                  "value": "105%"
+                },
+                {
+                  "name": "CD",
+                  "value": "6s"
+                }
+              ]
+            },
+            {
+              "desc": "here will never be enough heat. Never.\nDisplaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her. The Pyronado will move with your character for so long as the ability persists, dealing Pyro DMG to all enemies in its path.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/29/Talent_Pyronado.png/revision/latest?cb=20200905024807",
+              "name": "Pyronado",
+              "attributes": [
+                {
+                  "name": "1-Hit Swing DMG",
+                  "value": "71%"
+                },
+                {
+                  "name": "2-Hit Swing DMG",
+                  "value": "78%"
+                },
+                {
+                  "name": "3-Hit Swing DMG",
+                  "value": "89%"
+                },
+                {
+                  "name": "Pyronado DMG",
+                  "value": "108%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "10s"
+                },
+                {
+                  "name": "CD",
+                  "value": "15s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Crispy Outside, Tender Inside",
+              "icon": "image",
+              "name": "Enemies hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s."
+            },
+            {
+              "desc": "The last attack in Normal Attack sequence applies the Implode status onto the enemy for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as Pyro DMG.",
+              "icon": "image",
+              "name": "Oil Meets Fire"
+            },
+            {
+              "desc": "Increases the level of Pyronado by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Deepfry"
+            },
+            {
+              "desc": "Pyronado's duration is increased by 40%.",
+              "icon": "image",
+              "name": "Slowbake"
+            },
+            {
+              "desc": "Increases the level of Guoba Attack by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Guoba Mad"
+            },
+            {
+              "desc": "For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus.",
+              "icon": "image",
+              "name": "Condensed Pyronado"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Increases the flame range of Guoba by 20%.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/3e/Talent_Crossfire.png/revision/latest?cb=20200905024805",
+              "name": "Crossfire"
+            },
+            {
+              "desc": "When Guoba Attack's effects end, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Beware%2C_It%27s_Super_Hot%21.png/revision/latest?cb=20200905024804",
+              "name": "Beware, It's Super Hot!"
+            },
+            {
+              "desc": "When Xiangling cooks a barbecued dish perfectly, she gains 1 additional Proficiency.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/4e/Talent_Chef_de_Cuisine.png/revision/latest?cb=20200905024805",
+              "name": "Chef de Cuisine"
+            }
+          ]
+        },
+        "title": "Chef de Cuisine",
+        "weapon": "Polearm"
+      },
+      {
+        "affiliation": "Liyue Adeptus",
+        "birthday": "April 17th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/8/88/Character_Xiao_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200331193542",
+        "constellation": "Alatus Nemeseos",
+        "element": "Anemo",
+        "gender": "Male",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200327221359",
+        "name": "Xiao",
+        "overview": {
+          "shortdesc": "One of the \"Mighty and Illuminated Adepti\" guarding Liyue, also heralded as the \"Guardian yaksha.\" Despite his appearance as a young man, occasional legends about him have been documented in ancient books for thousands of years. He is especially fond of Wangshu Inn's Almond Tofu. The reason is that the dish tastes just like the \"dreams\" he used to devour."
+        },
+        "rarity": 5,
+        "region": "Liyue",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerform up to 6 rapid strikes.\n\nCharged Attack:\nDive down and impact the ground, causing damage relative to the falling height. Can only be triggered in mid-air.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/a/a7/Talent_Whirlwind_Thrust.png/revision/latest?cb=20200530014312",
+              "name": "Whirlwind Thrust",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "24% + 24%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "50%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "60%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "33% + 33%"
+                },
+                {
+                  "name": "5-Hit DMG",
+                  "value": "63%"
+                },
+                {
+                  "name": "6-Hit DMG",
+                  "value": "84%"
+                },
+                {
+                  "name": "DMG While Falling",
+                  "value": "65%"
+                },
+                {
+                  "name": "Low-Drop Falling DMG",
+                  "value": "130%"
+                },
+                {
+                  "name": "High-Drop Falling DMG",
+                  "value": "195%"
+                }
+              ]
+            },
+            {
+              "desc": "In the legends from another land, the world would be crushed by two great wind wheels. Xiao has mastered the polearms, able to rip enemies apart like the legendary dual wind wheels.\nXiao Lunges forward, dealing Anemo DMG to enemies along the path. Can be used in mid-air. Has 2 charges to begin with.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/d/da/Talent_Lemniscatic_Wind_Cycling.png/revision/latest?cb=20200530014903",
+              "name": "Lemniscatic Wind Cycling",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "22%9"
+                },
+                {
+                  "name": "CD",
+                  "value": "10s"
+                }
+              ]
+            },
+            {
+              "desc": "Xiao puts on the mask of the yaksha and becomes the conquered of demons. However, with great power comes great pain. As such he is known as the \"Bane of All Evil\".\nTakes on the form of the yaksha that terrified both demons and archons alike millennia ago. For its duration, increases Xiao's attack range and DMG, while converting damage type to Anemo and enhancing Xiao's Jumping Ability. Maintaining this form continuously drains Xiao's HP.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/2/2f/Talent_Bane_of_All_Evil.png/revision/latest?cb=20200530015019",
+              "name": "Bane of All Evil",
+              "attributes": [
+                {
+                  "name": "Normal/Charged Attack DMG Bonus",
+                  "value": "68.6%"
+                },
+                {
+                  "name": "Life Drain",
+                  "value": "3% HP/s"
+                },
+                {
+                  "name": "Duration",
+                  "value": "15s"
+                },
+                {
+                  "name": "CD",
+                  "value": "15s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Increases Lemniscatic Wind Cycling's charges by 1.",
+              "icon": "image",
+              "name": "Dissolution Eon - Destroyer of Worlds"
+            },
+            {
+              "desc": "When in party but not the currently active character, Xiao's Energy Recharge is increased by 25%.",
+              "icon": "image",
+              "name": "Annihilation Eon - Blossom of Kaleidos"
+            },
+            {
+              "desc": "Increases Lemniscatic Wind Cycling's skill level by 3. Max level is 15.",
+              "icon": "image",
+              "name": "Evil Conqueror - Wrath Deity"
+            },
+            {
+              "desc": "When Xiao's HP falls below 50%, gains a 100% DEF Bonus.",
+              "icon": "image",
+              "name": "Transcension - Extinction of Suffering"
+            },
+            {
+              "desc": "Increases Bane of All Evil's skill level by 3. Max level is 15.",
+              "icon": "image",
+              "name": "Evolution Eon - Origin of Ignorance"
+            },
+            {
+              "desc": "During Bane of All Evil, hitting 2 or more enemies with a Charged Attack grants Lemniscatic Wind Cycling 1 additional charge and reduces Lemniscatic Wind Cycling's CD by 1s.",
+              "icon": "image",
+              "name": "Evil Conqueror - Vigilant Yaksha"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "Starting Bane of All Evil increases Xiao's DMG by 5%. After this, Xiao's DMG continues to increase by 5% every 3s until the skill ends. Max 25% increase.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/8/80/Talent_Evil_Conqueror_-_Tamer_of_Demons.png/revision/latest?cb=20200530015409",
+              "name": "Evil Conqueror - Tamer of Demons"
+            },
+            {
+              "desc": "When Lemniscatic Wind Cycling is used, increases all subsequent Lemniscatic Wind Cycling's DMG by 10% for 6s. Max 3 stacks. Duration refreshes with new stacks.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/f7/Talent_Dissolution_Eon_-_Heaven_Fall.png/revision/latest?cb=20200530015316",
+              "name": "Dissolution Eon - Heaven Fall"
+            },
+            {
+              "desc": "Decreases all party member's falling DMG by 30%.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/5/5f/Talent_Transcension_-_Gravity_Defier.png/revision/latest?cb=20200530015110",
+              "name": "Transcension - Gravity Defier"
+            }
+          ]
+        },
+        "title": "Guardian Yaksha",
+        "weapon": "Polearm"
+      },
+      {
+        "affiliation": "Feiyun Commerce Guild",
+        "birthday": "October 9th",
+        "builds": [
+          {
+            "artifact_sets": [
+              ""
+            ],
+            "weapon": ""
+          }
+        ],
+        "character_card": "https://vignette.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Xingqiu_Card.jpg/revision/latest/scale-to-width-down/281?cb=20200401040934",
+        "constellation": "Fabulae Textile",
+        "element": "Hydro",
+        "gender": "Male",
+        "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png/revision/latest/scale-to-width-down/64?cb=20200327221353",
+        "name": "Xingqiu",
+        "overview": {
+          "shortdesc": "The second son of the Feiyun Commerce Guild, Xingqiu has had a reputation for being studious and polite ever since he was a young child. But there is another side to the mild-mannered Xingqiu everyone knows. A daring, adventurous and much more mischievous side..."
+        },
+        "rarity": 4,
+        "region": "Liyue",
+        "skills": {
+          "combat_talent": [
+            {
+              "desc": "Normal Attack:\nPerform up to 5 consecutive strikes.\n\nCharged Attack:\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/3/31/Talent_Guhua_Style.png/revision/latest?cb=20200905030520",
+              "name": "Guhua Style",
+              "attributes": [
+                {
+                  "name": "1-Hit DMG",
+                  "value": "52%"
+                },
+                {
+                  "name": "2-Hit DMG",
+                  "value": "53%"
+                },
+                {
+                  "name": "3-Hit DMG",
+                  "value": "32% + 32%"
+                },
+                {
+                  "name": "4-Hit DMG",
+                  "value": "63%"
+                },
+                {
+                  "name": "5-Hit DMG",
+                  "value": "40% + 40%"
+                },
+                {
+                  "name": "Charged Attack DMG",
+                  "value": "52% + 64%"
+                },
+                {
+                  "name": "Charged Attack Stamina Cost",
+                  "value": "20"
+                }
+              ]
+            },
+            {
+              "desc": "\"Easier to slay a rain dragon than to sever the rain.\"\nXingqiu performs twin strikes with his sword, dealing Hydro DMG. At the same time, his ability creates the maximum number of Rain Swords, which will orbit the character.\nThe Rain Swords have the following properties:\nWhen a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\nIncrease the character's resistance to interruption.\n20% of Xingqiu's Hydro DMG Bonus will be converted to additional DMG Reduction for the Rain Swords. The maximum amount of additional DMG Reduction that can be gained this way is 24%.\nThe initial maximum number of Rain Swords is 3.\nUsing this ability applies the Wet status onto the character.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/0/0a/Talent_Guhua_Sword_-_Fatal_Rainscreen.png/revision/latest?cb=20200905030520",
+              "name": "Guhua Sword - Fatal Rainscreen",
+              "attributes": [
+                {
+                  "name": "Skill DMG",
+                  "value": "139% + 168%"
+                },
+                {
+                  "name": "Damage Reduction Raito",
+                  "value": "20%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "15s"
+                },
+                {
+                  "name": "CD",
+                  "value": "15s"
+                }
+              ]
+            },
+            {
+              "desc": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.\nThe \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect.\nRainbow Bladework:\nNormal Attacks will trigger consecutive sword rain attack, dealing Hydro DMG.\nRain Swords will remain at the maximum number throughout the ability's duration.\nThese effects carry over to other characters.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/fd/Talent_Guhua_Sword_-_Raincutter.png/revision/latest?cb=20200905030521",
+              "name": "Guhua Sword - Raincutter",
+              "attributes": [
+                {
+                  "name": "Sword Rain DMG",
+                  "value": "54.3%"
+                },
+                {
+                  "name": "Duration",
+                  "value": "15s"
+                },
+                {
+                  "name": "CD",
+                  "value": "20s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "value": "80"
+                }
+              ]
+            }
+          ],
+          "constellations": [
+            {
+              "desc": "Increases the maximum number of Rain Swords by 1.",
+              "icon": "image",
+              "name": "The Scent Remained"
+            },
+            {
+              "desc": "Extends the duration of Guhua Sword - Raincutter by 3s. Decreases the Hydro RES of enemies hit by sword rain by 15%.",
+              "icon": "image",
+              "name": "Rainbow Upon the Azure Sky"
+            },
+            {
+              "desc": "Increases the level of Guhua Sword - Raincutter by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Weaver of Verses"
+            },
+            {
+              "desc": "Increases Guhua Sword - Fatal Rainscreen's DMG by 10% for every Rain Sword Xingqiu has.",
+              "icon": "image",
+              "name": "Evilsoother"
+            },
+            {
+              "desc": "Increases the level of Guhua Sword - Fatal Rainscreen by 3. Maximum upgrade level is 15.",
+              "icon": "image",
+              "name": "Embrace of Rain"
+            },
+            {
+              "desc": "Activating 2 of Guhua Sword - Raincutter's sword rain attack greatly increases the DMG of the third. Xingqiu regenerates 3 Energy when sword rain attacks hit enemies.",
+              "icon": "image",
+              "name": "Hence, Call Them My Own Verses"
+            }
+          ],
+          "passive_talent": [
+            {
+              "desc": "When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 8% of Xingqiu's Max HP",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/f/f6/Talent_Hydropathic.png/revision/latest?cb=20200905030521",
+              "name": "Hydropathic"
+            },
+            {
+              "desc": "Xingqiu gains a 20% Hydro DMG Bonus.",
+              "icon": "https://vignette.wikia.nocookie.net/gensin-impact/images/9/90/Talent_Blades_Amidst_Raindrops.png/revision/latest?cb=20200905030519",
+              "name": "Blades Amidst Raindrops"
+            }
+          ]
+        },
+        "title": "Juvenile Galant",
+        "weapon": "Sword"
       }
     ],
     "weapons": [
@@ -2144,6 +4192,51 @@
         "rarity": 3,
         "type": "Sword"
       }
-    ]
+    ],
+    "general": {
+      "weapon_base_attack_scalling" : [
+        ["48","133","264","341","423","506","NA","NA"],
+        ["46","122","235","308","382","457","NA","NA"],
+        ["44","119","226","261","361","429","NA","NA"],
+        ["42","109","205","266","327","388","NA","NA"],
+        ["41","99","184","238","293","347","NA","NA"],
+        ["40","102","187","239","292","344","NA","NA"],
+        ["39","94","169","216","263","NA","NA","NA"],
+        ["38","86","151","193","234","NA","NA","NA"],
+        ["33","NA","NA","NA","NA","NA","NA","NA"],
+        ["23","56","102","130","158","185","NA","NA"]
+      ],
+      "weapon_secondary_percentage_scalling" : [
+        ["3.4%","6.0%","NA","NA","NA","NA","NA","NA"],
+        ["4.0%","NA","NA","NA","NA","15.1%","NA","NA"],
+        ["4.8%","8.5%","12.4%","14.3%","16.2%","NA","NA","NA"],
+        ["5.1%","9.0%","13.1%","15.2%","17.3%","NA","NA","NA"],
+        ["6.0%","10.6%","15.5%","17.9%","20.3%","22.7%","25.1%","27.5?"],
+        ["6.4%","11.3%","16.4%","19.0%","21.6%","24.1%","NA","NA"],
+        ["6.7%","NA","NA","19.9%","22.6%","NA","NA","NA"],
+        ["6.8%","12.0%","NA","NA","NA","NA","NA","NA"],
+        ["7.2%","12.7%","18.5%","21.4%","24.4%","27.3%","NA","NA"],
+        ["7.7%","13.5%","19.7%","22.8%","NA","NA","NA","NA"],
+        ["8.0%","14.1%","20.6%","23.8%","27.1%","30.0%","NA","NA"],
+        ["8.5%","15.0%","NA","NA","NA","NA","NA","NA"],
+        ["9.0%","15.9%","23.2%","26.8%","30.4%","34.1%","NA","NA"],
+        ["10.0%","17.7%","25.8%","29.8%","33.8%","40.9%","NA","NA"],
+        ["10.2%","18.0%","26.3%","NA","NA","NA","NA","NA"],
+        ["10.8%","19.1%","27.8%","32.2%","36.5%","40.9%","NA","NA"],
+        ["11.3%","19.9%","29.0%","33.5%","NA","NA","NA","NA"],
+        ["12.0%","21.2%","30.9%","35.7%","40.6%","45.4%","NA","NA"],
+        ["13.3%","23.6%","34.3%","39.7%","45.1%","50.5%","NA","NA"],
+        ["16.0%","28.3%","41.2%","47.7%","54.1%","NA","NA","NA"]
+      ],
+      "weapon_secondary_elemental_scalling" : [
+        ["20","36","NA","NA","NA","NA","NA","NA"],
+        ["24","NA","NA","NA","NA","NA","NA","NA"],
+        ["36","64","93","107","122","136","NA","NA"],
+        ["50","NA","NA","NA","NA","NA","NA","NA"],
+        ["41","72","105","122","138","NA","NA","NA"],
+        ["44","NA","NA","NA","NA","NA","NA","NA"],
+        ["48","85","NA","NA","NA","NA","NA","NA"]
+      ]
+    }
   }
 }

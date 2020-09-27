@@ -12,4 +12,5 @@ class RegKeywordsTags {
   static const String elementHydroPattern = r"\bHydro";
   static const String elementPyroPattern = r"\bPyro";
   static const String passiveName = r"\bEffect:|\bMora Cost:";
+  static const String artifactBonus = r"\b2 Piece Bonus:|\b4 Piece Bonus:";
 }
