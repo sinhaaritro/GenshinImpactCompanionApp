@@ -28,50 +28,32 @@ class TextParser extends StatelessWidget {
             pattern: RegKeywordsTags.inParagraphTags,
             style: Theme.of(context).textTheme.bodyText1),
         MatchText(
-          pattern: RegKeywordsTags.officialWebsiteDescription,
-          style: const TextStyle(fontStyle: FontStyle.italic),
-        ),
-        MatchText(
           pattern: RegKeywordsTags.elementAnemoPattern,
-          style: TextStyle(
-            color: ElementTypeModel.elementTypeColor('Anemo'),
-          ),
+          style: TextStyle(color: ElementTypeModel.elementTypeColor('Anemo')),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementCryoPattern,
-          style: TextStyle(
-            color: ElementTypeModel.elementTypeColor('Cryo'),
-          ),
+          style: TextStyle(color: ElementTypeModel.elementTypeColor('Cryo')),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementDendroPattern,
-          style: TextStyle(
-            color: ElementTypeModel.elementTypeColor('Dendro'),
-          ),
+          style: TextStyle(color: ElementTypeModel.elementTypeColor('Dendro')),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementElectroPattern,
-          style: TextStyle(
-            color: ElementTypeModel.elementTypeColor('Electro'),
-          ),
+          style: TextStyle(color: ElementTypeModel.elementTypeColor('Electro')),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementGeoPattern,
-          style: TextStyle(
-            color: ElementTypeModel.elementTypeColor('Geo'),
-          ),
+          style: TextStyle(color: ElementTypeModel.elementTypeColor('Geo')),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementHydroPattern,
-          style: TextStyle(
-            color: ElementTypeModel.elementTypeColor('Hydro'),
-          ),
+          style: TextStyle(color: ElementTypeModel.elementTypeColor('Hydro')),
         ),
         MatchText(
           pattern: RegKeywordsTags.elementPyroPattern,
-          style: TextStyle(
-            color: ElementTypeModel.elementTypeColor('Pyro'),
-          ),
+          style: TextStyle(color: ElementTypeModel.elementTypeColor('Pyro')),
         ),
         MatchText(
           pattern: RegKeywordsTags.passiveName,
