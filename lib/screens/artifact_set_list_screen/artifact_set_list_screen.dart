@@ -1,8 +1,7 @@
-import 'dart:convert';
 import 'package:GenshinImpactCompanionApp/models/artifact_set_model.dart';
+import 'package:GenshinImpactCompanionApp/services/fetch_data.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/text_parser.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 class AritfactSetListScreen extends StatefulWidget {
   @override
@@ -10,8 +9,6 @@ class AritfactSetListScreen extends StatefulWidget {
 }
 
 class _AritfactSetListScreenState extends State<AritfactSetListScreen> {
-  ArtifactSetList _artifactSetList;
-
   @override
   void initState() {
     super.initState();
@@ -19,21 +16,15 @@ class _AritfactSetListScreenState extends State<AritfactSetListScreen> {
   }
 
   Future<void> fetchData() async {
-    final String jsonString =
-        await rootBundle.loadString('assets/text/genshin_impact_data.json');
-    final decodedJson = jsonDecode(jsonString);
+    if (FetchData.decodedJson == null) await FetchData.fetchData();
+    ArtifactSetList.fromJson(FetchData.decodedJson);
 
-    _artifactSetList = ArtifactSetList.fromJson(decodedJson);
-    // print(decodedJson);
-    // print('object');
-    // print(_AritfactSetList.toJson());
-    // print(ArtifactSetList.artifactSets[0].name);
     setState(() {});
   }
 
   @override
   Widget build(BuildContext context) {
-    return _artifactSetList == null
+    return ArtifactSetList.artifactSets == null
         ? const Center(
             child: CircularProgressIndicator(),
           )

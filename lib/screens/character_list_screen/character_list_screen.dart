@@ -1,10 +1,9 @@
-import 'dart:convert';
 import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/character_detail_screen.dart';
+import 'package:GenshinImpactCompanionApp/services/fetch_data.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/item_card/item_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 class CharacterListScreen extends StatefulWidget {
   @override
@@ -12,8 +11,6 @@ class CharacterListScreen extends StatefulWidget {
 }
 
 class _CharacterListScreenState extends State<CharacterListScreen> {
-  CharacterList _characterList;
-
   @override
   void initState() {
     super.initState();
@@ -21,11 +18,15 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
   }
 
   Future<void> fetchData() async {
-    final String jsonString =
-        await rootBundle.loadString('assets/text/genshin_impact_data.json');
-    final decodedJson = jsonDecode(jsonString);
+    // final String jsonString =
+    // await rootBundle.loadString('assets/text/genshin_impact_data.json');
+    // final decodedJson = jsonDecode(jsonString);
+    // print(decodedJson.runtimeType);
 
-    _characterList = CharacterList.fromJson(decodedJson);
+    if (FetchData.decodedJson == null) await FetchData.fetchData();
+    CharacterList.fromJson(FetchData.decodedJson);
+
+    // CharacterList.fromJson(decodedJson);
     // print(decodedJson);
     // print('object');
     // print(_characterList.toJson());
@@ -34,7 +35,7 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return _characterList == null
+    return CharacterList.characters == null
         ? const Center(
             child: CircularProgressIndicator(),
           )

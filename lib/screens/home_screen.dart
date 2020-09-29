@@ -1,6 +1,6 @@
 import 'package:GenshinImpactCompanionApp/screens/artifact_set_list_screen/artifact_set_list_screen.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_list_screen/character_list_screen.dart';
-import 'package:GenshinImpactCompanionApp/screens/loading.dart';
+import 'package:GenshinImpactCompanionApp/screens/more_screen/more_screen.dart';
 import 'package:GenshinImpactCompanionApp/screens/weapon_list_screen/weapon_list_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -24,14 +24,14 @@ class _HomeScreenState extends State<HomeScreen> {
     WeaponListScreen(),
     AritfactSetListScreen(),
     // LoadingScreen(),
-    LoadingScreen()
+    MoreScreen()
   ];
 
   final List<String> topAppBarTitle = [
     "Characters",
     "Weapons",
     "Artifacts",
-    "",
+    // "",
     "More"
   ];
 
@@ -47,15 +47,15 @@ class _HomeScreenState extends State<HomeScreen> {
         type: BottomNavigationBarType.fixed,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.account_circle),
+            icon: ImageIcon(AssetImage('assets/images/Icon_Charcter.png')),
             title: Text('Character'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.business),
+            icon: ImageIcon(AssetImage('assets/images/Icon_Weapon.png')),
             title: Text('Weapons'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.school),
+            icon: ImageIcon(AssetImage('assets/images/Icon_Artifact.png')),
             title: Text('Artifacts'),
           ),
           // BottomNavigationBarItem(

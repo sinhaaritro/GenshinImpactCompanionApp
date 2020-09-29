@@ -1,10 +1,9 @@
-import 'dart:convert';
 import 'package:GenshinImpactCompanionApp/models/weapon_list_model.dart';
 import 'package:GenshinImpactCompanionApp/models/weapon_stat_scalling_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/weapon_detail_screen/weapon_detail_screen.dart';
+import 'package:GenshinImpactCompanionApp/services/fetch_data.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/item_card/item_card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 class WeaponListScreen extends StatefulWidget {
   @override
@@ -12,8 +11,6 @@ class WeaponListScreen extends StatefulWidget {
 }
 
 class _WeaponListScreenState extends State<WeaponListScreen> {
-  WeaponList _weaponList;
-
   @override
   void initState() {
     super.initState();
@@ -21,23 +18,20 @@ class _WeaponListScreenState extends State<WeaponListScreen> {
   }
 
   Future<void> fetchData() async {
-    final String jsonString =
-        await rootBundle.loadString('assets/text/genshin_impact_data.json');
-    final decodedJson = jsonDecode(jsonString);
+    if (FetchData.decodedJson == null) await FetchData.fetchData();
+    WeaponList.fromJson(FetchData.decodedJson);
 
-    _weaponList = WeaponList.fromJson(decodedJson);
-    WeaponStatScalling.fromJsonBaseAttackScalling(decodedJson);
-    WeaponStatScalling.fromJsonSecondaryElementalAttackScalling(decodedJson);
-    WeaponStatScalling.fromJsonSecondaryPercentageAttackScalling(decodedJson);
-    // print(decodedJson);
-    // print('object');
-    // print(_weaponList.toJson());
+    WeaponStatScalling.fromJsonBaseAttackScalling(FetchData.decodedJson);
+    WeaponStatScalling.fromJsonSecondaryElementalAttackScalling(
+        FetchData.decodedJson);
+    WeaponStatScalling.fromJsonSecondaryPercentageAttackScalling(
+        FetchData.decodedJson);
     setState(() {});
   }
 
   @override
   Widget build(BuildContext context) {
-    return _weaponList == null
+    return WeaponList.weapons == null
         ? const Center(
             child: CircularProgressIndicator(),
           )

@@ -13,11 +13,14 @@ class ItemCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Hero(
       tag: itemName,
-      child: Column(
-        children: <Widget>[
-          CardImage(itemCardImage: itemCardImage),
-          CardName(itemName: itemName),
-        ],
+      child: Container(
+        width: 106,
+        child: Column(
+          children: <Widget>[
+            CardImage(itemCardImage: itemCardImage),
+            CardName(itemName: itemName),
+          ],
+        ),
       ),
     );
   }
