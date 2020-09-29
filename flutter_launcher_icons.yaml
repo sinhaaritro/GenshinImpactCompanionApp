@@ -1,0 +1,7 @@
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path_android: "assets/images/GICA_Image.png"
+  image_path_ios: "assets/images/GICA_Image.png"
+  adaptive_icon_background: "assets/images/adaptive_icon_background.png"
+  adaptive_icon_foreground: "assets/images/GICA_Image.png"

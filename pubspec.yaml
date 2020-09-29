@@ -36,6 +36,15 @@ dev_dependencies:
   flutter_parsed_text: ^1.2.4
   lint: ^1.2.0
   url_launcher: ^5.7.2
+  flutter_launcher_name: "^0.0.1"
+  flutter_launcher_icons: "^0.8.0"
+
+flutter_launcher_name:
+  name: "Genshin Impact Companion App"
+
+
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

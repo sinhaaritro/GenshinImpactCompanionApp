@@ -11,10 +11,6 @@ class MoreScreen extends StatelessWidget {
           title: const Text("Official Game Website"),
           onTap: () => launch('https://genshin.mihoyo.com/'),
         ),
-        ListTile(
-          title: const Text("Official Twitter"),
-          onTap: () => launch('https://twitter.com/GenshinImpact'),
-        ),
         const Divider(),
         ListTile(
           title: const Text("Disclaimer"),

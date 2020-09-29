@@ -45,24 +45,36 @@ class _HomeScreenState extends State<HomeScreen> {
         currentIndex: currentIndex,
         onTap: _onItemTapped,
         type: BottomNavigationBarType.fixed,
-        items: const <BottomNavigationBarItem>[
+        items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: ImageIcon(AssetImage('assets/images/Icon_Charcter.png')),
-            title: Text('Character'),
+            icon: Image.asset(
+              'assets/images/Icon_Character.png',
+              height: 25,
+              width: 25,
+            ),
+            title: const Text('Character'),
           ),
           BottomNavigationBarItem(
-            icon: ImageIcon(AssetImage('assets/images/Icon_Weapon.png')),
-            title: Text('Weapons'),
+            icon: Image.asset(
+              'assets/images/Icon_Weapon.png',
+              height: 25,
+              width: 25,
+            ),
+            title: const Text('Weapons'),
           ),
           BottomNavigationBarItem(
-            icon: ImageIcon(AssetImage('assets/images/Icon_Artifact.png')),
-            title: Text('Artifacts'),
+            icon: Image.asset(
+              'assets/images/Icon_Artifact.png',
+              height: 25,
+              width: 25,
+            ),
+            title: const Text('Artifacts'),
           ),
           // BottomNavigationBarItem(
           //   icon: Icon(Icons.school),
           //   title: Text('Items'),
           // ),
-          BottomNavigationBarItem(
+          const BottomNavigationBarItem(
             icon: Icon(Icons.more_horiz),
             title: Text('More'),
           ),
