@@ -42,6 +42,7 @@ class CharacterDetail extends StatelessWidget {
           //     ),
           //   ],
           // ),
+          const SizedBox(height: 80),
         ],
       ),
     );

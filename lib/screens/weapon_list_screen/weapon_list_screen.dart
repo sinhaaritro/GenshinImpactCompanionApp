@@ -1,6 +1,9 @@
+import 'dart:math';
+
 import 'package:GenshinImpactCompanionApp/models/weapon_list_model.dart';
 import 'package:GenshinImpactCompanionApp/models/weapon_stat_scalling_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/weapon_detail_screen/weapon_detail_screen.dart';
+import 'package:GenshinImpactCompanionApp/services/admob_service.dart';
 import 'package:GenshinImpactCompanionApp/services/fetch_data.dart';
 import 'package:GenshinImpactCompanionApp/shared/widgets/item_card/item_card.dart';
 import 'package:flutter/material.dart';
@@ -46,6 +49,14 @@ class _WeaponListScreenState extends State<WeaponListScreen> {
                     .map(
                       (weapon) => InkWell(
                         onTap: () {
+                          final Random random = Random();
+                          final int randomNumber = random.nextInt(5);
+
+                          if (randomNumber == 0) {
+                            createInterstitialAd()
+                              ..load()
+                              ..show();
+                          }
                           Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -63,6 +74,7 @@ class _WeaponListScreenState extends State<WeaponListScreen> {
                     )
                     .toList(),
               ),
+              const SizedBox(height: 60),
             ],
           );
   }

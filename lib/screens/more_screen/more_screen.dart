@@ -26,6 +26,7 @@ class MoreScreen extends StatelessWidget {
           subtitle: const Text("Incase there is wrong info in the app"),
           onTap: () => launch('https://discord.gg/9J4W4Cr'),
         ),
+        const SizedBox(height: 80),
       ],
     );
   }

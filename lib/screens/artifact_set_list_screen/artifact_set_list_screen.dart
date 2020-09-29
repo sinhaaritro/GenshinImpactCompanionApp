@@ -28,33 +28,36 @@ class _AritfactSetListScreenState extends State<AritfactSetListScreen> {
         ? const Center(
             child: CircularProgressIndicator(),
           )
-        : ListView(
-            padding: const EdgeInsets.all(16.0),
-            children: ArtifactSetList.artifactSets
-                .map(
-                  (artifactSet) => Card(
-                    elevation: 4.0,
-                    child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "${artifactSet.name}'s Set",
-                            textAlign: TextAlign.justify,
-                            style: Theme.of(context).textTheme.headline6,
-                          ),
-                          const SizedBox(height: 16),
-                          TextParser(
-                              text: "2 Piece Bonus: ${artifactSet.bonus_2}"),
-                          TextParser(
-                              text: "4 Piece Bonus: ${artifactSet.bonus_4}")
-                        ],
+        : Padding(
+            padding: const EdgeInsets.only(bottom: 60),
+            child: ListView(
+              padding: const EdgeInsets.all(16.0),
+              children: ArtifactSetList.artifactSets
+                  .map(
+                    (artifactSet) => Card(
+                      elevation: 4.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "${artifactSet.name}'s Set",
+                              textAlign: TextAlign.justify,
+                              style: Theme.of(context).textTheme.headline6,
+                            ),
+                            const SizedBox(height: 16),
+                            TextParser(
+                                text: "2 Piece Bonus: ${artifactSet.bonus_2}"),
+                            TextParser(
+                                text: "4 Piece Bonus: ${artifactSet.bonus_4}")
+                          ],
+                        ),
                       ),
                     ),
-                  ),
-                )
-                .toList(),
+                  )
+                  .toList(),
+            ),
           );
   }
 }

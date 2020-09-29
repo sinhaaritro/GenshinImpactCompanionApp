@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "233045095766",
+    "firebase_url": "https://genshin-impact-companion-app.firebaseio.com",
+    "project_id": "genshin-impact-companion-app",
+    "storage_bucket": "genshin-impact-companion-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233045095766:android:70303d2ae25400567b52f7",
+        "android_client_info": {
+          "package_name": "com.example.GenshinImpactCompanionApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233045095766-0mv8d5mqahh5h1c5s5lc6f96mhperapk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATtp4hvydB3_au9O1kqUnWFduRy_Mpj9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233045095766-0mv8d5mqahh5h1c5s5lc6f96mhperapk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

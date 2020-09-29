@@ -42,6 +42,7 @@ class WeaponDetail extends StatelessWidget {
           //     ),
           //   ],
           // ),
+          const SizedBox(height: 80),
         ],
       ),
     );

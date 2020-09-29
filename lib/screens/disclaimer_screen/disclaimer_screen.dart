@@ -20,6 +20,7 @@ class DisclaimerScreen extends StatelessWidget {
 Crescent Scope Studios makes no claims or provides no guarantee of the correctness of the information provided in the app, although we strive to provide accurate information whenever possible. The information provided in the app is provided on "as is" basis and is subject to change, altered or removed entirely without prior notice and Crescent Scope Studios takes no responsibility whatsoever in any such case."""),
             Text(
                 "Crescent Scope Studios takes no responsibility or holds no liability for any losses, harm, physical or otherwise of any individuals, entities or any data that happens in relation to our app."),
+            SizedBox(height: 80),
           ],
         ),
       ),
