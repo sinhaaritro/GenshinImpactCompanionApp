@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:233045095766:android:70303d2ae25400567b52f7",
+        "mobilesdk_app_id": "1:233045095766:android:d4a4b5364c13fddd7b52f7",
         "android_client_info": {
-          "package_name": "com.example.GenshinImpactCompanionApp"
+          "package_name": "com.crescentscope.GenshinImpactCompanionApp"
         }
       },
       "oauth_client": [

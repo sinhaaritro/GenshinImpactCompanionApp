@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 25,
               width: 25,
             ),
-            title: const Text('Character'),
+            label: const Text('Character'),
           ),
           BottomNavigationBarItem(
             icon: Image.asset(
@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 25,
               width: 25,
             ),
-            title: const Text('Weapons'),
+            label: const Text('Weapons'),
           ),
           BottomNavigationBarItem(
             icon: Image.asset(
@@ -68,15 +68,15 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 25,
               width: 25,
             ),
-            title: const Text('Artifacts'),
+            label: const Text('Artifacts'),
           ),
           // BottomNavigationBarItem(
           //   icon: Icon(Icons.school),
           //   title: Text('Items'),
           // ),
-          const BottomNavigationBarItem(
-            icon: Icon(Icons.more_horiz),
-            title: Text('More'),
+          BottomNavigationBarItem(
+            icon: const Icon(Icons.more_horiz),
+            label: const Text('More'),
           ),
         ],
       ),

@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:GenshinImpactCompanionApp/models/weapon_list_model.dart';
 import 'package:GenshinImpactCompanionApp/models/weapon_stat_scalling_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/weapon_detail_screen/weapon_detail_screen.dart';
@@ -16,8 +14,8 @@ class WeaponListScreen extends StatefulWidget {
 class _WeaponListScreenState extends State<WeaponListScreen> {
   @override
   void initState() {
-    super.initState();
     fetchData();
+    super.initState();
   }
 
   Future<void> fetchData() async {
@@ -49,14 +47,10 @@ class _WeaponListScreenState extends State<WeaponListScreen> {
                     .map(
                       (weapon) => InkWell(
                         onTap: () {
-                          final Random random = Random();
-                          final int randomNumber = random.nextInt(5);
+                          createInterstitialAd()
+                            ..load()
+                            ..show();
 
-                          if (randomNumber == 0) {
-                            createInterstitialAd()
-                              ..load()
-                              ..show();
-                          }
                           Navigator.push(
                             context,
                             MaterialPageRoute(

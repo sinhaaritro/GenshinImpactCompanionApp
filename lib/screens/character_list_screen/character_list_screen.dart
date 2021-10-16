@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:GenshinImpactCompanionApp/models/character_list_model.dart';
 import 'package:GenshinImpactCompanionApp/screens/character_detail_screen/character_detail_screen.dart';
 import 'package:GenshinImpactCompanionApp/services/admob_service.dart';
@@ -16,8 +14,8 @@ class CharacterListScreen extends StatefulWidget {
 class _CharacterListScreenState extends State<CharacterListScreen> {
   @override
   void initState() {
-    super.initState();
     fetchData();
+    super.initState();
   }
 
   Future<void> fetchData() async {
@@ -53,14 +51,9 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
                     .map(
                       (character) => InkWell(
                         onTap: () {
-                          final Random random = Random();
-                          final int randomNumber = random.nextInt(5);
-
-                          if (randomNumber == 0) {
-                            createInterstitialAd()
-                              ..load()
-                              ..show();
-                          }
+                          createInterstitialAd()
+                            ..load()
+                            ..show();
 
                           Navigator.push(
                             context,
